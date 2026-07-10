@@ -27,6 +27,9 @@ jobs:
           pip install ics PyYAML python-dateutil requests
 
       - name: Generate calendars
+        env:
+          TENNIS_API_KEY: ${{ secrets.TENNIS_API_KEY }}
+          TENNIS_API_HOST: ${{ secrets.TENNIS_API_HOST }}
         run: python generate.py
 
       - name: Commit generated calendars
