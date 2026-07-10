@@ -12,6 +12,17 @@ ROOT_DIR = Path(__file__).parent
 CONFIG_PATH = ROOT_DIR / "config" / "tennis_players.yaml"
 OUTPUT_DIR = ROOT_DIR / "docs"
 
+LOOKAHEAD_DAYS = 21
+
+UNKNOWN_NAMES = {
+    "",
+    "TBD",
+    "Unknown",
+    "Unknown Player",
+    "Qualifier",
+    "Q",
+}
+
 
 def load_tennis_players():
     with CONFIG_PATH.open("r", encoding="utf-8") as file:
@@ -34,37 +45,56 @@ def get_api_headers():
     }
 
 
-def parse_event_datetime(fixture):
+def clean_name(name):
+    if not name:
+        return "TBD"
+
+    name = str(name).strip()
+
+    if name in UNKNOWN_NAMES:
+        return "TBD"
+
+    return name
+
+
+def parse_fixture_datetime(fixture):
     raw_date = fixture.get("timeGame") or fixture.get("date")
 
-    tournament = fixture.get("tournament") or {}
-    raw_tournament_date = tournament.get("date")
+    if not raw_date:
+        return None
 
-    if raw_date:
-        return parser.parse(raw_date)
+    try:
+        parsed = parser.parse(raw_date)
 
-    if raw_tournament_date:
-        return parser.parse(raw_tournament_date)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
 
-    return datetime.now(timezone.utc) + timedelta(days=7)
+        return parsed
+    except Exception:
+        return None
 
 
-def get_player_fixtures(player):
+def get_date_range_fixtures(tour):
     api_host, headers = get_api_headers()
 
-    tour = player["tour"]
-    player_id = player["player_id"]
+    today = datetime.now(timezone.utc).date()
+    end_date = today + timedelta(days=LOOKAHEAD_DAYS)
 
-    url = f"https://{api_host}/tennis/v2/{tour}/fixtures/player/{player_id}"
+    start_text = today.isoformat()
+    end_text = end_date.isoformat()
+
+    url = f"https://{api_host}/tennis/v2/{tour}/fixtures/{start_text}/{end_text}"
 
     params = {
         "include": "round,tournament,tournament.country",
-        "pageSize": 5,
+        "pageSize": 100,
         "pageNo": 1,
     }
 
     response = requests.get(url, headers=headers, params=params, timeout=30)
-    print(f"{player['full_name']} API status:", response.status_code)
+
+    print(f"Date range API status ({tour}):", response.status_code)
+    print(f"Date range:", start_text, "to", end_text)
 
     if response.status_code != 200:
         print(response.text[:1000])
@@ -81,14 +111,66 @@ def get_player_fixtures(player):
     return []
 
 
+def fixture_has_player(fixture, player_id):
+    return fixture.get("player1Id") == player_id or fixture.get("player2Id") == player_id
+
+
+def get_next_confirmed_fixture(player):
+    tour = player["tour"]
+    player_id = player["player_id"]
+
+    fixtures = get_date_range_fixtures(tour)
+
+    player_fixtures = []
+
+    for fixture in fixtures:
+        if not fixture_has_player(fixture, player_id):
+            continue
+
+        start_time = parse_fixture_datetime(fixture)
+
+        if not start_time:
+            continue
+
+        player_fixtures.append((start_time, fixture))
+
+    player_fixtures.sort(key=lambda item: item[0])
+
+    now = datetime.now(timezone.utc)
+
+    future_fixtures = [
+        (start_time, fixture)
+        for start_time, fixture in player_fixtures
+        if start_time >= now - timedelta(hours=6)
+    ]
+
+    if not future_fixtures:
+        print(f"No confirmed upcoming fixture found for {player['full_name']}")
+        return None
+
+    selected_time, selected_fixture = future_fixtures[0]
+
+    tournament = selected_fixture.get("tournament") or {}
+    round_data = selected_fixture.get("round") or {}
+
+    print("Selected fixture for:", player["full_name"])
+    print("Date:", selected_time.isoformat())
+    print("Tournament:", tournament.get("name"))
+    print("Round:", round_data.get("name"))
+    print("Player 1:", (selected_fixture.get("player1") or {}).get("name"))
+    print("Player 2:", (selected_fixture.get("player2") or {}).get("name"))
+
+    return selected_fixture
+
+
 def get_opponent_name(player, fixture):
     player_name = player["full_name"]
 
     player1 = fixture.get("player1") or {}
     player2 = fixture.get("player2") or {}
 
-    player1_name = player1.get("name", "TBD")
-    player2_name = player2.get("name", "TBD")
+    player1_name = clean_name(player1.get("name"))
+    player2_name = clean_name(player2.get("name"))
 
     if player1_name == player_name:
         return player2_name
@@ -96,13 +178,20 @@ def get_opponent_name(player, fixture):
     if player2_name == player_name:
         return player1_name
 
-    if player1_name != "TBD":
+    if player1_name != "TBD" and player1_name != player_name:
         return player1_name
 
-    if player2_name != "TBD":
+    if player2_name != "TBD" and player2_name != player_name:
         return player2_name
 
     return "TBD"
+
+
+def get_country_name(fixture):
+    tournament = fixture.get("tournament") or {}
+    country = tournament.get("country") or {}
+
+    return country.get("name") or tournament.get("countryAcr") or "Country TBD"
 
 
 def create_real_event(player, fixture):
@@ -114,14 +203,20 @@ def create_real_event(player, fixture):
 
     tournament_name = tournament.get("name", "Tournament TBD")
     round_name = round_data.get("name", "Round TBD")
+    country_name = get_country_name(fixture)
 
-    country = tournament.get("country") or {}
-    country_name = country.get("name") or tournament.get("countryAcr") or "Country TBD"
+    start_time = parse_fixture_datetime(fixture)
 
-    start_time = parse_event_datetime(fixture)
+    if not start_time:
+        start_time = datetime.now(timezone.utc) + timedelta(days=7)
 
     event = Event()
-    event.name = f"{player_name} vs {opponent} - {tournament_name}"
+
+    if opponent == "TBD":
+        event.name = f"{player_name} - {tournament_name} (opponent TBD)"
+    else:
+        event.name = f"{player_name} vs {opponent} - {tournament_name}"
+
     event.begin = start_time
     event.end = start_time + timedelta(hours=2)
 
@@ -161,10 +256,10 @@ def create_fallback_event(player):
 def generate_player_calendar(player):
     calendar = Calendar()
 
-    fixtures = get_player_fixtures(player)
+    fixture = get_next_confirmed_fixture(player)
 
-    if fixtures:
-        event = create_real_event(player, fixtures[0])
+    if fixture:
+        event = create_real_event(player, fixture)
     else:
         event = create_fallback_event(player)
 
