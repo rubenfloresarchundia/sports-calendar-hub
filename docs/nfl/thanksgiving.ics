@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Thanksgiving\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261126T213000Z
+LOCATION:Ford Field
+DTSTART:20261126T180000Z
+SUMMARY:Chicago Bears at Detroit Lions - NFL Thanksgiving
+UID:nfl-thanksgiving-401873081@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Thanksgiving\nGame: Philadelphia Eagles at Dallas Cowboys\nWeek: 12\nStatus: Scheduled\nVenue: AT&T Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261127T010000Z
+LOCATION:AT&T Stadium
+DTSTART:20261126T213000Z
+SUMMARY:Philadelphia Eagles at Dallas Cowboys - NFL Thanksgiving
+UID:nfl-thanksgiving-401873080@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Thanksgiving\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261127T045000Z
+LOCATION:Highmark Stadium
+DTSTART:20261127T012000Z
+SUMMARY:Kansas City Chiefs at Buffalo Bills - NFL Thanksgiving
+UID:nfl-thanksgiving-401873082@sports-calendar-hub
+END:VEVENT
+END:VCALENDAR

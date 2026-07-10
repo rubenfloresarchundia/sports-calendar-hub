@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Christmas\nGame: Green Bay Packers at Chicago Bears\nWeek: 16\nStatus: Scheduled\nVenue: Soldier Field\nBroadcast: Netflix\nSource: ESPN NFL scoreboard
+DTEND:20261225T213000Z
+LOCATION:Soldier Field
+DTSTART:20261225T180000Z
+SUMMARY:Green Bay Packers at Chicago Bears - NFL Christmas
+UID:nfl-christmas-401873141@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Christmas\nGame: Los Angeles Rams at Seattle Seahawks\nWeek: 16\nStatus: Scheduled\nVenue: Lumen Field\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261226T044500Z
+LOCATION:Lumen Field
+DTSTART:20261226T011500Z
+SUMMARY:Los Angeles Rams at Seattle Seahawks - NFL Christmas
+UID:nfl-christmas-401873143@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Christmas\nGame: Buffalo Bills at Denver Broncos\nWeek: 16\nStatus: Scheduled\nVenue: Empower Field at Mile High\nBroadcast: Netflix\nSource: ESPN NFL scoreboard
+DTEND:20261226T010000Z
+LOCATION:Empower Field at Mile High
+DTSTART:20261225T213000Z
+SUMMARY:Buffalo Bills at Denver Broncos - NFL Christmas
+UID:nfl-christmas-401873142@sports-calendar-hub
+END:VEVENT
+END:VCALENDAR

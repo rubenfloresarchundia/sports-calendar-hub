@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Super Bowl\nGame: TBD at TBD\nWeek: 5\nStatus: Scheduled\nVenue: SoFi Stadium\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20270215T030000Z
+LOCATION:SoFi Stadium
+DTSTART:20270214T233000Z
+SUMMARY:TBD at TBD - Super Bowl
+UID:nfl-super-bowl-401873270@sports-calendar-hub
+END:VEVENT
+END:VCALENDAR

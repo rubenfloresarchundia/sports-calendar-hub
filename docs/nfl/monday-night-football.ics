@@ -1,0 +1,140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Buffalo Bills at Los Angeles Rams\nWeek: 5\nStatus: Scheduled\nVenue: SoFi Stadium\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261013T034500Z
+LOCATION:SoFi Stadium
+DTSTART:20261013T001500Z
+SUMMARY:Buffalo Bills at Los Angeles Rams - Monday Night Football
+UID:nfl-monday-night-football-401872994@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Philadelphia Eagles at Chicago Bears\nWeek: 3\nStatus: Scheduled\nVenue: Soldier Field\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20260929T034500Z
+LOCATION:Soldier Field
+DTSTART:20260929T001500Z
+SUMMARY:Philadelphia Eagles at Chicago Bears - Monday Night Football
+UID:nfl-monday-night-football-401872963@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Dallas Cowboys at Philadelphia Eagles\nWeek: 7\nStatus: Scheduled\nVenue: Lincoln Financial Field\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261027T034500Z
+LOCATION:Lincoln Financial Field
+DTSTART:20261027T001500Z
+SUMMARY:Dallas Cowboys at Philadelphia Eagles - Monday Night Football
+UID:nfl-monday-night-football-401873009@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Dallas Cowboys at Seattle Seahawks\nWeek: 13\nStatus: Scheduled\nVenue: Lumen Field\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261208T044500Z
+LOCATION:Lumen Field
+DTSTART:20261208T011500Z
+SUMMARY:Dallas Cowboys at Seattle Seahawks - Monday Night Football
+UID:nfl-monday-night-football-401873108@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Denver Broncos at Kansas City Chiefs\nWeek: 1\nStatus: Scheduled\nVenue: GEHA Field at Arrowhead Stadium\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20260915T034500Z
+LOCATION:GEHA Field at Arrowhead Stadium
+DTSTART:20260915T001500Z
+SUMMARY:Denver Broncos at Kansas City Chiefs - Monday Night Football
+UID:nfl-monday-night-football-401872931@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Washington Commanders at San Francisco 49ers\nWeek: 6\nStatus: Scheduled\nVenue: Levi's Stadium\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261020T034500Z
+LOCATION:Levi's Stadium
+DTSTART:20261020T001500Z
+SUMMARY:Washington Commanders at San Francisco 49ers - Monday Night Football
+UID:nfl-monday-night-football-401873008@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: New England Patriots at Kansas City Chiefs\nWeek: 15\nStatus: Scheduled\nVenue: GEHA Field at Arrowhead Stadium\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261222T044500Z
+LOCATION:GEHA Field at Arrowhead Stadium
+DTSTART:20261222T011500Z
+SUMMARY:New England Patriots at Kansas City Chiefs - Monday Night Football
+UID:nfl-monday-night-football-401873139@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: New York Giants at Detroit Lions\nWeek: 16\nStatus: Scheduled\nVenue: Ford Field\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261229T044500Z
+LOCATION:Ford Field
+DTSTART:20261229T011500Z
+SUMMARY:New York Giants at Detroit Lions - Monday Night Football
+UID:nfl-monday-night-football-401873155@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Pittsburgh Steelers at Jacksonville Jaguars\nWeek: 14\nStatus: Scheduled\nVenue: EverBank Stadium\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261215T044500Z
+LOCATION:EverBank Stadium
+DTSTART:20261215T011500Z
+SUMMARY:Pittsburgh Steelers at Jacksonville Jaguars - Monday Night Football
+UID:nfl-monday-night-football-401873123@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Carolina Panthers at Tampa Bay Buccaneers\nWeek: 12\nStatus: Scheduled\nVenue: Raymond James Stadium\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261201T044500Z
+LOCATION:Raymond James Stadium
+DTSTART:20261201T011500Z
+SUMMARY:Carolina Panthers at Tampa Bay Buccaneers - Monday Night Football
+UID:nfl-monday-night-football-401873094@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Houston Texans at Green Bay Packers\nWeek: 17\nStatus: Scheduled\nVenue: Lambeau Field\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20270105T044500Z
+LOCATION:Lambeau Field
+DTSTART:20270105T011500Z
+SUMMARY:Houston Texans at Green Bay Packers - Monday Night Football
+UID:nfl-monday-night-football-401873171@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261103T044500Z
+LOCATION:Lumen Field
+DTSTART:20261103T011500Z
+SUMMARY:Chicago Bears at Seattle Seahawks - Monday Night Football
+UID:nfl-monday-night-football-401873036@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Los Angeles Chargers at Baltimore Ravens\nWeek: 10\nStatus: Scheduled\nVenue: M&T Bank Stadium\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261117T044500Z
+LOCATION:M&T Bank Stadium
+DTSTART:20261117T011500Z
+SUMMARY:Los Angeles Chargers at Baltimore Ravens - Monday Night Football
+UID:nfl-monday-night-football-401873065@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Buffalo Bills at Minnesota Vikings\nWeek: 9\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261110T044500Z
+LOCATION:U.S. Bank Stadium
+DTSTART:20261110T011500Z
+SUMMARY:Buffalo Bills at Minnesota Vikings - Monday Night Football
+UID:nfl-monday-night-football-401873051@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Atlanta Falcons at New Orleans Saints\nWeek: 4\nStatus: Scheduled\nVenue: Caesars Superdome\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261006T034500Z
+LOCATION:Caesars Superdome
+DTSTART:20261006T001500Z
+SUMMARY:Atlanta Falcons at New Orleans Saints - Monday Night Football
+UID:nfl-monday-night-football-401872979@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: New York Giants at Los Angeles Rams\nWeek: 2\nStatus: Scheduled\nVenue: SoFi Stadium\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20260922T034500Z
+LOCATION:SoFi Stadium
+DTSTART:20260922T001500Z
+SUMMARY:New York Giants at Los Angeles Rams - Monday Night Football
+UID:nfl-monday-night-football-401872947@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Monday Night Football\nGame: Cincinnati Bengals at Washington Commanders\nWeek: 11\nStatus: Scheduled\nVenue: Northwest Stadium\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261124T044500Z
+LOCATION:Northwest Stadium
+DTSTART:20261124T011500Z
+SUMMARY:Cincinnati Bengals at Washington Commanders - Monday Night Football
+UID:nfl-monday-night-football-401873078@sports-calendar-hub
+END:VEVENT
+END:VCALENDAR

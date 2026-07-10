@@ -1,0 +1,140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Chicago Bears at Miami Dolphins\nWeek: 14\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261213T213000Z
+LOCATION:Hard Rock Stadium
+DTSTART:20261213T180000Z
+SUMMARY:Chicago Bears at Miami Dolphins - Miami Dolphins
+UID:nfl-miami-dolphins-401873111@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Detroit Lions at Miami Dolphins\nWeek: 9\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261108T213000Z
+LOCATION:Hard Rock Stadium
+DTSTART:20261108T180000Z
+SUMMARY:Detroit Lions at Miami Dolphins - Miami Dolphins
+UID:nfl-miami-dolphins-401873042@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Buffalo Bills at Miami Dolphins\nWeek: 17\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20270103T213000Z
+LOCATION:Hard Rock Stadium
+DTSTART:20270103T180000Z
+SUMMARY:Buffalo Bills at Miami Dolphins - Miami Dolphins
+UID:nfl-miami-dolphins-401873161@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Minnesota Vikings\nWeek: 4\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261004T233500Z
+LOCATION:U.S. Bank Stadium
+DTSTART:20261004T200500Z
+SUMMARY:Miami Dolphins at Minnesota Vikings - Miami Dolphins
+UID:nfl-miami-dolphins-401872974@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at San Francisco 49ers\nWeek: 2\nStatus: Scheduled\nVenue: Levi's Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20260920T235500Z
+LOCATION:Levi's Stadium
+DTSTART:20260920T202500Z
+SUMMARY:Miami Dolphins at San Francisco 49ers - Miami Dolphins
+UID:nfl-miami-dolphins-401872942@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261115T213000Z
+LOCATION:Lucas Oil Stadium
+DTSTART:20261115T180000Z
+SUMMARY:Miami Dolphins at Indianapolis Colts - Miami Dolphins
+UID:nfl-miami-dolphins-401873059@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261122T213000Z
+LOCATION:Highmark Stadium
+DTSTART:20261122T180000Z
+SUMMARY:Miami Dolphins at Buffalo Bills - Miami Dolphins
+UID:nfl-miami-dolphins-401873070@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Denver Broncos\nWeek: 13\nStatus: Scheduled\nVenue: Empower Field at Mile High\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261207T003500Z
+LOCATION:Empower Field at Mile High
+DTSTART:20261206T210500Z
+SUMMARY:Miami Dolphins at Denver Broncos - Miami Dolphins
+UID:nfl-miami-dolphins-401873103@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: New England Patriots at Miami Dolphins\nWeek: 8\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261102T005500Z
+LOCATION:Hard Rock Stadium
+DTSTART:20261101T212500Z
+SUMMARY:New England Patriots at Miami Dolphins - Miami Dolphins
+UID:nfl-miami-dolphins-401873034@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Green Bay Packers\nWeek: 15\nStatus: Scheduled\nVenue: Lambeau Field\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261220T213000Z
+LOCATION:Lambeau Field
+DTSTART:20261220T180000Z
+SUMMARY:Miami Dolphins at Green Bay Packers - Miami Dolphins
+UID:nfl-miami-dolphins-401873133@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Los Angeles Chargers at Miami Dolphins\nWeek: 16\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261227T213000Z
+LOCATION:Hard Rock Stadium
+DTSTART:20261227T180000Z
+SUMMARY:Los Angeles Chargers at Miami Dolphins - Miami Dolphins
+UID:nfl-miami-dolphins-401873150@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Kansas City Chiefs at Miami Dolphins\nWeek: 3\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20260927T203000Z
+LOCATION:Hard Rock Stadium
+DTSTART:20260927T170000Z
+SUMMARY:Kansas City Chiefs at Miami Dolphins - Miami Dolphins
+UID:nfl-miami-dolphins-401872952@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New England Patriots\nWeek: 18\nStatus: Scheduled\nVenue: Gillette Stadium\nSource: ESPN NFL scoreboard
+DTEND:20270110T083000Z
+LOCATION:Gillette Stadium
+DTSTART:20270110T050000Z
+SUMMARY:Miami Dolphins at New England Patriots - Miami Dolphins
+UID:nfl-miami-dolphins-401873180@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New York Jets\nWeek: 7\nStatus: Scheduled\nVenue: MetLife Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261025T203000Z
+LOCATION:MetLife Stadium
+DTSTART:20261025T170000Z
+SUMMARY:Miami Dolphins at New York Jets - Miami Dolphins
+UID:nfl-miami-dolphins-401873015@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20261011T203000Z
+LOCATION:Hard Rock Stadium
+DTSTART:20261011T170000Z
+SUMMARY:Cincinnati Bengals at Miami Dolphins - Miami Dolphins
+UID:nfl-miami-dolphins-401872982@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: New York Jets at Miami Dolphins\nWeek: 12\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261129T213000Z
+LOCATION:Hard Rock Stadium
+DTSTART:20261129T180000Z
+SUMMARY:New York Jets at Miami Dolphins - Miami Dolphins
+UID:nfl-miami-dolphins-401873089@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Las Vegas Raiders\nWeek: 1\nStatus: Scheduled\nVenue: Allegiant Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20260913T235500Z
+LOCATION:Allegiant Stadium
+DTSTART:20260913T202500Z
+SUMMARY:Miami Dolphins at Las Vegas Raiders - Miami Dolphins
+UID:nfl-miami-dolphins-401872928@sports-calendar-hub
+END:VEVENT
+END:VCALENDAR
