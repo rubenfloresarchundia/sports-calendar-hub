@@ -1,0 +1,16 @@
+calendars:
+  - id: real-madrid-laliga
+    name: "Real Madrid - LaLiga"
+    competition_code: "PD"
+    team_names:
+      - "Real Madrid CF"
+      - "Real Madrid"
+    output: "football/real-madrid-laliga.ics"
+
+  - id: real-madrid-champions
+    name: "Real Madrid - Champions League"
+    competition_code: "CL"
+    team_names:
+      - "Real Madrid CF"
+      - "Real Madrid"
+    output: "football/real-madrid-champions.ics"
