@@ -1,0 +1,36 @@
+name: Generate sports calendars
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ics PyYAML python-dateutil requests
+
+      - name: Generate calendars
+        run: python generate.py
+
+      - name: Commit generated calendars
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update generated sports calendars"
+          file_pattern: output/*.ics output/tennis/*.ics
