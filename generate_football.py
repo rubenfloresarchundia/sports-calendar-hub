@@ -13,6 +13,51 @@ CONFIG_PATH = ROOT_DIR / "config" / "football_calendars.yaml"
 OUTPUT_DIR = ROOT_DIR / "docs"
 
 
+TEAM_SHORT_NAMES = {
+    "Real Madrid CF": "Real Madrid",
+    "FC Barcelona": "Barcelona",
+    "Club Atlético de Madrid": "Atlético Madrid",
+    "Atlético Madrid": "Atlético Madrid",
+    "Real Sociedad de Fútbol": "Real Sociedad",
+    "RCD Espanyol de Barcelona": "Espanyol",
+    "Málaga CF": "Málaga",
+    "Real Betis Balompié": "Real Betis",
+    "Rayo Vallecano de Madrid": "Rayo Vallecano",
+    "Elche CF": "Elche",
+    "Villarreal CF": "Villarreal",
+    "Sevilla FC": "Sevilla",
+    "Racing de Santander": "Racing Santander",
+    "Valencia CF": "Valencia",
+    "RC Celta de Vigo": "Celta de Vigo",
+    "Celta de Vigo": "Celta de Vigo",
+    "Deportivo Alavés": "Alavés",
+    "Athletic Club": "Athletic",
+    "Athletic Bilbao": "Athletic",
+    "CA Osasuna": "Osasuna",
+    "RC Deportivo La Coruña": "Deportivo",
+    "Getafe CF": "Getafe",
+    "Levante UD": "Levante",
+    "Arsenal FC": "Arsenal",
+    "Liverpool FC": "Liverpool",
+    "Manchester City FC": "Manchester City",
+    "Manchester United FC": "Manchester United",
+    "Chelsea FC": "Chelsea",
+    "Tottenham Hotspur FC": "Tottenham",
+    "Paris Saint-Germain FC": "PSG",
+    "FC Bayern München": "Bayern",
+    "Borussia Dortmund": "Dortmund",
+    "Juventus FC": "Juventus",
+    "FC Internazionale Milano": "Inter",
+    "AC Milan": "Milan",
+    "SSC Napoli": "Napoli",
+    "SL Benfica": "Benfica",
+    "FC Porto": "Porto",
+    "Sporting Clube de Portugal": "Sporting",
+    "AFC Ajax": "Ajax",
+    "PSV": "PSV",
+}
+
+
 def load_football_calendars():
     with CONFIG_PATH.open("r", encoding="utf-8") as file:
         data = yaml.safe_load(file)
@@ -33,6 +78,26 @@ def get_api_headers():
 
 def normalize_name(name):
     return str(name or "").strip().lower()
+
+
+def get_team_short_name(team_name):
+    if not team_name:
+        return "TBD"
+
+    return TEAM_SHORT_NAMES.get(team_name, team_name)
+
+
+def get_competition_label(calendar_config):
+    calendar_id = calendar_config.get("id", "")
+    name = calendar_config.get("name", "")
+
+    if "laliga" in calendar_id.lower() or "laliga" in name.lower():
+        return "LaLiga"
+
+    if "champions" in calendar_id.lower() or "champions" in name.lower():
+        return "Champions"
+
+    return name
 
 
 def team_matches_calendar_team(match, team_names):
@@ -147,13 +212,16 @@ def get_upcoming_team_matches(calendar_config, all_matches_by_competition):
 
 
 def create_match_event(calendar_config, match):
-    competition_name = calendar_config["name"]
+    competition_label = get_competition_label(calendar_config)
 
     home_team = match.get("homeTeam") or {}
     away_team = match.get("awayTeam") or {}
 
-    home_name = home_team.get("name", "Home TBD")
-    away_name = away_team.get("name", "Away TBD")
+    home_full = home_team.get("name", "Home TBD")
+    away_full = away_team.get("name", "Away TBD")
+
+    home_short = get_team_short_name(home_full)
+    away_short = get_team_short_name(away_full)
 
     start_time = parse_match_datetime(match)
 
@@ -167,14 +235,14 @@ def create_match_event(calendar_config, match):
 
     event = Event()
     event.uid = f"football-{calendar_config['id']}-{match_id}@sports-calendar-hub"
-    event.name = f"{home_name} vs {away_name} - {competition_name}"
+    event.name = f"{home_short} vs {away_short} - {competition_label}"
     event.begin = start_time
     event.end = start_time + timedelta(hours=2)
 
     description_lines = [
-        f"Competition: {competition_name}",
-        f"Home: {home_name}",
-        f"Away: {away_name}",
+        f"Competition: {calendar_config['name']}",
+        f"Home: {home_full}",
+        f"Away: {away_full}",
         f"Status: {status}",
     ]
 
@@ -187,7 +255,7 @@ def create_match_event(calendar_config, match):
     description_lines.append("Source: football-data.org")
 
     event.description = "\n".join(description_lines)
-    event.location = competition_name
+    event.location = competition_label
 
     return event
 
@@ -195,7 +263,7 @@ def create_match_event(calendar_config, match):
 def create_fallback_event(calendar_config):
     event = Event()
     event.uid = f"football-{calendar_config['id']}-fallback@sports-calendar-hub"
-    event.name = f"{calendar_config['name']} - next match pending confirmation"
+    event.name = f"{calendar_config['name']} - pendiente"
     event.begin = datetime.now(timezone.utc) + timedelta(days=7)
     event.end = event.begin + timedelta(hours=2)
     event.description = (
