@@ -24,6 +24,13 @@ UNKNOWN_NAMES = {
 }
 
 
+PLAYER_SHORT_NAMES = {
+    "Jannik Sinner": "Sinner",
+    "Carlos Alcaraz": "Alcaraz",
+    "Novak Djokovic": "Djokovic",
+}
+
+
 def load_tennis_players():
     with CONFIG_PATH.open("r", encoding="utf-8") as file:
         data = yaml.safe_load(file)
@@ -55,6 +62,52 @@ def clean_name(name):
         return "TBD"
 
     return name
+
+
+def get_player_short_name(name):
+    if not name:
+        return "TBD"
+
+    name = clean_name(name)
+
+    if name == "TBD":
+        return "TBD"
+
+    if name in PLAYER_SHORT_NAMES:
+        return PLAYER_SHORT_NAMES[name]
+
+    parts = name.split()
+
+    if len(parts) >= 2:
+        return parts[-1]
+
+    return name
+
+
+def simplify_tournament_name(name):
+    if not name:
+        return "Torneo TBD"
+
+    name = str(name).strip()
+
+    replacements = {
+        "Wimbledon - London": "Wimbledon",
+        "Australian Open - Melbourne": "Australian Open",
+        "French Open - Paris": "Roland Garros",
+        "US Open - New York": "US Open",
+        "National Bank Open - Toronto": "Toronto",
+        "National Bank Open - Montreal": "Montreal",
+        "BNP Paribas Open - Indian Wells": "Indian Wells",
+        "Miami Open - Miami": "Miami Open",
+        "Rolex Monte-Carlo Masters - Monte Carlo": "Monte Carlo",
+        "Mutua Madrid Open - Madrid": "Madrid Open",
+        "Internazionali BNL d'Italia - Rome": "Rome",
+        "Cincinnati Open - Cincinnati": "Cincinnati",
+        "Rolex Shanghai Masters - Shanghai": "Shanghai",
+        "Rolex Paris Masters - Paris": "Paris Masters",
+    }
+
+    return replacements.get(name, name)
 
 
 def parse_fixture_datetime(fixture):
@@ -154,7 +207,6 @@ def get_player_upcoming_fixtures(player, fixtures):
         if not start_time:
             continue
 
-        # Keep recently started matches and future matches.
         if start_time < now - timedelta(hours=2):
             continue
 
@@ -214,6 +266,20 @@ def get_country_name(fixture):
     return country.get("name") or tournament.get("countryAcr") or "Country TBD"
 
 
+def create_simple_title(player, fixture):
+    player_short = get_player_short_name(player["full_name"])
+    opponent_full = get_opponent_name(player, fixture)
+    opponent_short = get_player_short_name(opponent_full)
+
+    tournament = fixture.get("tournament") or {}
+    tournament_name = simplify_tournament_name(tournament.get("name"))
+
+    if opponent_short == "TBD":
+        return f"{player_short} - {tournament_name} pendiente"
+
+    return f"{player_short} vs {opponent_short} - {tournament_name}"
+
+
 def create_real_event(player, fixture):
     player_name = player["full_name"]
     opponent = get_opponent_name(player, fixture)
@@ -221,7 +287,7 @@ def create_real_event(player, fixture):
     tournament = fixture.get("tournament") or {}
     round_data = fixture.get("round") or {}
 
-    tournament_name = tournament.get("name", "Tournament TBD")
+    tournament_name = simplify_tournament_name(tournament.get("name", "Tournament TBD"))
     round_name = round_data.get("name", "Round TBD")
     country_name = get_country_name(fixture)
 
@@ -235,11 +301,7 @@ def create_real_event(player, fixture):
     fixture_id = fixture.get("id", "unknown")
     event.uid = f"tennis-{player['tour']}-{player['player_id']}-{fixture_id}@sports-calendar-hub"
 
-    if opponent == "TBD":
-        event.name = f"{player_name} - {tournament_name} (opponent TBD)"
-    else:
-        event.name = f"{player_name} vs {opponent} - {tournament_name}"
-
+    event.name = create_simple_title(player, fixture)
     event.begin = start_time
     event.end = start_time + timedelta(hours=2)
 
@@ -252,17 +314,18 @@ def create_real_event(player, fixture):
         f"Source: Tennis API"
     )
 
-    event.location = country_name
+    event.location = tournament_name
 
     return event
 
 
 def create_fallback_event(player):
+    player_short = get_player_short_name(player["full_name"])
     player_name = player["full_name"]
 
     event = Event()
     event.uid = f"tennis-{player['tour']}-{player['player_id']}-fallback@sports-calendar-hub"
-    event.name = f"{player_name} - next match pending confirmation"
+    event.name = f"{player_short} - pendiente"
     event.begin = datetime.now(timezone.utc) + timedelta(days=7)
     event.end = event.begin + timedelta(hours=2)
     event.description = (
