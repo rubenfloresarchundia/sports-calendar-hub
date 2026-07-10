@@ -1,0 +1,51 @@
+name: Test Tennis API connection
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-api:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test ATP fixtures endpoint
+        env:
+          TENNIS_API_KEY: ${{ secrets.TENNIS_API_KEY }}
+          TENNIS_API_HOST: ${{ secrets.TENNIS_API_HOST }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import requests
+
+          api_key = os.environ["TENNIS_API_KEY"]
+          api_host = os.environ["TENNIS_API_HOST"]
+
+          url = f"https://{api_host}/tennis/v2/atp/fixtures"
+
+          headers = {
+              "x-rapidapi-key": api_key,
+              "x-rapidapi-host": api_host,
+              "Content-Type": "application/json",
+          }
+
+          response = requests.get(url, headers=headers, timeout=30)
+
+          print("Status code:", response.status_code)
+          print("Content type:", response.headers.get("content-type"))
+
+          try:
+              data = response.json()
+              print("Top-level type:", type(data).__name__)
+
+              if isinstance(data, dict):
+                  print("Top-level keys:", list(data.keys()))
+              elif isinstance(data, list):
+                  print("List length:", len(data))
+
+              text = json.dumps(data, indent=2, ensure_ascii=False)
+              print(text[:3000])
+          except Exception as exc:
+              print("Could not parse JSON:", exc)
+              print(response.text[:3000])
+          PY
