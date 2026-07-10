@@ -8,20 +8,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test ATP fixtures endpoint
+      - name: Find ATP player IDs
         env:
           TENNIS_API_KEY: ${{ secrets.TENNIS_API_KEY }}
           TENNIS_API_HOST: ${{ secrets.TENNIS_API_HOST }}
         run: |
           python - <<'PY'
           import os
-          import json
           import requests
 
           api_key = os.environ["TENNIS_API_KEY"]
           api_host = os.environ["TENNIS_API_HOST"]
 
-          url = f"https://{api_host}/tennis/v2/atp/fixtures"
+          target_players = {
+              "Jannik Sinner",
+              "Carlos Alcaraz",
+              "Novak Djokovic",
+          }
 
           headers = {
               "x-rapidapi-key": api_key,
@@ -29,32 +32,61 @@ jobs:
               "Content-Type": "application/json",
           }
 
-          params = {
-              "include": "round,tournament,tournament.country",
-              "pageSize": 5,
-              "pageNo": 1,
-          }
+          found = {}
 
-          response = requests.get(url, headers=headers, params=params, timeout=30)
+          for page in range(1, 11):
+              url = f"https://{api_host}/tennis/v2/atp/player"
 
-          print("Status code:", response.status_code)
-          print("Content type:", response.headers.get("content-type"))
+              params = {
+                  "filter": "PlayerGroup:singles",
+                  "pageSize": 100,
+                  "pageNo": page,
+              }
 
-          data = response.json()
+              response = requests.get(url, headers=headers, params=params, timeout=30)
 
-          print("Top-level type:", type(data).__name__)
-          print("Top-level keys:", list(data.keys()))
+              print("Page:", page)
+              print("Status code:", response.status_code)
 
-          fixtures = data.get("data", [])
+              data = response.json()
 
-          print("Fixtures count:", len(fixtures))
+              if isinstance(data, dict):
+                  players = data.get("data", [])
+              elif isinstance(data, list):
+                  players = data
+              else:
+                  players = []
 
-          if not fixtures:
-              print("No fixtures returned.")
-          else:
-              print("First fixture keys:")
-              print(list(fixtures[0].keys()))
+              print("Players returned:", len(players))
 
-              print("First fixture sample:")
-              print(json.dumps(fixtures[0], indent=2, ensure_ascii=False)[:5000])
+              for player in players:
+                  name = player.get("name")
+
+                  if name in target_players:
+                      found[name] = {
+                          "id": player.get("id"),
+                          "name": player.get("name"),
+                          "country": player.get("countryAcr"),
+                          "rank": player.get("currentRank"),
+                      }
+
+              if target_players.issubset(found.keys()):
+                  break
+
+          print("FOUND PLAYERS:")
+          for name in sorted(found):
+              player = found[name]
+              print(
+                  f"{player['name']} | ID: {player['id']} | "
+                  f"Country: {player['country']} | Rank: {player['rank']}"
+              )
+
+          missing = target_players - set(found.keys())
+
+          if missing:
+              print("MISSING PLAYERS:")
+              for name in sorted(missing):
+                  print(name)
+
+              raise SystemExit(1)
           PY
