@@ -2,14 +2,17 @@ players:
   - id: sinner
     full_name: "Jannik Sinner"
     tour: atp
+    player_id: 47275
     output: "tennis/sinner.ics"
 
   - id: alcaraz
     full_name: "Carlos Alcaraz"
     tour: atp
+    player_id: 68074
     output: "tennis/alcaraz.ics"
 
   - id: djokovic
     full_name: "Novak Djokovic"
     tour: atp
+    player_id: 5992
     output: "tennis/djokovic.ics"
