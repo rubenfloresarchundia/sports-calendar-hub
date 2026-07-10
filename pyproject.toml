@@ -1,0 +1,25 @@
+[project]
+name = "sports-calendar-hub"
+version = "0.1.0"
+description = "Dynamic sports iCalendar generator for Apple Calendar, Google Calendar, Outlook and CarPlay"
+requires-python = ">=3.11"
+dependencies = [
+    "ics>=0.7.2",
+    "requests>=2.32.0",
+    "PyYAML>=6.0.1",
+    "python-dateutil>=2.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.5.0",
+    "mypy>=1.10.0",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
