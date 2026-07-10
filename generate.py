@@ -30,8 +30,6 @@ def create_placeholder_event(player):
         "Opponent: TBD\n"
         "Tournament: TBD\n"
         "Round: TBD\n"
-        "Court: TBD\n"
-        "Live score: https://www.atptour.com/en/scores/current"
     )
     event.location = "TBD"
 
