@@ -1,0 +1,56 @@
+name: Test football-data.org connection
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-football-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test football-data.org API
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import requests
+
+          api_key = os.environ["FOOTBALL_DATA_API_KEY"]
+
+          headers = {
+              "X-Auth-Token": api_key
+          }
+
+          endpoints = {
+              "LaLiga": "https://api.football-data.org/v4/competitions/PD/matches",
+              "Champions League": "https://api.football-data.org/v4/competitions/CL/matches",
+          }
+
+          for name, url in endpoints.items():
+              print("=" * 60)
+              print("Testing:", name)
+              print("URL:", url)
+
+              response = requests.get(url, headers=headers, timeout=30)
+
+              print("Status code:", response.status_code)
+              print("Content type:", response.headers.get("content-type"))
+
+              try:
+                  data = response.json()
+                  print("Top-level keys:", list(data.keys()))
+
+                  matches = data.get("matches", [])
+                  print("Matches returned:", len(matches))
+
+                  if matches:
+                      print("First match sample:")
+                      print(json.dumps(matches[0], indent=2, ensure_ascii=False)[:3000])
+                  else:
+                      print("No matches returned.")
+              except Exception as exc:
+                  print("Could not parse JSON:", exc)
+                  print(response.text[:3000])
+          PY
