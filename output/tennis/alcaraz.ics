@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Player: Carlos Alcaraz\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD\nCourt: TBD\nLive score: https://www.atptour.com/en/scores/current
+DTEND:20260717T183419Z
+LOCATION:TBD
+DTSTART:20260717T163419Z
+SUMMARY:Carlos Alcaraz - next match pending confirmation
+UID:900896a9-1d15-490a-a779-3a858c8e59c0@9008.org
+END:VEVENT
+END:VCALENDAR
