@@ -28,54 +28,21 @@ CALENDARS = [
         "filter": "miami_dolphins",
     },
     {
-        "id": "thursday-night-football",
-        "name": "Thursday Night Football",
-        "output": "nfl/thursday-night-football.ics",
-        "filter": "tnf",
-    },
-    {
-        "id": "sunday-night-football",
-        "name": "Sunday Night Football",
-        "output": "nfl/sunday-night-football.ics",
-        "filter": "snf",
-    },
-    {
-        "id": "monday-night-football",
-        "name": "Monday Night Football",
-        "output": "nfl/monday-night-football.ics",
-        "filter": "mnf",
-    },
-    {
-        "id": "thanksgiving",
-        "name": "NFL Thanksgiving",
-        "output": "nfl/thanksgiving.ics",
-        "filter": "thanksgiving",
-    },
-    {
-        "id": "black-friday-game",
-        "name": "NFL Black Friday Game",
-        "output": "nfl/black-friday-game.ics",
-        "filter": "black_friday",
-    },
-    {
-        "id": "christmas",
-        "name": "NFL Christmas",
-        "output": "nfl/christmas.ics",
-        "filter": "christmas",
-    },
-    {
-        "id": "playoffs",
-        "name": "NFL Playoffs",
-        "output": "nfl/playoffs.ics",
-        "filter": "playoffs",
-    },
-    {
-        "id": "super-bowl",
-        "name": "Super Bowl",
-        "output": "nfl/super-bowl.ics",
-        "filter": "super_bowl",
+        "id": "nfl-estelares",
+        "name": "NFL Estelares",
+        "output": "nfl/estelares.ics",
+        "filter": "marquee",
     },
 ]
+
+
+def cleanup_old_nfl_files():
+    nfl_dir = OUTPUT_DIR / "nfl"
+    nfl_dir.mkdir(parents=True, exist_ok=True)
+
+    for file in nfl_dir.glob("*.ics"):
+        file.unlink()
+        print(f"Removed old NFL calendar: {file}")
 
 
 def get_thanksgiving_date(year):
@@ -193,18 +160,15 @@ def get_broadcasts(event):
         return []
 
     broadcasts = competitions[0].get("broadcasts") or []
-    names = []
-
-    for broadcast in broadcasts:
-        names.append(broadcast.get("names") or broadcast.get("name"))
-
     flattened = []
 
-    for item in names:
-        if isinstance(item, list):
-            flattened.extend(item)
-        elif item:
-            flattened.append(item)
+    for broadcast in broadcasts:
+        names = broadcast.get("names") or broadcast.get("name")
+
+        if isinstance(names, list):
+            flattened.extend(names)
+        elif names:
+            flattened.append(names)
 
     return flattened
 
@@ -308,33 +272,42 @@ def is_super_bowl(event):
     return is_postseason_event(event) and local_dt.month == 2
 
 
+def get_marquee_categories(event):
+    categories = []
+
+    if is_thursday_night_football(event):
+        categories.append("Thursday Night Football")
+
+    if is_sunday_night_football(event):
+        categories.append("Sunday Night Football")
+
+    if is_monday_night_football(event):
+        categories.append("Monday Night Football")
+
+    if is_thanksgiving(event):
+        categories.append("Thanksgiving")
+
+    if is_black_friday(event):
+        categories.append("Black Friday Game")
+
+    if is_christmas(event):
+        categories.append("Christmas")
+
+    if is_postseason_event(event):
+        categories.append("Playoffs")
+
+    if is_super_bowl(event):
+        categories.append("Super Bowl")
+
+    return categories
+
+
 def event_matches_filter(event, filter_name):
     if filter_name == "miami_dolphins":
         return is_miami_dolphins(event)
 
-    if filter_name == "tnf":
-        return is_thursday_night_football(event)
-
-    if filter_name == "snf":
-        return is_sunday_night_football(event)
-
-    if filter_name == "mnf":
-        return is_monday_night_football(event)
-
-    if filter_name == "thanksgiving":
-        return is_thanksgiving(event)
-
-    if filter_name == "black_friday":
-        return is_black_friday(event)
-
-    if filter_name == "christmas":
-        return is_christmas(event)
-
-    if filter_name == "playoffs":
-        return is_postseason_event(event)
-
-    if filter_name == "super_bowl":
-        return is_super_bowl(event)
+    if filter_name == "marquee":
+        return len(get_marquee_categories(event)) > 0
 
     return False
 
@@ -355,10 +328,17 @@ def create_calendar_event(calendar_config, nfl_event):
     week = ((nfl_event.get("week") or {}).get("number")) or "TBD"
     venue = get_venue(nfl_event)
     broadcasts = get_broadcasts(nfl_event)
+    categories = get_marquee_categories(nfl_event)
 
     event = Event()
     event.uid = f"nfl-{calendar_config['id']}-{event_id}@sports-calendar-hub"
-    event.name = f"{away_name} at {home_name} - {calendar_config['name']}"
+
+    if calendar_config["id"] == "nfl-estelares" and categories:
+        label = " / ".join(categories)
+        event.name = f"{away_name} at {home_name} - {label}"
+    else:
+        event.name = f"{away_name} at {home_name} - {calendar_config['name']}"
+
     event.begin = start_time
     event.end = start_time + timedelta(hours=3, minutes=30)
     event.location = venue
@@ -370,6 +350,9 @@ def create_calendar_event(calendar_config, nfl_event):
         f"Status: {status}",
         f"Venue: {venue}",
     ]
+
+    if categories:
+        description_lines.append("Category: " + " / ".join(categories))
 
     if broadcasts:
         description_lines.append("Broadcast: " + ", ".join(broadcasts))
@@ -439,6 +422,8 @@ def generate_nfl_calendar(calendar_config, all_events):
 
 
 def main():
+    cleanup_old_nfl_files()
+
     all_events = load_all_nfl_events()
 
     for calendar_config in CALENDARS:
