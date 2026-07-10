@@ -6,7 +6,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Chicago Bears at Miami Dolphins\nWee
 DTEND:20261213T213000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261213T180000Z
-SUMMARY:Chicago Bears at Miami Dolphins - Miami Dolphins
+SUMMARY:Bears vs Dolphins
 UID:nfl-miami-dolphins-401873111@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -14,7 +14,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Detroit Lions at Miami Dolphins\nWee
 DTEND:20261108T213000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261108T180000Z
-SUMMARY:Detroit Lions at Miami Dolphins - Miami Dolphins
+SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -22,7 +22,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Buffalo Bills at Miami Dolphins\nWee
 DTEND:20270103T213000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20270103T180000Z
-SUMMARY:Buffalo Bills at Miami Dolphins - Miami Dolphins
+SUMMARY:Bills vs Dolphins
 UID:nfl-miami-dolphins-401873161@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +30,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Minnesota Vikings\
 DTEND:20261004T233500Z
 LOCATION:U.S. Bank Stadium
 DTSTART:20261004T200500Z
-SUMMARY:Miami Dolphins at Minnesota Vikings - Miami Dolphins
+SUMMARY:Dolphins vs Vikings
 UID:nfl-miami-dolphins-401872974@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +38,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at San Francisco 49er
 DTEND:20260920T235500Z
 LOCATION:Levi's Stadium
 DTSTART:20260920T202500Z
-SUMMARY:Miami Dolphins at San Francisco 49ers - Miami Dolphins
+SUMMARY:Dolphins vs 49ers
 UID:nfl-miami-dolphins-401872942@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -46,7 +46,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts
 DTEND:20261115T213000Z
 LOCATION:Lucas Oil Stadium
 DTSTART:20261115T180000Z
-SUMMARY:Miami Dolphins at Indianapolis Colts - Miami Dolphins
+SUMMARY:Dolphins vs Colts
 UID:nfl-miami-dolphins-401873059@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -54,7 +54,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWee
 DTEND:20261122T213000Z
 LOCATION:Highmark Stadium
 DTSTART:20261122T180000Z
-SUMMARY:Miami Dolphins at Buffalo Bills - Miami Dolphins
+SUMMARY:Dolphins vs Bills
 UID:nfl-miami-dolphins-401873070@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -62,7 +62,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Denver Broncos\nWe
 DTEND:20261207T003500Z
 LOCATION:Empower Field at Mile High
 DTSTART:20261206T210500Z
-SUMMARY:Miami Dolphins at Denver Broncos - Miami Dolphins
+SUMMARY:Dolphins vs Broncos
 UID:nfl-miami-dolphins-401873103@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -70,7 +70,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: New England Patriots at Miami Dolphi
 DTEND:20261102T005500Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261101T212500Z
-SUMMARY:New England Patriots at Miami Dolphins - Miami Dolphins
+SUMMARY:Patriots vs Dolphins
 UID:nfl-miami-dolphins-401873034@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -78,7 +78,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Green Bay Packers\
 DTEND:20261220T213000Z
 LOCATION:Lambeau Field
 DTSTART:20261220T180000Z
-SUMMARY:Miami Dolphins at Green Bay Packers - Miami Dolphins
+SUMMARY:Dolphins vs Packers
 UID:nfl-miami-dolphins-401873133@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -86,7 +86,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Los Angeles Chargers at Miami Dolphi
 DTEND:20261227T213000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261227T180000Z
-SUMMARY:Los Angeles Chargers at Miami Dolphins - Miami Dolphins
+SUMMARY:Chargers vs Dolphins
 UID:nfl-miami-dolphins-401873150@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -94,7 +94,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Kansas City Chiefs at Miami Dolphins
 DTEND:20260927T203000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20260927T170000Z
-SUMMARY:Kansas City Chiefs at Miami Dolphins - Miami Dolphins
+SUMMARY:Chiefs vs Dolphins
 UID:nfl-miami-dolphins-401872952@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -102,7 +102,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New England Patrio
 DTEND:20270110T083000Z
 LOCATION:Gillette Stadium
 DTSTART:20270110T050000Z
-SUMMARY:Miami Dolphins at New England Patriots - Miami Dolphins
+SUMMARY:Dolphins vs Patriots
 UID:nfl-miami-dolphins-401873180@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -110,7 +110,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New York Jets\nWee
 DTEND:20261025T203000Z
 LOCATION:MetLife Stadium
 DTSTART:20261025T170000Z
-SUMMARY:Miami Dolphins at New York Jets - Miami Dolphins
+SUMMARY:Dolphins vs Jets
 UID:nfl-miami-dolphins-401873015@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -118,7 +118,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins
 DTEND:20261011T203000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261011T170000Z
-SUMMARY:Cincinnati Bengals at Miami Dolphins - Miami Dolphins
+SUMMARY:Bengals vs Dolphins
 UID:nfl-miami-dolphins-401872982@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -126,7 +126,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: New York Jets at Miami Dolphins\nWee
 DTEND:20261129T213000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261129T180000Z
-SUMMARY:New York Jets at Miami Dolphins - Miami Dolphins
+SUMMARY:Jets vs Dolphins
 UID:nfl-miami-dolphins-401873089@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -134,7 +134,7 @@ DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Las Vegas Raiders\
 DTEND:20260913T235500Z
 LOCATION:Allegiant Stadium
 DTSTART:20260913T202500Z
-SUMMARY:Miami Dolphins at Las Vegas Raiders - Miami Dolphins
+SUMMARY:Dolphins vs Raiders
 UID:nfl-miami-dolphins-401872928@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
