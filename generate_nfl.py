@@ -36,6 +36,43 @@ CALENDARS = [
 ]
 
 
+TEAM_SHORT_NAMES = {
+    "Arizona Cardinals": "Cardinals",
+    "Atlanta Falcons": "Falcons",
+    "Baltimore Ravens": "Ravens",
+    "Buffalo Bills": "Bills",
+    "Carolina Panthers": "Panthers",
+    "Chicago Bears": "Bears",
+    "Cincinnati Bengals": "Bengals",
+    "Cleveland Browns": "Browns",
+    "Dallas Cowboys": "Cowboys",
+    "Denver Broncos": "Broncos",
+    "Detroit Lions": "Lions",
+    "Green Bay Packers": "Packers",
+    "Houston Texans": "Texans",
+    "Indianapolis Colts": "Colts",
+    "Jacksonville Jaguars": "Jaguars",
+    "Kansas City Chiefs": "Chiefs",
+    "Las Vegas Raiders": "Raiders",
+    "Los Angeles Chargers": "Chargers",
+    "Los Angeles Rams": "Rams",
+    "Miami Dolphins": "Dolphins",
+    "Minnesota Vikings": "Vikings",
+    "New England Patriots": "Patriots",
+    "New Orleans Saints": "Saints",
+    "New York Giants": "Giants",
+    "New York Jets": "Jets",
+    "Philadelphia Eagles": "Eagles",
+    "Pittsburgh Steelers": "Steelers",
+    "San Francisco 49ers": "49ers",
+    "Seattle Seahawks": "Seahawks",
+    "Tampa Bay Buccaneers": "Buccaneers",
+    "Tennessee Titans": "Titans",
+    "Washington Commanders": "Commanders",
+    "TBD": "TBD",
+}
+
+
 def cleanup_old_nfl_files():
     nfl_dir = OUTPUT_DIR / "nfl"
     nfl_dir.mkdir(parents=True, exist_ok=True)
@@ -143,6 +180,18 @@ def get_competitors(event):
     return home, away
 
 
+def get_team_display_name(team):
+    if not team:
+        return "TBD"
+
+    return team.get("displayName") or team.get("name") or "TBD"
+
+
+def get_team_short_name(team):
+    full_name = get_team_display_name(team)
+    return TEAM_SHORT_NAMES.get(full_name, full_name)
+
+
 def get_venue(event):
     competitions = event.get("competitions") or []
 
@@ -183,7 +232,7 @@ def is_miami_dolphins(event):
     teams = [home or {}, away or {}]
 
     for team in teams:
-        name = (team.get("displayName") or team.get("name") or "").lower()
+        name = get_team_display_name(team).lower()
         abbreviation = (team.get("abbreviation") or "").upper()
 
         if "miami dolphins" in name or abbreviation == "MIA":
@@ -276,19 +325,19 @@ def get_marquee_categories(event):
     categories = []
 
     if is_thursday_night_football(event):
-        categories.append("Thursday Night Football")
+        categories.append("TNF")
 
     if is_sunday_night_football(event):
-        categories.append("Sunday Night Football")
+        categories.append("SNF")
 
     if is_monday_night_football(event):
-        categories.append("Monday Night Football")
+        categories.append("MNF")
 
     if is_thanksgiving(event):
         categories.append("Thanksgiving")
 
     if is_black_friday(event):
-        categories.append("Black Friday Game")
+        categories.append("Black Friday")
 
     if is_christmas(event):
         categories.append("Christmas")
@@ -312,11 +361,33 @@ def event_matches_filter(event, filter_name):
     return False
 
 
+def create_simple_title(calendar_config, nfl_event):
+    home, away = get_competitors(nfl_event)
+
+    home_short = get_team_short_name(home)
+    away_short = get_team_short_name(away)
+
+    if home_short == "TBD" and away_short == "TBD":
+        if is_super_bowl(nfl_event):
+            return "Super Bowl"
+        return f"{calendar_config['name']} - TBD"
+
+    base_title = f"{away_short} vs {home_short}"
+
+    if calendar_config["id"] == "nfl-estelares":
+        categories = get_marquee_categories(nfl_event)
+
+        if categories:
+            return f"{base_title} - {' / '.join(categories)}"
+
+    return base_title
+
+
 def create_calendar_event(calendar_config, nfl_event):
     home, away = get_competitors(nfl_event)
 
-    home_name = (home or {}).get("displayName") or "Home TBD"
-    away_name = (away or {}).get("displayName") or "Away TBD"
+    home_name = get_team_display_name(home)
+    away_name = get_team_display_name(away)
 
     start_time = parse_event_datetime(nfl_event)
 
@@ -332,13 +403,7 @@ def create_calendar_event(calendar_config, nfl_event):
 
     event = Event()
     event.uid = f"nfl-{calendar_config['id']}-{event_id}@sports-calendar-hub"
-
-    if calendar_config["id"] == "nfl-estelares" and categories:
-        label = " / ".join(categories)
-        event.name = f"{away_name} at {home_name} - {label}"
-    else:
-        event.name = f"{away_name} at {home_name} - {calendar_config['name']}"
-
+    event.name = create_simple_title(calendar_config, nfl_event)
     event.begin = start_time
     event.end = start_time + timedelta(hours=3, minutes=30)
     event.location = venue
@@ -367,7 +432,7 @@ def create_calendar_event(calendar_config, nfl_event):
 def create_fallback_event(calendar_config):
     event = Event()
     event.uid = f"nfl-{calendar_config['id']}-fallback@sports-calendar-hub"
-    event.name = f"{calendar_config['name']} - next game pending confirmation"
+    event.name = f"{calendar_config['name']} - pendiente"
     event.begin = datetime.now(timezone.utc) + timedelta(days=7)
     event.end = event.begin + timedelta(hours=3)
     event.description = (
@@ -407,7 +472,7 @@ def generate_nfl_calendar(calendar_config, all_events):
 
     if matched_events:
         for start_time, nfl_event in matched_events:
-            print(start_time.isoformat(), "-", get_event_name(nfl_event))
+            print(start_time.isoformat(), "-", create_simple_title(calendar_config, nfl_event))
             calendar.events.add(create_calendar_event(calendar_config, nfl_event))
     else:
         calendar.events.add(create_fallback_event(calendar_config))
