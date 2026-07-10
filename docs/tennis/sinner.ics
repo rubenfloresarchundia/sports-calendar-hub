@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Player: Jannik Sinner\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD\nCourt: TBD\nLive score: https://www.atptour.com/en/scores/current
-DTEND:20260717T192049Z
+DTEND:20260717T193318Z
 LOCATION:TBD
-DTSTART:20260717T172049Z
+DTSTART:20260717T173318Z
 SUMMARY:Jannik Sinner - next match pending confirmation
-UID:83db6075-9207-4f34-8462-03e4f797ad5a@83db.org
+UID:cebd1b0e-aba9-4292-bcb7-415373ca4a48@cebd.org
 END:VEVENT
 END:VCALENDAR

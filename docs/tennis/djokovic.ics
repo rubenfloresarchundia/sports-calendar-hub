@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Player: Novak Djokovic\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD\nCourt: TBD\nLive score: https://www.atptour.com/en/scores/current
+DTEND:20260717T193318Z
+LOCATION:TBD
+DTSTART:20260717T173318Z
+SUMMARY:Novak Djokovic - next match pending confirmation
+UID:4e1867f0-3aa5-4856-8433-00489091145f@4e18.org
+END:VEVENT
+END:VCALENDAR
