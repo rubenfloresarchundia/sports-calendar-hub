@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Unknown Player\nTournament: National Bank Open - Toronto\nRound: First\nCountry: Canada\nSource: Tennis API
-DTEND:20230807T020000Z
-LOCATION:Canada
-DTSTART:20230807T000000Z
-SUMMARY:Carlos Alcaraz vs Unknown Player - National Bank Open - Toronto
-UID:47076b69-6cbd-40e1-890b-1d787abd73fb@4707.org
+DESCRIPTION:Player: Carlos Alcaraz\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD
+DTEND:20260717T211014Z
+LOCATION:TBD
+DTSTART:20260717T191014Z
+SUMMARY:Carlos Alcaraz - next match pending confirmation
+UID:a323c657-8015-44dc-94aa-8cea2412b2d2@a323.org
 END:VEVENT
 END:VCALENDAR
