@@ -1,0 +1,27 @@
+players:
+  - id: sinner
+    full_name: "Jannik Sinner"
+    tour: atp
+    output: "tennis/sinner.ics"
+
+  - id: alcaraz
+    full_name: "Carlos Alcaraz"
+    tour: atp
+    output: "tennis/alcaraz.ics"
+
+# Add more players later, for example:
+#
+#  - id: djokovic
+#    full_name: "Novak Djokovic"
+#    tour: atp
+#    output: "tennis/djokovic.ics"
+#
+#  - id: swiatek
+#    full_name: "Iga Swiatek"
+#    tour: wta
+#    output: "tennis/swiatek.ics"
+#
+#  - id: sabalenka
+#    full_name: "Aryna Sabalenka"
+#    tour: wta
+#    output: "tennis/sabalenka.ics"
