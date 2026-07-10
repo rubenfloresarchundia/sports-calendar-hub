@@ -100,9 +100,14 @@ def get_date_range_fixtures(tour):
         print(f"Date range API status ({tour}, page {page}):", response.status_code)
         print(f"Date range: {start_text} to {end_text}")
 
+        if response.status_code == 429:
+            print("API daily quota exceeded. Stopping without updating calendars.")
+            print(response.text[:1000])
+            raise RuntimeError("Tennis API daily quota exceeded")
+
         if response.status_code != 200:
             print(response.text[:1000])
-            break
+            raise RuntimeError(f"Tennis API error: {response.status_code}")
 
         data = response.json()
 
