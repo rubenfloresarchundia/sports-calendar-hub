@@ -7,7 +7,7 @@ from ics import Calendar, Event
 
 ROOT_DIR = Path(__file__).parent
 CONFIG_PATH = ROOT_DIR / "config" / "tennis_players.yaml"
-OUTPUT_DIR = ROOT_DIR / "output"
+OUTPUT_DIR = ROOT_DIR / "docs"
 
 
 def load_tennis_players():
