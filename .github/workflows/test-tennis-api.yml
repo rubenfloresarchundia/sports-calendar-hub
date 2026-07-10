@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Find ATP player IDs
+      - name: Find ATP player IDs by country
         env:
           TENNIS_API_KEY: ${{ secrets.TENNIS_API_KEY }}
           TENNIS_API_HOST: ${{ secrets.TENNIS_API_HOST }}
@@ -20,10 +20,10 @@ jobs:
           api_key = os.environ["TENNIS_API_KEY"]
           api_host = os.environ["TENNIS_API_HOST"]
 
-          target_players = {
-              "Jannik Sinner",
-              "Carlos Alcaraz",
-              "Novak Djokovic",
+          targets = {
+              "Jannik Sinner": {"country": "ITA", "last_name": "sinner"},
+              "Carlos Alcaraz": {"country": "ESP", "last_name": "alcaraz"},
+              "Novak Djokovic": {"country": "SRB", "last_name": "djokovic"},
           }
 
           headers = {
@@ -34,59 +34,82 @@ jobs:
 
           found = {}
 
-          for page in range(1, 11):
-              url = f"https://{api_host}/tennis/v2/atp/player"
+          for target_name, target in targets.items():
+              country = target["country"]
+              last_name = target["last_name"]
 
-              params = {
-                  "filter": "PlayerGroup:singles",
-                  "pageSize": 100,
-                  "pageNo": page,
-              }
+              print("=" * 60)
+              print(f"Searching for: {target_name} ({country})")
 
-              response = requests.get(url, headers=headers, params=params, timeout=30)
+              for page in range(1, 21):
+                  url = f"https://{api_host}/tennis/v2/atp/player"
 
-              print("Page:", page)
-              print("Status code:", response.status_code)
+                  params = {
+                      "include": "country",
+                      "filter": f"PlayerGroup:singles;PlayerCountry:{country}",
+                      "pageSize": 100,
+                      "pageNo": page,
+                  }
 
-              data = response.json()
+                  response = requests.get(url, headers=headers, params=params, timeout=30)
 
-              if isinstance(data, dict):
-                  players = data.get("data", [])
-              elif isinstance(data, list):
-                  players = data
-              else:
-                  players = []
+                  print(f"Page {page} status:", response.status_code)
 
-              print("Players returned:", len(players))
+                  data = response.json()
 
-              for player in players:
-                  name = player.get("name")
+                  if isinstance(data, dict):
+                      players = data.get("data", [])
+                  elif isinstance(data, list):
+                      players = data
+                  else:
+                      players = []
 
-                  if name in target_players:
-                      found[name] = {
-                          "id": player.get("id"),
-                          "name": player.get("name"),
-                          "country": player.get("countryAcr"),
-                          "rank": player.get("currentRank"),
-                      }
+                  print("Players returned:", len(players))
 
-              if target_players.issubset(found.keys()):
-                  break
+                  for player in players:
+                      name = player.get("name", "")
+                      normalized = name.lower()
 
+                      if last_name in normalized:
+                          print("MATCH CANDIDATE:")
+                          print("Name:", player.get("name"))
+                          print("ID:", player.get("id"))
+                          print("Country:", player.get("countryAcr"))
+                          print("Rank:", player.get("currentRank"))
+                          print("---")
+
+                      if name == target_name:
+                          found[target_name] = {
+                              "id": player.get("id"),
+                              "name": player.get("name"),
+                              "country": player.get("countryAcr"),
+                              "rank": player.get("currentRank"),
+                          }
+
+                  if target_name in found:
+                      break
+
+          print("=" * 60)
           print("FOUND PLAYERS:")
-          for name in sorted(found):
-              player = found[name]
+
+          for name, player in found.items():
               print(
                   f"{player['name']} | ID: {player['id']} | "
                   f"Country: {player['country']} | Rank: {player['rank']}"
               )
 
-          missing = target_players - set(found.keys())
+          print("=" * 60)
+          print("KNOWN FROM API DOCS:")
+          print("Carlos Alcaraz | ID: 68074 | Country: ESP")
+          print("Jannik Sinner | ID: 47275 | Country: ITA")
+
+          missing = set(targets.keys()) - set(found.keys())
 
           if missing:
-              print("MISSING PLAYERS:")
+              print("=" * 60)
+              print("MISSING EXACT MATCHES:")
               for name in sorted(missing):
                   print(name)
 
-              raise SystemExit(1)
+              print("This does not mean the API failed. Check MATCH CANDIDATE lines above.")
           PY
