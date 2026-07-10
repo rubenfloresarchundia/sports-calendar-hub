@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Real Madrid - Champions League\nNext match pending confirmation\nSource: football-data.org
+DTEND:20260717T222238Z
+LOCATION:TBD
+DTSTART:20260717T202238Z
+SUMMARY:Real Madrid - Champions League - next match pending confirmation
+UID:football-real-madrid-champions-fallback@sports-calendar-hub
+END:VEVENT
+END:VCALENDAR
