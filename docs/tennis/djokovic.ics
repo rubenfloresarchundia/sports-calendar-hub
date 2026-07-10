@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Player: Novak Djokovic\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD\n
-DTEND:20260717T194628Z
-LOCATION:TBD
-DTSTART:20260717T174628Z
-SUMMARY:Novak Djokovic - next match pending confirmation
-UID:2b75cb65-3212-4c0e-8367-9ee12fb96027@2b75.org
+DESCRIPTION:Player: Novak Djokovic\nOpponent: Jannik Sinner\nTournament: Wimbledon - London\nRound: 1/2\nCountry: Great Britain\nSource: Tennis API
+DTEND:20260710T201500Z
+LOCATION:Great Britain
+DTSTART:20260710T181500Z
+SUMMARY:Novak Djokovic vs Jannik Sinner - Wimbledon - London
+UID:b9fc8edf-9510-4d7b-8955-e208ed328706@b9fc.org
 END:VEVENT
 END:VCALENDAR

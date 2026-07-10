@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Player: Jannik Sinner\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD\n
-DTEND:20260717T194628Z
-LOCATION:TBD
-DTSTART:20260717T174628Z
-SUMMARY:Jannik Sinner - next match pending confirmation
-UID:279e2879-f29b-4e99-afde-cc47dbc5ad45@279e.org
+DESCRIPTION:Player: Jannik Sinner\nOpponent: Unknown Player\nTournament: National Bank Open - Toronto\nRound: First\nCountry: Canada\nSource: Tennis API
+DTEND:20230807T020000Z
+LOCATION:Canada
+DTSTART:20230807T000000Z
+SUMMARY:Jannik Sinner vs Unknown Player - National Bank Open - Toronto
+UID:e55cdb12-0355-4107-a2d6-5b2052fd7b3f@e55c.org
 END:VEVENT
 END:VCALENDAR
