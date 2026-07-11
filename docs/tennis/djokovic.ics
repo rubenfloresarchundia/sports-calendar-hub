@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Player: Novak Djokovic\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD
-DTEND:20260717T213706Z
+DTEND:20260718T223131Z
 LOCATION:TBD
-DTSTART:20260717T193706Z
-SUMMARY:Novak Djokovic - next match pending confirmation
+DTSTART:20260718T203131Z
+SUMMARY:Djokovic - pendiente
 UID:tennis-atp-5992-fallback@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
