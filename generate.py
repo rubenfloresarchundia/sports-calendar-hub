@@ -221,16 +221,7 @@ def get_player_upcoming_fixtures(player, fixtures):
     print("=" * 60)
     print(f"Selected fixtures for: {player['full_name']}")
 
-    for start_time, fixture in player_fixtures:
-        tournament = fixture.get("tournament") or {}
-        round_data = fixture.get("round") or {}
-
-        print("Date:", start_time.isoformat())
-        print("Tournament:", tournament.get("name"))
-        print("Round:", round_data.get("name"))
-        print("Player 1:", (fixture.get("player1") or {}).get("name"))
-        print("Player 2:", (fixture.get("player2") or {}).get("name"))
-        print("---")
+    for start_time, fixture in player_fixtures:2 3    import json4 5    print("=" * 80)6    print("RAW FIXTURE")7    print(json.dumps(fixture, indent=2, ensure_ascii=False))8    print("=" * 80)9 10    tournament = fixture.get("tournament") or {}11    round_data = fixture.get("round") or {}12 13    print("Date:", start_time.isoformat())
 
     return [fixture for _, fixture in player_fixtures]
 
