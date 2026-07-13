@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Player: Jannik Sinner\nOpponent: Alexander Zverev\nTournament: Wimbledon\nRound: Final\nCountry: Great Britain\nSource: Tennis API
-DTEND:20260712T200000Z
-LOCATION:Wimbledon
-DTSTART:20260712T180000Z
-SUMMARY:Sinner vs Zverev - Wimbledon
-UID:tennis-atp-47275-1327@sports-calendar-hub
+DESCRIPTION:Player: Jannik Sinner\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD
+DTEND:20260720T204742Z
+LOCATION:TBD
+DTSTART:20260720T184742Z
+SUMMARY:Sinner - pendiente
+UID:tennis-atp-47275-fallback@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
