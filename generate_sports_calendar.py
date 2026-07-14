@@ -15,6 +15,16 @@ SPORTS_OUTPUT_FILE = (
 
 SOURCE_CALENDARS = [
     "docs/f1/formula-1.ics",
+
+    "docs/tennis/sinner.ics",
+    "docs/tennis/alcaraz.ics",
+    "docs/tennis/djokovic.ics",
+
+    "docs/nfl/miami-dolphins.ics",
+    "docs/nfl/estelares.ics",
+
+    "docs/football/real-madrid-laliga.ics",
+    "docs/football/real-madrid-champions.ics",
 ]
 
 
