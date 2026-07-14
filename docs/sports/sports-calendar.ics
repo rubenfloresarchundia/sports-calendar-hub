@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Bélgica\nCircuito: Circuit de Spa-Francorchamps\nCiudad: Spa\nPaís: Belgium\nRonda: 10\nFuente: Jolpica F1
+DTEND:20260718T150000Z
+LOCATION:Circuit de Spa-Francorchamps
+DTSTART:20260718T140000Z
+SUMMARY:F1 Qualy GP de Bélgica
+UID:f1-2026-10-qualifying@sports-calendar-hub
+END:VEVENT
+END:VCALENDAR
