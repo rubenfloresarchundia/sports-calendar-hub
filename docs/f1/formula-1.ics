@@ -1,0 +1,244 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Qatar\nCircuito: Losail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 21\nFuente: Jolpica F1
+DTEND:20261129T180000Z
+LOCATION:Losail International Circuit
+DTSTART:20261129T160000Z
+SUMMARY:F1 Gran Premio de Qatar
+UID:f1-2026-21-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Países Bajos\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
+DTEND:20260822T150000Z
+LOCATION:Circuit Park Zandvoort
+DTSTART:20260822T140000Z
+SUMMARY:F1 Qualy GP de Países Bajos
+UID:f1-2026-12-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Singapur\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 16\nFuente: Jolpica F1
+DTEND:20261010T140000Z
+LOCATION:Marina Bay Street Circuit
+DTSTART:20261010T130000Z
+SUMMARY:F1 Qualy GP de Singapur
+UID:f1-2026-16-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Países Bajos\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
+DTEND:20260823T150000Z
+LOCATION:Circuit Park Zandvoort
+DTSTART:20260823T130000Z
+SUMMARY:F1 Gran Premio de Países Bajos
+UID:f1-2026-12-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Las Vegas\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 20\nFuente: Jolpica F1
+DTEND:20261121T050000Z
+LOCATION:Las Vegas Strip Street Circuit
+DTSTART:20261121T040000Z
+SUMMARY:F1 Qualy GP de Las Vegas
+UID:f1-2026-20-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Azerbaiyán\nCircuito: Baku City Circuit\nCiudad: Baku\nPaís: Azerbaijan\nRonda: 15\nFuente: Jolpica F1
+DTEND:20260926T130000Z
+LOCATION:Baku City Circuit
+DTSTART:20260926T110000Z
+SUMMARY:F1 Gran Premio de Azerbaiyán
+UID:f1-2026-15-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de México\nCircuito: Autódromo Hermanos Rodríguez\nCiudad: Mexico City\nPaís: Mexico\nRonda: 18\nFuente: Jolpica F1
+DTEND:20261101T220000Z
+LOCATION:Autódromo Hermanos Rodríguez
+DTSTART:20261101T200000Z
+SUMMARY:F1 Gran Premio de México
+UID:f1-2026-18-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Italia\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
+DTEND:20260905T150000Z
+LOCATION:Autodromo Nazionale di Monza
+DTSTART:20260905T140000Z
+SUMMARY:F1 Qualy GP de Italia
+UID:f1-2026-13-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Estados Unidos\nCircuito: Circuit of the Americas\nCiudad: Austin\nPaís: USA\nRonda: 17\nFuente: Jolpica F1
+DTEND:20261024T220000Z
+LOCATION:Circuit of the Americas
+DTSTART:20261024T210000Z
+SUMMARY:F1 Qualy GP de Estados Unidos
+UID:f1-2026-17-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Abu Dabi\nCircuito: Yas Marina Circuit\nCiudad: Abu Dhabi\nPaís: UAE\nRonda: 22\nFuente: Jolpica F1
+DTEND:20261206T150000Z
+LOCATION:Yas Marina Circuit
+DTSTART:20261206T130000Z
+SUMMARY:F1 Gran Premio de Abu Dabi
+UID:f1-2026-22-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Bélgica\nCircuito: Circuit de Spa-Francorchamps\nCiudad: Spa\nPaís: Belgium\nRonda: 10\nFuente: Jolpica F1
+DTEND:20260719T150000Z
+LOCATION:Circuit de Spa-Francorchamps
+DTSTART:20260719T130000Z
+SUMMARY:F1 Gran Premio de Bélgica
+UID:f1-2026-10-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Qatar\nCircuito: Losail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 21\nFuente: Jolpica F1
+DTEND:20261128T190000Z
+LOCATION:Losail International Circuit
+DTSTART:20261128T180000Z
+SUMMARY:F1 Qualy GP de Qatar
+UID:f1-2026-21-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Italia\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
+DTEND:20260906T150000Z
+LOCATION:Autodromo Nazionale di Monza
+DTSTART:20260906T130000Z
+SUMMARY:F1 Gran Premio de Italia
+UID:f1-2026-13-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Sprint GP de Países Bajos\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
+DTEND:20260822T110000Z
+LOCATION:Circuit Park Zandvoort
+DTSTART:20260822T100000Z
+SUMMARY:F1 Sprint GP de Países Bajos
+UID:f1-2026-12-sprint@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Sprint GP de Singapur\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 16\nFuente: Jolpica F1
+DTEND:20261010T100000Z
+LOCATION:Marina Bay Street Circuit
+DTSTART:20261010T090000Z
+SUMMARY:F1 Sprint GP de Singapur
+UID:f1-2026-16-sprint@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Bélgica\nCircuito: Circuit de Spa-Francorchamps\nCiudad: Spa\nPaís: Belgium\nRonda: 10\nFuente: Jolpica F1
+DTEND:20260718T150000Z
+LOCATION:Circuit de Spa-Francorchamps
+DTSTART:20260718T140000Z
+SUMMARY:F1 Qualy GP de Bélgica
+UID:f1-2026-10-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de España\nCircuito: Madring\nCiudad: Madrid\nPaís: Spain\nRonda: 14\nFuente: Jolpica F1
+DTEND:20260912T150000Z
+LOCATION:Madring
+DTSTART:20260912T140000Z
+SUMMARY:F1 Qualy GP de España
+UID:f1-2026-14-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Singapur\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 16\nFuente: Jolpica F1
+DTEND:20261011T140000Z
+LOCATION:Marina Bay Street Circuit
+DTSTART:20261011T120000Z
+SUMMARY:F1 Gran Premio de Singapur
+UID:f1-2026-16-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de México\nCircuito: Autódromo Hermanos Rodríguez\nCiudad: Mexico City\nPaís: Mexico\nRonda: 18\nFuente: Jolpica F1
+DTEND:20261031T220000Z
+LOCATION:Autódromo Hermanos Rodríguez
+DTSTART:20261031T210000Z
+SUMMARY:F1 Qualy GP de México
+UID:f1-2026-18-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy Sprint GP de Países Bajos\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
+DTEND:20260821T151500Z
+LOCATION:Circuit Park Zandvoort
+DTSTART:20260821T143000Z
+SUMMARY:F1 Qualy Sprint GP de Países Bajos
+UID:f1-2026-12-sprintqualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Las Vegas\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 20\nFuente: Jolpica F1
+DTEND:20261122T060000Z
+LOCATION:Las Vegas Strip Street Circuit
+DTSTART:20261122T040000Z
+SUMMARY:F1 Gran Premio de Las Vegas
+UID:f1-2026-20-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Brazilian\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 19\nFuente: Jolpica F1
+DTEND:20261108T190000Z
+LOCATION:Autódromo José Carlos Pace
+DTSTART:20261108T170000Z
+SUMMARY:F1 Gran Premio de Brazilian
+UID:f1-2026-19-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Abu Dabi\nCircuito: Yas Marina Circuit\nCiudad: Abu Dhabi\nPaís: UAE\nRonda: 22\nFuente: Jolpica F1
+DTEND:20261205T150000Z
+LOCATION:Yas Marina Circuit
+DTSTART:20261205T140000Z
+SUMMARY:F1 Qualy GP de Abu Dabi
+UID:f1-2026-22-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Hungría\nCircuito: Hungaroring\nCiudad: Budapest\nPaís: Hungary\nRonda: 11\nFuente: Jolpica F1
+DTEND:20260726T150000Z
+LOCATION:Hungaroring
+DTSTART:20260726T130000Z
+SUMMARY:F1 Gran Premio de Hungría
+UID:f1-2026-11-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Hungría\nCircuito: Hungaroring\nCiudad: Budapest\nPaís: Hungary\nRonda: 11\nFuente: Jolpica F1
+DTEND:20260725T150000Z
+LOCATION:Hungaroring
+DTSTART:20260725T140000Z
+SUMMARY:F1 Qualy GP de Hungría
+UID:f1-2026-11-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Azerbaiyán\nCircuito: Baku City Circuit\nCiudad: Baku\nPaís: Azerbaijan\nRonda: 15\nFuente: Jolpica F1
+DTEND:20260925T130000Z
+LOCATION:Baku City Circuit
+DTSTART:20260925T120000Z
+SUMMARY:F1 Qualy GP de Azerbaiyán
+UID:f1-2026-15-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de España\nCircuito: Madring\nCiudad: Madrid\nPaís: Spain\nRonda: 14\nFuente: Jolpica F1
+DTEND:20260913T150000Z
+LOCATION:Madring
+DTSTART:20260913T130000Z
+SUMMARY:F1 Gran Premio de España
+UID:f1-2026-14-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy GP de Brazilian\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 19\nFuente: Jolpica F1
+DTEND:20261107T190000Z
+LOCATION:Autódromo José Carlos Pace
+DTSTART:20261107T180000Z
+SUMMARY:F1 Qualy GP de Brazilian
+UID:f1-2026-19-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Estados Unidos\nCircuito: Circuit of the Americas\nCiudad: Austin\nPaís: USA\nRonda: 17\nFuente: Jolpica F1
+DTEND:20261025T220000Z
+LOCATION:Circuit of the Americas
+DTSTART:20261025T200000Z
+SUMMARY:F1 Gran Premio de Estados Unidos
+UID:f1-2026-17-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Qualy Sprint GP de Singapur\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 16\nFuente: Jolpica F1
+DTEND:20261009T131500Z
+LOCATION:Marina Bay Street Circuit
+DTSTART:20261009T123000Z
+SUMMARY:F1 Qualy Sprint GP de Singapur
+UID:f1-2026-16-sprintqualifying@sports-calendar-hub
+END:VEVENT
+END:VCALENDAR
