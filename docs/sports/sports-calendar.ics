@@ -2,11 +2,67 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Player: Novak Djokovic\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD
+DTEND:20260722T002158Z
+LOCATION:TBD
+DTSTART:20260721T222158Z
+SUMMARY:Djokovic - pendiente
+UID:tennis-atp-5992-fallback@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Player: Carlos Alcaraz\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD
+DTEND:20260722T002158Z
+LOCATION:TBD
+DTSTART:20260721T222158Z
+SUMMARY:Alcaraz - pendiente
+UID:tennis-atp-68074-fallback@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Real Sociedad de Fútbol\nStatus: SCHEDULED\nMatchday: 1\nStage: REGULAR_SEASON\nSource: football-data.org
+DTEND:20260816T170000Z
+LOCATION:LaLiga
+DTSTART:20260816T150000Z
+SUMMARY:Real Madrid vs Real Sociedad - LaLiga
+UID:football-real-madrid-laliga-564631@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Evento: F1 Qualy GP de Bélgica\nCircuito: Circuit de Spa-Francorchamps\nCiudad: Spa\nPaís: Belgium\nRonda: 10\nFuente: Jolpica F1
 DTEND:20260718T150000Z
 LOCATION:Circuit de Spa-Francorchamps
 DTSTART:20260718T140000Z
 SUMMARY:F1 Qualy GP de Bélgica
 UID:f1-2026-10-qualifying@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Real Madrid - Champions League\nNext match pending confirmation\nSource: football-data.org
+DTEND:20260721T184936Z
+LOCATION:TBD
+DTSTART:20260721T164936Z
+SUMMARY:Real Madrid - Champions League - pendiente
+UID:football-real-madrid-champions-fallback@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: San Francisco 49ers at Los Angeles Rams\nWeek: 1\nStatus: Scheduled\nVenue: Melbourne Cricket Ground\nCategory: TNF\nBroadcast: Netflix\nSource: ESPN NFL scoreboard
+DTEND:20260911T040500Z
+LOCATION:Melbourne Cricket Ground
+DTSTART:20260911T003500Z
+SUMMARY:49ers vs Rams - TNF
+UID:nfl-nfl-estelares-401872657@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Player: Jannik Sinner\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD
+DTEND:20260722T002158Z
+LOCATION:TBD
+DTSTART:20260721T222158Z
+SUMMARY:Sinner - pendiente
+UID:tennis-atp-47275-fallback@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Las Vegas Raiders\nWeek: 1\nStatus: Scheduled\nVenue: Allegiant Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20260913T235500Z
+LOCATION:Allegiant Stadium
+DTSTART:20260913T202500Z
+SUMMARY:Dolphins vs Raiders
+UID:nfl-miami-dolphins-401872928@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
