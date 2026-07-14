@@ -170,11 +170,11 @@ SUMMARY:F1 Gran Premio de Las Vegas
 UID:f1-2026-20-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 Gran Premio de Brazilian\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 19\nFuente: Jolpica F1
+DESCRIPTION:Evento: F1 Gran Premio de São Paulo\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 19\nFuente: Jolpica F1
 DTEND:20261108T190000Z
 LOCATION:Autódromo José Carlos Pace
 DTSTART:20261108T170000Z
-SUMMARY:F1 Gran Premio de Brazilian
+SUMMARY:F1 Gran Premio de São Paulo
 UID:f1-2026-19-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -218,11 +218,11 @@ SUMMARY:F1 Gran Premio de España
 UID:f1-2026-14-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 Qualy GP de Brazilian\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 19\nFuente: Jolpica F1
+DESCRIPTION:Evento: F1 Qualy GP de São Paulo\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 19\nFuente: Jolpica F1
 DTEND:20261107T190000Z
 LOCATION:Autódromo José Carlos Pace
 DTSTART:20261107T180000Z
-SUMMARY:F1 Qualy GP de Brazilian
+SUMMARY:F1 Qualy GP de São Paulo
 UID:f1-2026-19-qualifying@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
