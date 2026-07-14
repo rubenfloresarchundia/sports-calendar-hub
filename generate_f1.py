@@ -37,6 +37,7 @@ GRAND_PRIX_NAMES = {
     "Mexican Grand Prix": "México",
     "São Paulo Grand Prix": "São Paulo",
     "Sao Paulo Grand Prix": "São Paulo",
+    "Brazilian Grand Prix": "São Paulo",
     "Las Vegas Grand Prix": "Las Vegas",
     "Qatar Grand Prix": "Qatar",
     "Abu Dhabi Grand Prix": "Abu Dabi",
@@ -99,6 +100,9 @@ def get_grand_prix_name(race):
         "",
     )
 
+    if cleaned_name == "Brazilian":
+        return "São Paulo"
+
     return cleaned_name
 
 
@@ -106,14 +110,23 @@ def get_circuit_details(race):
     circuit = race.get("Circuit") or {}
     location = circuit.get("Location") or {}
 
-    circuit_name = circuit.get("circuitName") or "Circuito TBD"
-    city = location.get("locality") or "Ciudad TBD"
-    country = location.get("country") or "País TBD"
+    circuit_name = (
+        circuit.get("circuitName")
+        or "Circuito por confirmar"
+    )
+    city = (
+        location.get("locality")
+        or "Ciudad por confirmar"
+    )
+    country = (
+        location.get("country")
+        or "País por confirmar"
+    )
 
     return circuit_name, city, country
 
 
-def create_f1_event(
+def create_session_event(
     race,
     session_key,
     title_prefix,
@@ -140,7 +153,8 @@ def create_f1_event(
 
     event = Event()
     event.uid = (
-        f"f1-{season}-{round_number}-{session_key.lower()}"
+        f"f1-{season}-{round_number}-"
+        f"{session_key.lower()}"
         "@sports-calendar-hub"
     )
     event.name = f"{title_prefix} {grand_prix_name}"
@@ -197,45 +211,53 @@ def create_race_event(race):
     return event
 
 
+def add_event_if_available(calendar, event):
+    if not event:
+        return
+
+    calendar.events.add(event)
+    print("Added:", event.name)
+
+
 def add_race_weekend_events(calendar, race):
-    qualifying_event = create_f1_event(
+    qualifying_event = create_session_event(
         race=race,
         session_key="Qualifying",
         title_prefix="F1 Qualy GP de",
         duration=timedelta(hours=1),
     )
+    add_event_if_available(
+        calendar,
+        qualifying_event,
+    )
 
-    if qualifying_event:
-        calendar.events.add(qualifying_event)
-        print("Added:", qualifying_event.name)
-
-    sprint_qualifying_event = create_f1_event(
+    sprint_qualifying_event = create_session_event(
         race=race,
         session_key="SprintQualifying",
         title_prefix="F1 Qualy Sprint GP de",
         duration=timedelta(minutes=45),
     )
+    add_event_if_available(
+        calendar,
+        sprint_qualifying_event,
+    )
 
-    if sprint_qualifying_event:
-        calendar.events.add(sprint_qualifying_event)
-        print("Added:", sprint_qualifying_event.name)
-
-    sprint_event = create_f1_event(
+    sprint_event = create_session_event(
         race=race,
         session_key="Sprint",
         title_prefix="F1 Sprint GP de",
         duration=timedelta(hours=1),
     )
-
-    if sprint_event:
-        calendar.events.add(sprint_event)
-        print("Added:", sprint_event.name)
+    add_event_if_available(
+        calendar,
+        sprint_event,
+    )
 
     race_event = create_race_event(race)
-
-    if race_event:
-        calendar.events.add(race_event)
-        print("Added:", race_event.name)
+    add_event_if_available(
+        calendar,
+        race_event,
+    )
 
 
 def generate_f1_calendar():
