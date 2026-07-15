@@ -62,25 +62,30 @@ def get_week_window():
         CDMX_TIMEZONE
     )
 
-    days_until_monday = (
-        7 - now_cdmx.weekday()
-    )
-
-    next_monday_cdmx = (
+    future_limit_cdmx = (
         now_cdmx
-        + timedelta(days=days_until_monday)
-    ).replace(
-        hour=0,
-        minute=0,
-        second=0,
-        microsecond=0,
+        + timedelta(days=14)
     )
 
-    next_monday_utc = (
-        next_monday_cdmx.astimezone(
+    future_limit_utc = (
+        future_limit_cdmx.astimezone(
             timezone.utc
         )
     )
+
+    print(
+        "Window starts now:",
+        now_cdmx.isoformat(),
+        flush=True,
+    )
+
+    print(
+        "Window ends:",
+        future_limit_cdmx.isoformat(),
+        flush=True,
+    )
+
+    return now_utc, future_limit_utc
 
     print(
         "Week starts now:",
