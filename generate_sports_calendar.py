@@ -32,6 +32,8 @@ SOURCE_CALENDARS = [
 
     "docs/football/club-america.ics",
     "docs/football/liga-mx-global.ics",
+
+    "docs/football/mexico-national-team.ics",
 ]
 
 
@@ -55,6 +57,7 @@ def load_calendar(path):
 
 def get_week_window():
     now_utc = datetime.now(timezone.utc)
+
     now_cdmx = now_utc.astimezone(
         CDMX_TIMEZONE
     )
@@ -100,6 +103,7 @@ def normalize_text(value):
 
 def is_pending_event(event):
     title = normalize_text(event.name)
+
     description = normalize_text(
         event.description
     )
@@ -113,6 +117,10 @@ def is_pending_event(event):
         "next match pending",
         "next game pending",
         "por confirmar",
+        "home tbd",
+        "away tbd",
+        "tbd vs",
+        "vs tbd",
     ]
 
     combined_text = (
@@ -160,6 +168,7 @@ def is_allowed_f1_event(event):
 
 def is_tennis_event(event):
     uid = normalize_text(event.uid)
+
     description = normalize_text(
         event.description
     )
@@ -194,30 +203,47 @@ def is_allowed_tennis_round(event):
         get_tennis_round(event)
     )
 
-    allowed_round_terms = [
+    round_of_16_terms = [
         "1/8",
         "round of 16",
         "round 16",
         "last 16",
         "octavos",
         "octavo",
+    ]
+
+    quarterfinal_terms = [
         "1/4",
         "quarterfinal",
         "quarter-final",
         "quarter final",
         "cuartos",
         "cuarto",
+    ]
+
+    semifinal_terms = [
         "1/2",
         "semifinal",
         "semi-final",
         "semi final",
         "semifinales",
-        "final",
     ]
+
+    final_terms = [
+        "final",
+        "championship",
+    ]
+
+    allowed_terms = (
+        round_of_16_terms
+        + quarterfinal_terms
+        + semifinal_terms
+        + final_terms
+    )
 
     return any(
         term in round_name
-        for term in allowed_round_terms
+        for term in allowed_terms
     )
 
 
@@ -403,6 +429,7 @@ def add_event_to_sports_calendar(
     existing_signatures,
 ):
     event_uid = str(event.uid or "")
+
     event_signature = (
         get_event_signature(event)
     )
