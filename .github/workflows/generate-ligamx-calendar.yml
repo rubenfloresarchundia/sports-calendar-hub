@@ -1,0 +1,36 @@
+name: Generate Liga MX calendars
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-ligamx:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ics python-dateutil requests
+
+      - name: Generate Liga MX calendars
+        run: python generate_ligamx_calendar.py
+
+      - name: Commit generated Liga MX calendars
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Liga MX calendars"
+          file_pattern: "docs/football/club-america.ics docs/football/liga-mx-global.ics"
