@@ -1,4 +1,52 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Atlas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Jalisco\nJornada: 13\nFuente: ESPN Liga MX
+DTEND:20261022T030000Z
+LOCATION:Estadio Jalisco
+DTSTART:20261022T010000Z
+SUMMARY:Atlas vs América
+UID:football-ligamx-club-america-401876932@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Toluca\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 15\nFuente: ESPN Liga MX
+DTEND:20261101T050000Z
+LOCATION:Estadio Banorte
+DTSTART:20261101T030000Z
+SUMMARY:América vs Toluca
+UID:football-ligamx-club-america-401876913@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: León\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio León\nJornada: 12\nFuente: ESPN Liga MX
+DTEND:20261018T030000Z
+LOCATION:Estadio León
+DTSTART:20261018T010000Z
+SUMMARY:León vs América
+UID:football-ligamx-club-america-401876941@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Tigres\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Universitario\nJornada: 17\nFuente: ESPN Liga MX
+DTEND:20261122T050000Z
+LOCATION:Estadio Universitario
+DTSTART:20261122T030000Z
+SUMMARY:Tigres vs América
+UID:football-ligamx-club-america-401877048@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Pachuca\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 14\nFuente: ESPN Liga MX
+DTEND:20261026T010000Z
+LOCATION:Estadio Banorte
+DTSTART:20261025T230000Z
+SUMMARY:América vs Pachuca
+UID:football-ligamx-club-america-401876922@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
+DTEND:20261108T050000Z
+LOCATION:Estadio Olímpico Universitario
+DTSTART:20261108T030000Z
+SUMMARY:Pumas vs América
+UID:football-ligamx-club-america-401876904@sports-calendar-hub
+END:VEVENT
 END:VCALENDAR
