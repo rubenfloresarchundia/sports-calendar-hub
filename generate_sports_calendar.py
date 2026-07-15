@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from ics import Calendar
@@ -43,44 +43,66 @@ def load_calendar(path):
         return Calendar(file.read())
 
 
-def get_next_event(calendar):
+def get_events_for_this_week(calendar):
     now = datetime.now(timezone.utc)
 
-    future_events = [
-        event
-        for event in calendar.events
-        if event.begin.datetime > now
-    ]
+    days_until_monday = 7 - now.weekday()
 
-    if not future_events:
-        return None
+    if days_until_monday == 0:
+        days_until_monday = 7
 
-    future_events.sort(
+    next_monday = (
+        now + timedelta(days=days_until_monday)
+    )
+
+    events = []
+
+    for event in calendar.events:
+
+        event_date = event.begin.datetime
+
+        if (
+            event_date >= now
+            and event_date < next_monday
+        ):
+            events.append(event)
+
+    events.sort(
         key=lambda event: event.begin.datetime
     )
 
-    return future_events[0]
+    return events
 
 
 def generate_sports_calendar():
     sports_calendar = Calendar()
 
+    total_events = 0
+
     for calendar_path in SOURCE_CALENDARS:
-        calendar = load_calendar(calendar_path)
+
+        calendar = load_calendar(
+            calendar_path
+        )
 
         if not calendar:
             continue
 
-        next_event = get_next_event(calendar)
+        events = get_events_for_this_week(
+            calendar
+        )
 
-        if next_event:
+        for event in events:
+
             sports_calendar.events.add(
-                next_event
+                event
             )
+
+            total_events += 1
 
             print(
                 "Added:",
-                next_event.name,
+                event.name,
             )
 
     SPORTS_OUTPUT_FILE.parent.mkdir(
@@ -99,7 +121,7 @@ def generate_sports_calendar():
 
     print(
         "Events:",
-        len(sports_calendar.events)
+        total_events
     )
 
     print(
