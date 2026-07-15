@@ -1,0 +1,36 @@
+name: Generate Mexico calendar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-mexico:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ics python-dateutil requests
+
+      - name: Generate Mexico calendar
+        run: python generate_mexico_calendar.py
+
+      - name: Commit generated Mexico calendar
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Mexico national team calendar"
+          file_pattern: "docs/football/mexico-national-team.ics"
