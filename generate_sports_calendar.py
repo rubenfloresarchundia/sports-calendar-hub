@@ -18,14 +18,20 @@ CDMX_TIMEZONE = ZoneInfo("America/Mexico_City")
 
 SOURCE_CALENDARS = [
     "docs/f1/formula-1.ics",
+
     "docs/tennis/sinner.ics",
     "docs/tennis/alcaraz.ics",
     "docs/tennis/djokovic.ics",
+
     "docs/nfl/miami-dolphins.ics",
     "docs/nfl/estelares.ics",
+
     "docs/football/real-madrid-laliga.ics",
     "docs/football/real-madrid-champions.ics",
     "docs/football/champions-global.ics",
+
+    "docs/football/club-america.ics",
+    "docs/football/liga-mx-global.ics",
 ]
 
 
@@ -33,7 +39,11 @@ def load_calendar(path):
     filepath = ROOT_DIR / path
 
     if not filepath.exists():
-        print("Missing:", filepath, flush=True)
+        print(
+            "Missing:",
+            filepath,
+            flush=True,
+        )
         return None
 
     with filepath.open(
@@ -45,9 +55,13 @@ def load_calendar(path):
 
 def get_week_window():
     now_utc = datetime.now(timezone.utc)
-    now_cdmx = now_utc.astimezone(CDMX_TIMEZONE)
+    now_cdmx = now_utc.astimezone(
+        CDMX_TIMEZONE
+    )
 
-    days_until_monday = 7 - now_cdmx.weekday()
+    days_until_monday = (
+        7 - now_cdmx.weekday()
+    )
 
     next_monday_cdmx = (
         now_cdmx
@@ -59,8 +73,10 @@ def get_week_window():
         microsecond=0,
     )
 
-    next_monday_utc = next_monday_cdmx.astimezone(
-        timezone.utc
+    next_monday_utc = (
+        next_monday_cdmx.astimezone(
+            timezone.utc
+        )
     )
 
     print(
@@ -84,7 +100,9 @@ def normalize_text(value):
 
 def is_pending_event(event):
     title = normalize_text(event.name)
-    description = normalize_text(event.description)
+    description = normalize_text(
+        event.description
+    )
 
     pending_terms = [
         "pendiente",
@@ -97,7 +115,9 @@ def is_pending_event(event):
         "por confirmar",
     ]
 
-    combined_text = f"{title} {description}"
+    combined_text = (
+        f"{title} {description}"
+    )
 
     return any(
         term in combined_text
@@ -140,7 +160,9 @@ def is_allowed_f1_event(event):
 
 def is_tennis_event(event):
     uid = normalize_text(event.uid)
-    description = normalize_text(event.description)
+    description = normalize_text(
+        event.description
+    )
 
     return (
         uid.startswith("tennis-")
@@ -149,12 +171,16 @@ def is_tennis_event(event):
 
 
 def get_tennis_round(event):
-    description = str(event.description or "")
+    description = str(
+        event.description or ""
+    )
 
     for line in description.splitlines():
         normalized_line = line.strip()
 
-        if normalized_line.lower().startswith("round:"):
+        if normalized_line.lower().startswith(
+            "round:"
+        ):
             return normalized_line.split(
                 ":",
                 1,
@@ -198,23 +224,31 @@ def is_allowed_tennis_round(event):
 def simplify_f1_title(title):
     title = str(title or "").strip()
 
-    if title.startswith("F1 Gran Premio de "):
+    if title.startswith(
+        "F1 Gran Premio de "
+    ):
         location = title.replace(
             "F1 Gran Premio de ",
             "",
             1,
         )
 
-        return f"F1 - {location} (Carrera)"
+        return (
+            f"F1 - {location} (Carrera)"
+        )
 
-    if title.startswith("F1 Sprint GP de "):
+    if title.startswith(
+        "F1 Sprint GP de "
+    ):
         location = title.replace(
             "F1 Sprint GP de ",
             "",
             1,
         )
 
-        return f"F1 - {location} (Sprint)"
+        return (
+            f"F1 - {location} (Sprint)"
+        )
 
     return title
 
@@ -236,7 +270,9 @@ def simplify_football_title(title):
 
         return f"{title} (Champ)"
 
-    if title.endswith(" - Champions League"):
+    if title.endswith(
+        " - Champions League"
+    ):
         title = title.removesuffix(
             " - Champions League"
         )
@@ -259,8 +295,10 @@ def get_event_datetime(event):
     event_datetime = event.begin.datetime
 
     if event_datetime.tzinfo is None:
-        event_datetime = event_datetime.replace(
-            tzinfo=timezone.utc
+        event_datetime = (
+            event_datetime.replace(
+                tzinfo=timezone.utc
+            )
         )
 
     return event_datetime.astimezone(
@@ -273,7 +311,9 @@ def should_include_event(
     window_start,
     window_end,
 ):
-    event_datetime = get_event_datetime(event)
+    event_datetime = get_event_datetime(
+        event
+    )
 
     if not (
         window_start
@@ -300,7 +340,9 @@ def should_include_event(
             return False
 
     if is_tennis_event(event):
-        if not is_allowed_tennis_round(event):
+        if not is_allowed_tennis_round(
+            event
+        ):
             print(
                 "Skipped tennis round:",
                 event.name,
@@ -336,10 +378,12 @@ def get_events_for_this_week(
 
 
 def get_event_signature(event):
-    event_datetime = get_event_datetime(event)
-
-    simplified_title = simplify_event_title(
+    event_datetime = get_event_datetime(
         event
+    )
+
+    simplified_title = (
+        simplify_event_title(event)
     )
 
     normalized_title = normalize_text(
@@ -359,9 +403,14 @@ def add_event_to_sports_calendar(
     existing_signatures,
 ):
     event_uid = str(event.uid or "")
-    event_signature = get_event_signature(event)
+    event_signature = (
+        get_event_signature(event)
+    )
 
-    if event_uid and event_uid in existing_uids:
+    if (
+        event_uid
+        and event_uid in existing_uids
+    ):
         print(
             "Skipped duplicate UID:",
             event.name,
@@ -369,7 +418,10 @@ def add_event_to_sports_calendar(
         )
         return False
 
-    if event_signature in existing_signatures:
+    if (
+        event_signature
+        in existing_signatures
+    ):
         print(
             "Skipped duplicate event:",
             event.name,
@@ -378,14 +430,19 @@ def add_event_to_sports_calendar(
         return False
 
     original_title = event.name
-    event.name = simplify_event_title(event)
+
+    event.name = simplify_event_title(
+        event
+    )
 
     sports_calendar.events.add(event)
 
     if event_uid:
         existing_uids.add(event_uid)
 
-    existing_signatures.add(event_signature)
+    existing_signatures.add(
+        event_signature
+    )
 
     if original_title != event.name:
         print(
@@ -423,7 +480,11 @@ def generate_sports_calendar():
     total_events = 0
 
     for calendar_path in SOURCE_CALENDARS:
-        print("=" * 60, flush=True)
+        print(
+            "=" * 60,
+            flush=True,
+        )
+
         print(
             "Reading:",
             calendar_path,
@@ -444,11 +505,13 @@ def generate_sports_calendar():
         )
 
         for event in events:
-            was_added = add_event_to_sports_calendar(
-                sports_calendar,
-                event,
-                existing_uids,
-                existing_signatures,
+            was_added = (
+                add_event_to_sports_calendar(
+                    sports_calendar,
+                    event,
+                    existing_uids,
+                    existing_signatures,
+                )
             )
 
             if was_added:
@@ -467,12 +530,17 @@ def generate_sports_calendar():
             sports_calendar.serialize_iter()
         )
 
-    print("=" * 60, flush=True)
+    print(
+        "=" * 60,
+        flush=True,
+    )
+
     print(
         "Events:",
         total_events,
         flush=True,
     )
+
     print(
         "Generated:",
         SPORTS_OUTPUT_FILE,
