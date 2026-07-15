@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Evento: F1 Gran Premio de Hungría\nCircuito: Hungaroring\nCiudad: Budapest\nPaís: Hungary\nRonda: 11\nFuente: Jolpica F1
+DTEND:20260726T150000Z
+LOCATION:Hungaroring
+DTSTART:20260726T130000Z
+SUMMARY:F1 - Hungría (Carrera)
+UID:f1-2026-11-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Evento: F1 Gran Premio de Bélgica\nCircuito: Circuit de Spa-Francorchamps\nCiudad: Spa\nPaís: Belgium\nRonda: 10\nFuente: Jolpica F1
 DTEND:20260719T150000Z
 LOCATION:Circuit de Spa-Francorchamps
