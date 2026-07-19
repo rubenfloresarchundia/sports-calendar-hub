@@ -9,12 +9,4 @@ DTSTART:20260726T130000Z
 SUMMARY:F1 - Hungría (Carrera)
 UID:f1-2026-11-race@sports-calendar-hub
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 Gran Premio de Bélgica\nCircuito: Circuit de Spa-Francorchamps\nCiudad: Spa\nPaís: Belgium\nRonda: 10\nFuente: Jolpica F1
-DTEND:20260719T150000Z
-LOCATION:Circuit de Spa-Francorchamps
-DTSTART:20260719T130000Z
-SUMMARY:F1 - Bélgica (Carrera)
-UID:f1-2026-10-race@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR
