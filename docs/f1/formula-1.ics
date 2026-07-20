@@ -82,14 +82,6 @@ SUMMARY:F1 Gran Premio de Abu Dabi
 UID:f1-2026-22-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 Gran Premio de Bélgica\nCircuito: Circuit de Spa-Francorchamps\nCiudad: Spa\nPaís: Belgium\nRonda: 10\nFuente: Jolpica F1
-DTEND:20260719T150000Z
-LOCATION:Circuit de Spa-Francorchamps
-DTSTART:20260719T130000Z
-SUMMARY:F1 Gran Premio de Bélgica
-UID:f1-2026-10-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 Qualy GP de Qatar\nCircuito: Losail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 21\nFuente: Jolpica F1
 DTEND:20261128T190000Z
 LOCATION:Losail International Circuit
@@ -120,14 +112,6 @@ LOCATION:Marina Bay Street Circuit
 DTSTART:20261010T090000Z
 SUMMARY:F1 Sprint GP de Singapur
 UID:f1-2026-16-sprint@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 Qualy GP de Bélgica\nCircuito: Circuit de Spa-Francorchamps\nCiudad: Spa\nPaís: Belgium\nRonda: 10\nFuente: Jolpica F1
-DTEND:20260718T150000Z
-LOCATION:Circuit de Spa-Francorchamps
-DTSTART:20260718T140000Z
-SUMMARY:F1 Qualy GP de Bélgica
-UID:f1-2026-10-qualifying@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 Qualy GP de España\nCircuito: Madring\nCiudad: Madrid\nPaís: Spain\nRonda: 14\nFuente: Jolpica F1
