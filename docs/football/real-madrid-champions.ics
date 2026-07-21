@@ -3,9 +3,9 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Real Madrid - Champions League\nNext match pending confirmation\nSource: football-data.org
-DTEND:20260727T211149Z
+DTEND:20260728T114412Z
 LOCATION:TBD
-DTSTART:20260727T191149Z
+DTSTART:20260728T094412Z
 SUMMARY:Real Madrid - Champions League - pendiente
 UID:football-real-madrid-champions-fallback@sports-calendar-hub
 END:VEVENT
