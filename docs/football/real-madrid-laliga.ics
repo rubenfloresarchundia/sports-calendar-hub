@@ -2,78 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: FC Barcelona\nStatus: SCHEDULED\nMatchday: 35\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270509T140000Z
-LOCATION:LaLiga
-DTSTART:20270509T120000Z
-SUMMARY:Real Madrid vs Barcelona (Liga)
-UID:football-real-madrid-laliga-564975@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Real Sociedad de Fútbol\nStatus: SCHEDULED\nMatchday: 1\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20260826T210000Z
-LOCATION:LaLiga
-DTSTART:20260826T190000Z
-SUMMARY:Real Madrid vs Real Sociedad (Liga)
-UID:football-real-madrid-laliga-564631@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Sevilla FC\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 25\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270221T140000Z
-LOCATION:LaLiga
-DTSTART:20270221T120000Z
-SUMMARY:Sevilla vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564874@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: RC Celta de Vigo\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 29\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270321T140000Z
-LOCATION:LaLiga
-DTSTART:20270321T120000Z
-SUMMARY:Celta de Vigo vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564911@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Sociedad de Fútbol\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 23\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270207T140000Z
-LOCATION:LaLiga
-DTSTART:20270207T120000Z
-SUMMARY:Real Sociedad vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564855@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Levante UD\nStatus: SCHEDULED\nMatchday: 19\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270110T140000Z
-LOCATION:LaLiga
-DTSTART:20270110T120000Z
-SUMMARY:Real Madrid vs Levante (Liga)
-UID:football-real-madrid-laliga-564810@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Valencia CF\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 12\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261108T180000Z
-LOCATION:LaLiga
-DTSTART:20261108T160000Z
-SUMMARY:Valencia vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564741@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: RC Celta de Vigo\nStatus: SCHEDULED\nMatchday: 13\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261122T180000Z
-LOCATION:LaLiga
-DTSTART:20261122T160000Z
-SUMMARY:Real Madrid vs Celta de Vigo (Liga)
-UID:football-real-madrid-laliga-564754@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Elche CF\nStatus: SCHEDULED\nMatchday: 33\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270421T140000Z
-LOCATION:LaLiga
-DTSTART:20270421T120000Z
-SUMMARY:Real Madrid vs Elche (Liga)
-UID:football-real-madrid-laliga-564952@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Deportivo Alavés\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 37\nStage: REGULAR_SEASON\nSource: football-data.org
 DTEND:20270523T140000Z
 LOCATION:LaLiga
@@ -82,108 +10,20 @@ SUMMARY:Alavés vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564993@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Elche CF\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 6\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20260916T170000Z
+DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: FC Barcelona\nStatus: SCHEDULED\nMatchday: 35\nStage: REGULAR_SEASON\nSource: football-data.org
+DTEND:20270509T140000Z
 LOCATION:LaLiga
-DTSTART:20260916T150000Z
-SUMMARY:Elche vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564681@sports-calendar-hub
+DTSTART:20270509T120000Z
+SUMMARY:Real Madrid vs Barcelona (Liga)
+UID:football-real-madrid-laliga-564975@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Rayo Vallecano de Madrid\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 22\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270131T140000Z
+DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Club Atlético de Madrid\nStatus: SCHEDULED\nMatchday: 30\nStage: REGULAR_SEASON\nSource: football-data.org
+DTEND:20270404T140000Z
 LOCATION:LaLiga
-DTSTART:20270131T120000Z
-SUMMARY:Rayo Vallecano vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564839@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Club Atlético de Madrid\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 7\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20260920T170000Z
-LOCATION:LaLiga
-DTSTART:20260920T150000Z
-SUMMARY:Atlético Madrid vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564688@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Málaga CF\nStatus: SCHEDULED\nMatchday: 3\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20260830T170000Z
-LOCATION:LaLiga
-DTSTART:20260830T150000Z
-SUMMARY:Real Madrid vs Málaga (Liga)
-UID:football-real-madrid-laliga-564656@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: CA Osasuna\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 31\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270411T140000Z
-LOCATION:LaLiga
-DTSTART:20270411T120000Z
-SUMMARY:Osasuna vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564936@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Athletic Club\nStatus: SCHEDULED\nMatchday: 24\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270214T140000Z
-LOCATION:LaLiga
-DTSTART:20270214T120000Z
-SUMMARY:Real Madrid vs Athletic (Liga)
-UID:football-real-madrid-laliga-564867@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Getafe CF\nStatus: SCHEDULED\nMatchday: 18\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270103T140000Z
-LOCATION:LaLiga
-DTSTART:20270103T120000Z
-SUMMARY:Real Madrid vs Getafe (Liga)
-UID:football-real-madrid-laliga-564798@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Racing Club de Santander\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 11\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261101T180000Z
-LOCATION:LaLiga
-DTSTART:20261101T160000Z
-SUMMARY:Racing Santander vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564734@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Valencia CF\nStatus: SCHEDULED\nMatchday: 26\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270228T140000Z
-LOCATION:LaLiga
-DTSTART:20270228T120000Z
-SUMMARY:Real Madrid vs Valencia (Liga)
-UID:football-real-madrid-laliga-564882@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Villarreal CF\nStatus: SCHEDULED\nMatchday: 8\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261011T170000Z
-LOCATION:LaLiga
-DTSTART:20261011T150000Z
-SUMMARY:Real Madrid vs Villarreal (Liga)
-UID:football-real-madrid-laliga-564702@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Deportivo Alavés\nStatus: SCHEDULED\nMatchday: 14\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261129T180000Z
-LOCATION:LaLiga
-DTSTART:20261129T160000Z
-SUMMARY:Real Madrid vs Alavés (Liga)
-UID:football-real-madrid-laliga-564762@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Sevilla FC\nStatus: SCHEDULED\nMatchday: 9\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261018T170000Z
-LOCATION:LaLiga
-DTSTART:20261018T150000Z
-SUMMARY:Real Madrid vs Sevilla (Liga)
-UID:football-real-madrid-laliga-564709@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Athletic Club\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 15\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261206T180000Z
-LOCATION:LaLiga
-DTSTART:20261206T160000Z
-SUMMARY:Athletic vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564775@sports-calendar-hub
+DTSTART:20270404T120000Z
+SUMMARY:Real Madrid vs Atlético Madrid (Liga)
+UID:football-real-madrid-laliga-564925@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: RCD Espanyol de Barcelona\nStatus: SCHEDULED\nMatchday: 28\nStage: REGULAR_SEASON\nSource: football-data.org
@@ -192,6 +32,14 @@ LOCATION:LaLiga
 DTSTART:20270314T120000Z
 SUMMARY:Real Madrid vs Espanyol (Liga)
 UID:football-real-madrid-laliga-564907@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: RC Celta de Vigo\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 29\nStage: REGULAR_SEASON\nSource: football-data.org
+DTEND:20270321T140000Z
+LOCATION:LaLiga
+DTSTART:20270321T120000Z
+SUMMARY:Celta de Vigo vs Real Madrid (Liga)
+UID:football-real-madrid-laliga-564911@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Real Racing Club de Santander\nStatus: SCHEDULED\nMatchday: 36\nStage: REGULAR_SEASON\nSource: football-data.org
@@ -210,68 +58,12 @@ SUMMARY:Real Madrid vs Deportivo (Liga)
 UID:football-real-madrid-laliga-564999@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Real Betis Balompié\nStatus: SCHEDULED\nMatchday: 21\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270124T140000Z
+DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: CA Osasuna\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 31\nStage: REGULAR_SEASON\nSource: football-data.org
+DTEND:20270411T140000Z
 LOCATION:LaLiga
-DTSTART:20270124T120000Z
-SUMMARY:Real Madrid vs Real Betis (Liga)
-UID:football-real-madrid-laliga-564828@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Villarreal CF\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 27\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270307T140000Z
-LOCATION:LaLiga
-DTSTART:20270307T120000Z
-SUMMARY:Villarreal vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564894@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Rayo Vallecano de Madrid\nStatus: SCHEDULED\nMatchday: 5\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20260913T170000Z
-LOCATION:LaLiga
-DTSTART:20260913T150000Z
-SUMMARY:Real Madrid vs Rayo Vallecano (Liga)
-UID:football-real-madrid-laliga-564677@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: CA Osasuna\nStatus: SCHEDULED\nMatchday: 16\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261213T180000Z
-LOCATION:LaLiga
-DTSTART:20261213T160000Z
-SUMMARY:Real Madrid vs Osasuna (Liga)
-UID:football-real-madrid-laliga-564780@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: RCD Espanyol de Barcelona\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 2\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20260822T213000Z
-LOCATION:LaLiga
-DTSTART:20260822T193000Z
-SUMMARY:Espanyol vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564645@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Club Atlético de Madrid\nStatus: SCHEDULED\nMatchday: 30\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270404T140000Z
-LOCATION:LaLiga
-DTSTART:20270404T120000Z
-SUMMARY:Real Madrid vs Atlético Madrid (Liga)
-UID:football-real-madrid-laliga-564925@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: FC Barcelona\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 10\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261025T180000Z
-LOCATION:LaLiga
-DTSTART:20261025T160000Z
-SUMMARY:Barcelona vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564723@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Málaga CF\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 20\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20270117T140000Z
-LOCATION:LaLiga
-DTSTART:20270117T120000Z
-SUMMARY:Málaga vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564818@sports-calendar-hub
+DTSTART:20270411T120000Z
+SUMMARY:Osasuna vs Real Madrid (Liga)
+UID:football-real-madrid-laliga-564936@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Levante UD\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 34\nStage: REGULAR_SEASON\nSource: football-data.org
@@ -282,12 +74,12 @@ SUMMARY:Levante vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564966@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Betis Balompié\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 4\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20260906T170000Z
+DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Elche CF\nStatus: SCHEDULED\nMatchday: 33\nStage: REGULAR_SEASON\nSource: football-data.org
+DTEND:20270421T140000Z
 LOCATION:LaLiga
-DTSTART:20260906T150000Z
-SUMMARY:Real Betis vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564667@sports-calendar-hub
+DTSTART:20270421T120000Z
+SUMMARY:Real Madrid vs Elche (Liga)
+UID:football-real-madrid-laliga-564952@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Getafe CF\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 32\nStage: REGULAR_SEASON\nSource: football-data.org
@@ -298,11 +90,11 @@ SUMMARY:Getafe vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564947@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: RC Deportivo La Coruña\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 17\nStage: REGULAR_SEASON\nSource: football-data.org
-DTEND:20261220T180000Z
+DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Villarreal CF\nAway: Real Madrid CF\nStatus: SCHEDULED\nMatchday: 27\nStage: REGULAR_SEASON\nSource: football-data.org
+DTEND:20270307T140000Z
 LOCATION:LaLiga
-DTSTART:20261220T160000Z
-SUMMARY:Deportivo vs Real Madrid (Liga)
-UID:football-real-madrid-laliga-564796@sports-calendar-hub
+DTSTART:20270307T120000Z
+SUMMARY:Villarreal vs Real Madrid (Liga)
+UID:football-real-madrid-laliga-564894@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
