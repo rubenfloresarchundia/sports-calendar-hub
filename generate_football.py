@@ -1,6 +1,6 @@
 import os
-from pathlib import Path
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import requests
 import yaml
@@ -61,6 +61,8 @@ TEAM_SHORT_NAMES = {
 }
 
 
+# En Champions se publican solamente las jornadas finales
+# de la fase liga y toda la fase eliminatoria.
 CHAMPIONS_LEAGUE_PHASE_MATCHDAYS = {
     6,
     7,
@@ -70,12 +72,20 @@ CHAMPIONS_LEAGUE_PHASE_MATCHDAYS = {
 
 CHAMPIONS_KNOCKOUT_STAGES = {
     "PLAYOFFS",
+    "PLAY_OFFS",
     "KNOCKOUT_PLAYOFFS",
+    "KNOCKOUT_PLAY_OFFS",
     "KNOCKOUT_STAGE_PLAY_OFFS",
     "LAST_16",
     "ROUND_OF_16",
+    "ROUND_OF_16_FIRST_LEG",
+    "ROUND_OF_16_SECOND_LEG",
     "QUARTER_FINALS",
+    "QUARTER_FINALS_FIRST_LEG",
+    "QUARTER_FINALS_SECOND_LEG",
     "SEMI_FINALS",
+    "SEMI_FINALS_FIRST_LEG",
+    "SEMI_FINALS_SECOND_LEG",
     "FINAL",
 }
 
@@ -85,9 +95,18 @@ INVALID_TEAM_NAMES = {
     "tbd",
     "to be determined",
     "unknown",
+    "unknown team",
     "winner",
     "loser",
     "por confirmar",
+}
+
+
+INVALID_MATCH_STATUSES = {
+    "CANCELLED",
+    "CANCELED",
+    "POSTPONED",
+    "SUSPENDED",
 }
 
 
@@ -112,7 +131,7 @@ def get_api_headers():
         )
 
     return {
-        "X-Auth-Token": api_key
+        "X-Auth-Token": api_key,
     }
 
 
@@ -135,7 +154,6 @@ def get_competition_label(calendar_config):
         "id",
         "",
     )
-
     name = calendar_config.get(
         "name",
         "",
@@ -156,9 +174,7 @@ def get_competition_label(calendar_config):
     return name
 
 
-def is_champions_calendar(
-    calendar_config,
-):
+def is_champions_calendar(calendar_config):
     calendar_id = str(
         calendar_config.get(
             "id",
@@ -183,20 +199,12 @@ def team_matches_calendar_team(
     match,
     team_names,
 ):
-    home_team = (
-        match.get("homeTeam")
-        or {}
-    )
-
-    away_team = (
-        match.get("awayTeam")
-        or {}
-    )
+    home_team = match.get("homeTeam") or {}
+    away_team = match.get("awayTeam") or {}
 
     home_name = normalize_name(
         home_team.get("name")
     )
-
     away_name = normalize_name(
         away_team.get("name")
     )
@@ -214,6 +222,9 @@ def team_matches_calendar_team(
             return True
 
     for target in normalized_targets:
+        if not target:
+            continue
+
         if (
             target in home_name
             or target in away_name
@@ -224,28 +235,31 @@ def team_matches_calendar_team(
 
 
 def has_confirmed_teams(match):
-    home_team = (
-        match.get("homeTeam")
-        or {}
-    )
-
-    away_team = (
-        match.get("awayTeam")
-        or {}
-    )
+    home_team = match.get("homeTeam") or {}
+    away_team = match.get("awayTeam") or {}
 
     home_name = normalize_name(
         home_team.get("name")
     )
-
     away_name = normalize_name(
         away_team.get("name")
     )
 
-    return (
-        home_name not in INVALID_TEAM_NAMES
-        and away_name not in INVALID_TEAM_NAMES
-    )
+    if home_name in INVALID_TEAM_NAMES:
+        return False
+
+    if away_name in INVALID_TEAM_NAMES:
+        return False
+
+    return True
+
+
+def has_allowed_status(match):
+    status = str(
+        match.get("status") or ""
+    ).strip().upper()
+
+    return status not in INVALID_MATCH_STATUSES
 
 
 def parse_match_datetime(match):
@@ -262,7 +276,7 @@ def parse_match_datetime(match):
                 tzinfo=timezone.utc
             )
 
-        return parsed
+        return parsed.astimezone(timezone.utc)
 
     except (
         TypeError,
@@ -289,7 +303,7 @@ def get_competition_matches(
     )
 
     print(
-        f"football-data.org status "
+        "football-data.org status "
         f"({competition_code}):",
         response.status_code,
     )
@@ -299,7 +313,6 @@ def get_competition_matches(
             "football-data.org quota exceeded. "
             "Stopping without updating calendars."
         )
-
         print(response.text[:1000])
 
         raise RuntimeError(
@@ -318,7 +331,7 @@ def get_competition_matches(
     matches = data.get("matches", [])
 
     print(
-        f"Matches returned for "
+        "Matches returned for "
         f"{competition_code}: "
         f"{len(matches)}"
     )
@@ -326,12 +339,9 @@ def get_competition_matches(
     return matches
 
 
-def should_include_champions_match(
-    match,
-):
+def should_include_champions_match(match):
     stage = str(
-        match.get("stage")
-        or ""
+        match.get("stage") or ""
     ).strip().upper()
 
     matchday = match.get("matchday")
@@ -351,68 +361,89 @@ def should_include_champions_match(
     return False
 
 
+def should_include_match(
+    calendar_config,
+    match,
+):
+    match_id = match.get(
+        "id",
+        "unknown",
+    )
+
+    if not team_matches_calendar_team(
+        match,
+        calendar_config["team_names"],
+    ):
+        return False
+
+    if not has_confirmed_teams(match):
+        print(
+            "Skipped undefined teams:",
+            match_id,
+            match.get("stage"),
+        )
+        return False
+
+    if not has_allowed_status(match):
+        print(
+            "Skipped invalid match status:",
+            match_id,
+            match.get("status"),
+        )
+        return False
+
+    if is_champions_calendar(calendar_config):
+        if not should_include_champions_match(
+            match
+        ):
+            print(
+                "Skipped Champions stage:",
+                match_id,
+                match.get("stage"),
+                match.get("matchday"),
+            )
+            return False
+
+    start_time = parse_match_datetime(match)
+
+    if not start_time:
+        print(
+            "Skipped match without valid date:",
+            match_id,
+        )
+        return False
+
+    now = datetime.now(timezone.utc)
+
+    if start_time < now - timedelta(hours=3):
+        return False
+
+    return True
+
+
 def get_upcoming_team_matches(
     calendar_config,
     all_matches_by_competition,
 ):
-    competition_code = (
-        calendar_config[
-            "competition_code"
-        ]
-    )
-
-    team_names = calendar_config[
-        "team_names"
+    competition_code = calendar_config[
+        "competition_code"
     ]
 
-    matches = (
-        all_matches_by_competition.get(
-            competition_code,
-            [],
-        )
-    )
-
-    now = datetime.now(
-        timezone.utc
+    matches = all_matches_by_competition.get(
+        competition_code,
+        [],
     )
 
     upcoming_matches = []
 
     for match in matches:
-        if not team_matches_calendar_team(
+        if not should_include_match(
+            calendar_config,
             match,
-            team_names,
         ):
             continue
 
-        if not has_confirmed_teams(match):
-            print(
-                "Skipped undefined teams:",
-                match.get("id"),
-                match.get("stage"),
-            )
-
-            continue
-
-        if is_champions_calendar(
-            calendar_config
-        ):
-            if not should_include_champions_match(
-                match
-            ):
-                continue
-
-        start_time = parse_match_datetime(
-            match
-        )
-
-        if not start_time:
-            continue
-
-        if start_time < (
-            now - timedelta(hours=3)
-        ):
-            continue
+        start_time = parse_match_datetime(match)
 
         upcoming_matches.append(
             (
@@ -427,63 +458,49 @@ def get_upcoming_team_matches(
 
     if not upcoming_matches:
         print(
-            "No upcoming matches found for "
-            f"{calendar_config['name']}"
+            "No publishable upcoming matches "
+            f"found for {calendar_config['name']}"
         )
-
         return []
 
     print("=" * 60)
-
     print(
         "Selected matches for:",
         calendar_config["name"],
     )
 
-    for (
-        start_time,
-        match,
-    ) in upcoming_matches:
+    for start_time, match in upcoming_matches:
         home_team = (
-            match.get("homeTeam")
-            or {}
+            match.get("homeTeam") or {}
         )
-
         away_team = (
-            match.get("awayTeam")
-            or {}
+            match.get("awayTeam") or {}
         )
 
         print(
             "Date:",
             start_time.isoformat(),
         )
-
         print(
             "Home:",
             home_team.get("name"),
         )
-
         print(
             "Away:",
             away_team.get("name"),
         )
-
         print(
             "Status:",
             match.get("status"),
         )
-
         print(
             "Matchday:",
             match.get("matchday"),
         )
-
         print(
             "Stage:",
             match.get("stage"),
         )
-
         print("---")
 
     return [
@@ -496,43 +513,24 @@ def create_match_event(
     calendar_config,
     match,
 ):
-    competition_label = (
-        get_competition_label(
-            calendar_config
-        )
+    competition_label = get_competition_label(
+        calendar_config
     )
 
-    home_team = (
-        match.get("homeTeam")
-        or {}
-    )
+    home_team = match.get("homeTeam") or {}
+    away_team = match.get("awayTeam") or {}
 
-    away_team = (
-        match.get("awayTeam")
-        or {}
-    )
-
-    home_full = home_team.get(
-        "name",
-        "Home TBD",
-    )
-
-    away_full = away_team.get(
-        "name",
-        "Away TBD",
-    )
+    home_full = home_team.get("name")
+    away_full = away_team.get("name")
 
     home_short = get_team_short_name(
         home_full
     )
-
     away_short = get_team_short_name(
         away_full
     )
 
-    start_time = parse_match_datetime(
-        match
-    )
+    start_time = parse_match_datetime(match)
 
     if not start_time:
         raise RuntimeError(
@@ -544,10 +542,8 @@ def create_match_event(
         "id",
         "unknown",
     )
-
     matchday = match.get("matchday")
     stage = match.get("stage")
-
     status = match.get(
         "status",
         "SCHEDULED",
@@ -556,7 +552,7 @@ def create_match_event(
     event = Event()
 
     event.uid = (
-        f"football-"
+        "football-"
         f"{calendar_config['id']}-"
         f"{match_id}"
         "@sports-calendar-hub"
@@ -572,12 +568,10 @@ def create_match_event(
     else:
         event.name = (
             f"{home_short} vs "
-            f"{away_short} - "
-            f"{competition_label}"
+            f"{away_short} (Liga)"
         )
 
     event.begin = start_time
-
     event.end = (
         start_time
         + timedelta(hours=2)
@@ -616,44 +610,6 @@ def create_match_event(
     return event
 
 
-def create_fallback_event(
-    calendar_config,
-):
-    event = Event()
-
-    event.uid = (
-        f"football-"
-        f"{calendar_config['id']}-fallback"
-        "@sports-calendar-hub"
-    )
-
-    event.name = (
-        f"{calendar_config['name']} "
-        "- pendiente"
-    )
-
-    event.begin = (
-        datetime.now(timezone.utc)
-        + timedelta(days=7)
-    )
-
-    event.end = (
-        event.begin
-        + timedelta(hours=2)
-    )
-
-    event.description = (
-        f"Calendar: "
-        f"{calendar_config['name']}\n"
-        "Next match pending confirmation\n"
-        "Source: football-data.org"
-    )
-
-    event.location = "TBD"
-
-    return event
-
-
 def generate_football_calendar(
     calendar_config,
     all_matches_by_competition,
@@ -665,29 +621,12 @@ def generate_football_calendar(
         all_matches_by_competition,
     )
 
-    if matches:
-        for match in matches:
-            calendar.events.add(
-                create_match_event(
-                    calendar_config,
-                    match,
-                )
-            )
-
-    elif not is_champions_calendar(
-        calendar_config
-    ):
+    for match in matches:
         calendar.events.add(
-            create_fallback_event(
-                calendar_config
+            create_match_event(
+                calendar_config,
+                match,
             )
-        )
-
-    else:
-        print(
-            "Champions calendar has no "
-            "confirmed relevant matches. "
-            "No fallback event will be created."
         )
 
     output_path = (
@@ -712,7 +651,6 @@ def generate_football_calendar(
         "Generated:",
         output_path,
     )
-
     print(
         "Events generated:",
         len(calendar.events),
@@ -720,9 +658,7 @@ def generate_football_calendar(
 
 
 def main():
-    calendars = (
-        load_football_calendars()
-    )
+    calendars = load_football_calendars()
 
     competition_codes = sorted(
         {
@@ -733,9 +669,7 @@ def main():
 
     all_matches_by_competition = {}
 
-    for competition_code in (
-        competition_codes
-    ):
+    for competition_code in competition_codes:
         all_matches_by_competition[
             competition_code
         ] = get_competition_matches(
