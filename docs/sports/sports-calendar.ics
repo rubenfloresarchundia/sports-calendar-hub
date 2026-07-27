@@ -1,4 +1,12 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Santos\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 3\nFuente: ESPN Liga MX
+DTEND:20260803T010000Z
+LOCATION:Estadio Banorte
+DTSTART:20260802T230000Z
+SUMMARY:América vs Santos
+UID:football-ligamx-club-america-401877020@sports-calendar-hub
+END:VEVENT
 END:VCALENDAR
