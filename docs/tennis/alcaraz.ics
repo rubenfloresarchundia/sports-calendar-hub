@@ -1,12 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD
-DTEND:20260803T144003Z
-LOCATION:TBD
-DTSTART:20260803T124003Z
-SUMMARY:Alcaraz - pendiente
-UID:tennis-atp-68074-fallback@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR

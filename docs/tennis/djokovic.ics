@@ -1,12 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Player: Novak Djokovic\nTour: ATP\nOpponent: TBD\nTournament: TBD\nRound: TBD
-DTEND:20260803T144003Z
-LOCATION:TBD
-DTSTART:20260803T124003Z
-SUMMARY:Djokovic - pendiente
-UID:tennis-atp-5992-fallback@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR
