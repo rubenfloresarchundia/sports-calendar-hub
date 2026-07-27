@@ -12,6 +12,12 @@ ROOT_DIR = Path(__file__).parent
 CONFIG_PATH = ROOT_DIR / "config" / "football_calendars.yaml"
 OUTPUT_DIR = ROOT_DIR / "docs"
 
+# Real Madrid–LaLiga: publicar únicamente jornadas 27 a 38.
+LALIGA_START_MATCHDAY = 27
+
+# Champions: publicar jornadas 6 a 8 y eliminatorias.
+CHAMPIONS_LEAGUE_PHASE_MATCHDAYS = {6, 7, 8}
+
 
 TEAM_SHORT_NAMES = {
     "Real Madrid CF": "Real Madrid",
@@ -61,15 +67,6 @@ TEAM_SHORT_NAMES = {
 }
 
 
-# En Champions se publican solamente las jornadas finales
-# de la fase liga y toda la fase eliminatoria.
-CHAMPIONS_LEAGUE_PHASE_MATCHDAYS = {
-    6,
-    7,
-    8,
-}
-
-
 CHAMPIONS_KNOCKOUT_STAGES = {
     "PLAYOFFS",
     "PLAY_OFFS",
@@ -111,24 +108,17 @@ INVALID_MATCH_STATUSES = {
 
 
 def load_football_calendars():
-    with CONFIG_PATH.open(
-        "r",
-        encoding="utf-8",
-    ) as file:
+    with CONFIG_PATH.open("r", encoding="utf-8") as file:
         data = yaml.safe_load(file)
 
     return data.get("calendars", [])
 
 
 def get_api_headers():
-    api_key = os.environ.get(
-        "FOOTBALL_DATA_API_KEY"
-    )
+    api_key = os.environ.get("FOOTBALL_DATA_API_KEY")
 
     if not api_key:
-        raise RuntimeError(
-            "Missing FOOTBALL_DATA_API_KEY"
-        )
+        raise RuntimeError("Missing FOOTBALL_DATA_API_KEY")
 
     return {
         "X-Auth-Token": api_key,
@@ -143,50 +133,26 @@ def get_team_short_name(team_name):
     if not team_name:
         return "TBD"
 
-    return TEAM_SHORT_NAMES.get(
-        team_name,
-        team_name,
-    )
+    return TEAM_SHORT_NAMES.get(team_name, team_name)
 
 
 def get_competition_label(calendar_config):
-    calendar_id = calendar_config.get(
-        "id",
-        "",
-    )
-    name = calendar_config.get(
-        "name",
-        "",
-    )
+    calendar_id = str(calendar_config.get("id", "")).lower()
+    name = str(calendar_config.get("name", "")).lower()
 
-    if (
-        "laliga" in calendar_id.lower()
-        or "laliga" in name.lower()
-    ):
+    if "laliga" in calendar_id or "laliga" in name:
         return "LaLiga"
 
-    if (
-        "champions" in calendar_id.lower()
-        or "champions" in name.lower()
-    ):
+    if "champions" in calendar_id or "champions" in name:
         return "Champions"
 
-    return name
+    return calendar_config.get("name", "")
 
 
 def is_champions_calendar(calendar_config):
-    calendar_id = str(
-        calendar_config.get(
-            "id",
-            "",
-        )
-    ).lower()
-
+    calendar_id = str(calendar_config.get("id", "")).lower()
     competition_code = str(
-        calendar_config.get(
-            "competition_code",
-            "",
-        )
+        calendar_config.get("competition_code", "")
     ).upper()
 
     return (
@@ -195,19 +161,24 @@ def is_champions_calendar(calendar_config):
     )
 
 
-def team_matches_calendar_team(
-    match,
-    team_names,
-):
+def is_laliga_calendar(calendar_config):
+    calendar_id = str(calendar_config.get("id", "")).lower()
+    competition_code = str(
+        calendar_config.get("competition_code", "")
+    ).upper()
+
+    return (
+        "laliga" in calendar_id
+        or competition_code == "PD"
+    )
+
+
+def team_matches_calendar_team(match, team_names):
     home_team = match.get("homeTeam") or {}
     away_team = match.get("awayTeam") or {}
 
-    home_name = normalize_name(
-        home_team.get("name")
-    )
-    away_name = normalize_name(
-        away_team.get("name")
-    )
+    home_name = normalize_name(home_team.get("name"))
+    away_name = normalize_name(away_team.get("name"))
 
     normalized_targets = [
         normalize_name(name)
@@ -215,20 +186,14 @@ def team_matches_calendar_team(
     ]
 
     for target in normalized_targets:
-        if (
-            target == home_name
-            or target == away_name
-        ):
+        if target == home_name or target == away_name:
             return True
 
     for target in normalized_targets:
         if not target:
             continue
 
-        if (
-            target in home_name
-            or target in away_name
-        ):
+        if target in home_name or target in away_name:
             return True
 
     return False
@@ -238,12 +203,8 @@ def has_confirmed_teams(match):
     home_team = match.get("homeTeam") or {}
     away_team = match.get("awayTeam") or {}
 
-    home_name = normalize_name(
-        home_team.get("name")
-    )
-    away_name = normalize_name(
-        away_team.get("name")
-    )
+    home_name = normalize_name(home_team.get("name"))
+    away_name = normalize_name(away_team.get("name"))
 
     if home_name in INVALID_TEAM_NAMES:
         return False
@@ -272,9 +233,7 @@ def parse_match_datetime(match):
         parsed = parser.parse(raw_date)
 
         if parsed.tzinfo is None:
-            parsed = parsed.replace(
-                tzinfo=timezone.utc
-            )
+            parsed = parsed.replace(tzinfo=timezone.utc)
 
         return parsed.astimezone(timezone.utc)
 
@@ -286,9 +245,7 @@ def parse_match_datetime(match):
         return None
 
 
-def get_competition_matches(
-    competition_code,
-):
+def get_competition_matches(competition_code):
     headers = get_api_headers()
 
     url = (
@@ -303,8 +260,7 @@ def get_competition_matches(
     )
 
     print(
-        "football-data.org status "
-        f"({competition_code}):",
+        f"football-data.org status ({competition_code}):",
         response.status_code,
     )
 
@@ -331,8 +287,7 @@ def get_competition_matches(
     matches = data.get("matches", [])
 
     print(
-        "Matches returned for "
-        f"{competition_code}: "
+        f"Matches returned for {competition_code}: "
         f"{len(matches)}"
     )
 
@@ -345,6 +300,11 @@ def should_include_champions_match(match):
     ).strip().upper()
 
     matchday = match.get("matchday")
+
+    try:
+        matchday = int(matchday)
+    except (TypeError, ValueError):
+        matchday = None
 
     if stage in CHAMPIONS_KNOCKOUT_STAGES:
         return True
@@ -361,14 +321,19 @@ def should_include_champions_match(match):
     return False
 
 
-def should_include_match(
-    calendar_config,
-    match,
-):
-    match_id = match.get(
-        "id",
-        "unknown",
-    )
+def should_include_laliga_match(match):
+    matchday = match.get("matchday")
+
+    try:
+        matchday = int(matchday)
+    except (TypeError, ValueError):
+        return False
+
+    return matchday >= LALIGA_START_MATCHDAY
+
+
+def should_include_match(calendar_config, match):
+    match_id = match.get("id", "unknown")
 
     if not team_matches_calendar_team(
         match,
@@ -393,13 +358,20 @@ def should_include_match(
         return False
 
     if is_champions_calendar(calendar_config):
-        if not should_include_champions_match(
-            match
-        ):
+        if not should_include_champions_match(match):
             print(
                 "Skipped Champions stage:",
                 match_id,
                 match.get("stage"),
+                match.get("matchday"),
+            )
+            return False
+
+    elif is_laliga_calendar(calendar_config):
+        if not should_include_laliga_match(match):
+            print(
+                "Skipped LaLiga matchday:",
+                match_id,
                 match.get("matchday"),
             )
             return False
@@ -470,12 +442,8 @@ def get_upcoming_team_matches(
     )
 
     for start_time, match in upcoming_matches:
-        home_team = (
-            match.get("homeTeam") or {}
-        )
-        away_team = (
-            match.get("awayTeam") or {}
-        )
+        home_team = match.get("homeTeam") or {}
+        away_team = match.get("awayTeam") or {}
 
         print(
             "Date:",
@@ -509,10 +477,7 @@ def get_upcoming_team_matches(
     ]
 
 
-def create_match_event(
-    calendar_config,
-    match,
-):
+def create_match_event(calendar_config, match):
     competition_label = get_competition_label(
         calendar_config
     )
@@ -523,12 +488,8 @@ def create_match_event(
     home_full = home_team.get("name")
     away_full = away_team.get("name")
 
-    home_short = get_team_short_name(
-        home_full
-    )
-    away_short = get_team_short_name(
-        away_full
-    )
+    home_short = get_team_short_name(home_full)
+    away_short = get_team_short_name(away_full)
 
     start_time = parse_match_datetime(match)
 
@@ -538,16 +499,10 @@ def create_match_event(
             "has no valid start time"
         )
 
-    match_id = match.get(
-        "id",
-        "unknown",
-    )
+    match_id = match.get("id", "unknown")
     matchday = match.get("matchday")
     stage = match.get("stage")
-    status = match.get(
-        "status",
-        "SCHEDULED",
-    )
+    status = match.get("status", "SCHEDULED")
 
     event = Event()
 
@@ -558,9 +513,7 @@ def create_match_event(
         "@sports-calendar-hub"
     )
 
-    if is_champions_calendar(
-        calendar_config
-    ):
+    if is_champions_calendar(calendar_config):
         event.name = (
             f"{home_short} vs "
             f"{away_short} (Champ)"
@@ -572,10 +525,7 @@ def create_match_event(
         )
 
     event.begin = start_time
-    event.end = (
-        start_time
-        + timedelta(hours=2)
-    )
+    event.end = start_time + timedelta(hours=2)
 
     description_lines = [
         (
