@@ -87,6 +87,16 @@ TEAM_SHORT_NAMES = {
     "Atlante FC": "Atlante",
 }
 
+INVALID_TEAM_NAMES = {
+    "",
+    "tbd",
+    "to be determined",
+    "unknown",
+    "por confirmar",
+    "winner",
+    "loser",
+}
+
 
 def normalize_text(value):
     return str(value or "").strip().lower()
@@ -121,8 +131,10 @@ def fetch_liga_mx_events():
             f"{response.status_code}"
         )
 
-    data = response.json()
-    events = data.get("events", [])
+    events = response.json().get(
+        "events",
+        [],
+    )
 
     print(
         "Liga MX events returned:",
@@ -133,14 +145,25 @@ def fetch_liga_mx_events():
     return events
 
 
-def parse_event_datetime(espn_event):
-    raw_date = espn_event.get("date")
+def get_competition(espn_event):
+    competitions = (
+        espn_event.get("competitions")
+        or []
+    )
 
-    if not raw_date:
-        competition = get_competition(
+    if not competitions:
+        return {}
+
+    return competitions[0]
+
+
+def parse_event_datetime(espn_event):
+    raw_date = (
+        espn_event.get("date")
+        or get_competition(
             espn_event
-        )
-        raw_date = competition.get("date")
+        ).get("date")
+    )
 
     if not raw_date:
         return None
@@ -169,25 +192,11 @@ def parse_event_datetime(espn_event):
         return None
 
 
-def get_competition(espn_event):
-    competitions = (
-        espn_event.get("competitions")
-        or []
-    )
-
-    if not competitions:
-        return {}
-
-    return competitions[0]
-
-
 def get_competitors(espn_event):
-    competition = get_competition(
-        espn_event
-    )
-
     competitors = (
-        competition.get("competitors")
+        get_competition(
+            espn_event
+        ).get("competitors")
         or []
     )
 
@@ -195,7 +204,10 @@ def get_competitors(espn_event):
     away_team = None
 
     for competitor in competitors:
-        team = competitor.get("team") or {}
+        team = (
+            competitor.get("team")
+            or {}
+        )
 
         home_away = competitor.get(
             "homeAway"
@@ -204,7 +216,7 @@ def get_competitors(espn_event):
         if home_away == "home":
             home_team = team
 
-        if home_away == "away":
+        elif home_away == "away":
             away_team = team
 
     return home_team, away_team
@@ -224,7 +236,9 @@ def get_full_team_name(team):
 
 
 def get_short_team_name(team):
-    full_name = get_full_team_name(team)
+    full_name = get_full_team_name(
+        team
+    )
 
     return TEAM_SHORT_NAMES.get(
         full_name,
@@ -233,41 +247,41 @@ def get_short_team_name(team):
 
 
 def has_confirmed_teams(espn_event):
-    home_team, away_team = get_competitors(
-        espn_event
+    home_team, away_team = (
+        get_competitors(
+            espn_event
+        )
     )
 
     home_name = normalize_text(
-        get_full_team_name(home_team)
+        get_full_team_name(
+            home_team
+        )
     )
 
     away_name = normalize_text(
-        get_full_team_name(away_team)
+        get_full_team_name(
+            away_team
+        )
     )
 
-    invalid_names = {
-        "",
-        "tbd",
-        "to be determined",
-        "unknown",
-        "por confirmar",
-        "winner",
-        "loser",
-    }
-
     return (
-        home_name not in invalid_names
-        and away_name not in invalid_names
+        home_name not in INVALID_TEAM_NAMES
+        and away_name not in INVALID_TEAM_NAMES
     )
 
 
 def is_america_team(team):
     full_name = normalize_text(
-        get_full_team_name(team)
+        get_full_team_name(
+            team
+        )
     )
 
     short_name = normalize_text(
-        get_short_team_name(team)
+        get_short_team_name(
+            team
+        )
     )
 
     return (
@@ -277,8 +291,10 @@ def is_america_team(team):
 
 
 def is_america_match(espn_event):
-    home_team, away_team = get_competitors(
-        espn_event
+    home_team, away_team = (
+        get_competitors(
+            espn_event
+        )
     )
 
     return (
@@ -287,33 +303,53 @@ def is_america_match(espn_event):
     )
 
 
+def is_america_home_match(
+    espn_event,
+):
+    home_team, _ = get_competitors(
+        espn_event
+    )
+
+    return is_america_team(
+        home_team
+    )
+
+
 def get_season_key(espn_event):
-    season = espn_event.get("season") or {}
-
-    season_year = season.get(
-        "year",
-        "unknown",
-    )
-
-    season_type = season.get(
-        "type",
-        "unknown",
-    )
-
-    season_slug = season.get(
-        "slug",
-        "unknown",
+    season = (
+        espn_event.get("season")
+        or {}
     )
 
     return (
-        str(season_year),
-        str(season_type),
-        str(season_slug),
+        str(
+            season.get(
+                "year",
+                "unknown",
+            )
+        ),
+        str(
+            season.get(
+                "type",
+                "unknown",
+            )
+        ),
+        str(
+            season.get(
+                "slug",
+                "unknown",
+            )
+        ),
     )
 
 
-def get_tournament_label(espn_event):
-    season = espn_event.get("season") or {}
+def get_tournament_label(
+    espn_event,
+):
+    season = (
+        espn_event.get("season")
+        or {}
+    )
 
     season_slug = normalize_text(
         season.get("slug")
@@ -328,8 +364,14 @@ def get_tournament_label(espn_event):
     return "Liga MX"
 
 
-def get_explicit_matchday(espn_event):
-    week = espn_event.get("week") or {}
+def get_explicit_matchday(
+    espn_event,
+):
+    week = (
+        espn_event.get("week")
+        or {}
+    )
+
     competition = get_competition(
         espn_event
     )
@@ -364,13 +406,18 @@ def get_event_context(espn_event):
         espn_event.get("shortName"),
     ]
 
-    season = espn_event.get("season") or {}
+    season = (
+        espn_event.get("season")
+        or {}
+    )
 
     context_parts.extend(
         [
             season.get("slug"),
             season.get("name"),
-            season.get("displayName"),
+            season.get(
+                "displayName"
+            ),
         ]
     )
 
@@ -380,23 +427,39 @@ def get_event_context(espn_event):
 
     context_parts.extend(
         [
-            competition.get("altGameNote"),
+            competition.get(
+                "altGameNote"
+            ),
             competition.get("type"),
         ]
     )
 
-    status = competition.get("status") or {}
-    status_type = status.get("type") or {}
+    status = (
+        competition.get("status")
+        or {}
+    )
+
+    status_type = (
+        status.get("type")
+        or {}
+    )
 
     context_parts.extend(
         [
-            status_type.get("description"),
+            status_type.get(
+                "description"
+            ),
             status_type.get("detail"),
-            status_type.get("shortDetail"),
+            status_type.get(
+                "shortDetail"
+            ),
         ]
     )
 
-    notes = competition.get("notes") or []
+    notes = (
+        competition.get("notes")
+        or []
+    )
 
     for note in notes:
         if isinstance(note, dict):
@@ -408,7 +471,9 @@ def get_event_context(espn_event):
                 ]
             )
         else:
-            context_parts.append(note)
+            context_parts.append(
+                note
+            )
 
     return normalize_text(
         " ".join(
@@ -490,10 +555,13 @@ def is_future_event(espn_event):
     if not start_time:
         return False
 
-    now = datetime.now(timezone.utc)
+    now = datetime.now(
+        timezone.utc
+    )
 
-    return start_time >= (
-        now - timedelta(hours=3)
+    return (
+        start_time
+        >= now - timedelta(hours=3)
     )
 
 
@@ -578,7 +646,8 @@ def assign_america_matchdays(
 
             calculated_matchday = (
                 explicit_matchday
-                if explicit_matchday is not None
+                if explicit_matchday
+                is not None
                 else index
             )
 
@@ -618,8 +687,10 @@ def should_include_america_match(
     ):
         return False
 
-    knockout_stage = get_knockout_stage(
-        espn_event
+    knockout_stage = (
+        get_knockout_stage(
+            espn_event
+        )
     )
 
     if knockout_stage in {
@@ -628,6 +699,11 @@ def should_include_america_match(
         "SF",
         "FINAL",
     }:
+        return True
+
+    if is_america_home_match(
+        espn_event
+    ):
         return True
 
     event_id = str(
@@ -665,8 +741,10 @@ def should_include_global_liga_mx(
     ):
         return False
 
-    knockout_stage = get_knockout_stage(
-        espn_event
+    knockout_stage = (
+        get_knockout_stage(
+            espn_event
+        )
     )
 
     return knockout_stage in {
@@ -681,7 +759,10 @@ def get_venue(espn_event):
         espn_event
     )
 
-    venue = competition.get("venue") or {}
+    venue = (
+        competition.get("venue")
+        or {}
+    )
 
     return (
         venue.get("fullName")
@@ -694,8 +775,10 @@ def create_event_title(
     espn_event,
     global_calendar,
 ):
-    home_team, away_team = get_competitors(
-        espn_event
+    home_team, away_team = (
+        get_competitors(
+            espn_event
+        )
     )
 
     home_name = get_short_team_name(
@@ -707,7 +790,8 @@ def create_event_title(
     )
 
     base_title = (
-        f"{home_name} vs {away_name}"
+        f"{home_name} vs "
+        f"{away_name}"
     )
 
     if not global_calendar:
@@ -719,18 +803,20 @@ def create_event_title(
 
     if stage == "QF":
         return (
-            f"{base_title} (Liga MX QF)"
+            f"{base_title} "
+            "(Liga MX QF)"
         )
 
     if stage == "SF":
         return (
-            f"{base_title} (Liga MX SF)"
+            f"{base_title} "
+            "(Liga MX SF)"
         )
 
     if stage == "FINAL":
         return (
             f"{base_title} "
-            f"(Final Liga MX)"
+            "(Final Liga MX)"
         )
 
     return base_title
@@ -758,8 +844,10 @@ def create_calendar_event(
         "unknown",
     )
 
-    home_team, away_team = get_competitors(
-        espn_event
+    home_team, away_team = (
+        get_competitors(
+            espn_event
+        )
     )
 
     home_name = get_short_team_name(
@@ -774,21 +862,25 @@ def create_calendar_event(
         espn_event
     )
 
-    tournament_label = get_tournament_label(
-        espn_event
+    tournament_label = (
+        get_tournament_label(
+            espn_event
+        )
     )
 
     venue = get_venue(
         espn_event
     )
 
-    status = competition.get(
-        "status"
-    ) or {}
+    status = (
+        competition.get("status")
+        or {}
+    )
 
-    status_type = status.get(
-        "type"
-    ) or {}
+    status_type = (
+        status.get("type")
+        or {}
+    )
 
     status_description = (
         status_type.get("description")
@@ -799,7 +891,8 @@ def create_calendar_event(
 
     event.uid = (
         f"football-ligamx-"
-        f"{calendar_id}-{event_id}"
+        f"{calendar_id}-"
+        f"{event_id}"
         "@sports-calendar-hub"
     )
 
@@ -818,7 +911,10 @@ def create_calendar_event(
     event.location = venue
 
     description_lines = [
-        f"Competición: Liga MX {tournament_label}",
+        (
+            "Competición: Liga MX "
+            f"{tournament_label}"
+        ),
         f"Local: {home_name}",
         f"Visitante: {away_name}",
         f"Estado: {status_description}",
@@ -827,7 +923,8 @@ def create_calendar_event(
 
     if calculated_matchday is not None:
         description_lines.append(
-            f"Jornada: {calculated_matchday}"
+            f"Jornada: "
+            f"{calculated_matchday}"
         )
 
     if stage:
@@ -864,21 +961,22 @@ def generate_america_calendar(
             espn_event
         )
 
-        if not start_time:
-            continue
-
-        selected_events.append(
-            (
-                start_time,
-                espn_event,
+        if start_time:
+            selected_events.append(
+                (
+                    start_time,
+                    espn_event,
+                )
             )
-        )
 
     selected_events.sort(
         key=lambda item: item[0]
     )
 
-    for _, espn_event in selected_events:
+    for (
+        _,
+        espn_event,
+    ) in selected_events:
         event_id = str(
             espn_event.get(
                 "id",
@@ -894,7 +992,9 @@ def generate_america_calendar(
 
         event = create_calendar_event(
             espn_event=espn_event,
-            calendar_id="club-america",
+            calendar_id=(
+                "club-america"
+            ),
             global_calendar=False,
             calculated_matchday=(
                 calculated_matchday
@@ -911,6 +1011,10 @@ def generate_america_calendar(
             event.name,
             "- Jornada:",
             calculated_matchday,
+            "- Local:",
+            is_america_home_match(
+                espn_event
+            ),
             flush=True,
         )
 
@@ -956,24 +1060,27 @@ def generate_global_liga_mx_calendar(
             espn_event
         )
 
-        if not start_time:
-            continue
-
-        selected_events.append(
-            (
-                start_time,
-                espn_event,
+        if start_time:
+            selected_events.append(
+                (
+                    start_time,
+                    espn_event,
+                )
             )
-        )
 
     selected_events.sort(
         key=lambda item: item[0]
     )
 
-    for _, espn_event in selected_events:
+    for (
+        _,
+        espn_event,
+    ) in selected_events:
         event = create_calendar_event(
             espn_event=espn_event,
-            calendar_id="liga-mx-global",
+            calendar_id=(
+                "liga-mx-global"
+            ),
             global_calendar=True,
         )
 
@@ -1015,7 +1122,9 @@ def generate_global_liga_mx_calendar(
 
 
 def main():
-    espn_events = fetch_liga_mx_events()
+    espn_events = (
+        fetch_liga_mx_events()
+    )
 
     america_matchdays = (
         assign_america_matchdays(
@@ -1024,6 +1133,7 @@ def main():
     )
 
     print("=" * 60)
+
     print(
         "Generating Club America calendar",
         flush=True,
@@ -1035,6 +1145,7 @@ def main():
     )
 
     print("=" * 60)
+
     print(
         "Generating global Liga MX calendar",
         flush=True,
@@ -1047,3 +1158,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+``
