@@ -6,7 +6,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: FC Ba
 DTEND:20270509T140000Z
 LOCATION:LaLiga
 DTSTART:20270509T120000Z
-SUMMARY:Real Madrid vs Barcelona - LaLiga
+SUMMARY:Real Madrid vs Barcelona (Liga)
 UID:football-real-madrid-laliga-564975@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -14,7 +14,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Real 
 DTEND:20260826T210000Z
 LOCATION:LaLiga
 DTSTART:20260826T190000Z
-SUMMARY:Real Madrid vs Real Sociedad - LaLiga
+SUMMARY:Real Madrid vs Real Sociedad (Liga)
 UID:football-real-madrid-laliga-564631@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -22,7 +22,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Sevilla FC\nAway: Real Madr
 DTEND:20270221T140000Z
 LOCATION:LaLiga
 DTSTART:20270221T120000Z
-SUMMARY:Sevilla vs Real Madrid - LaLiga
+SUMMARY:Sevilla vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564874@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +30,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: RC Celta de Vigo\nAway: Rea
 DTEND:20270321T140000Z
 LOCATION:LaLiga
 DTSTART:20270321T120000Z
-SUMMARY:Celta de Vigo vs Real Madrid - LaLiga
+SUMMARY:Celta de Vigo vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564911@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +38,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Sociedad de Fútbol\nA
 DTEND:20270207T140000Z
 LOCATION:LaLiga
 DTSTART:20270207T120000Z
-SUMMARY:Real Sociedad vs Real Madrid - LaLiga
+SUMMARY:Real Sociedad vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564855@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -46,7 +46,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Levan
 DTEND:20270110T140000Z
 LOCATION:LaLiga
 DTSTART:20270110T120000Z
-SUMMARY:Real Madrid vs Levante - LaLiga
+SUMMARY:Real Madrid vs Levante (Liga)
 UID:football-real-madrid-laliga-564810@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -54,7 +54,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Valencia CF\nAway: Real Mad
 DTEND:20261108T180000Z
 LOCATION:LaLiga
 DTSTART:20261108T160000Z
-SUMMARY:Valencia vs Real Madrid - LaLiga
+SUMMARY:Valencia vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564741@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -62,7 +62,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: RC Ce
 DTEND:20261122T180000Z
 LOCATION:LaLiga
 DTSTART:20261122T160000Z
-SUMMARY:Real Madrid vs Celta de Vigo - LaLiga
+SUMMARY:Real Madrid vs Celta de Vigo (Liga)
 UID:football-real-madrid-laliga-564754@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -70,7 +70,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Elche
 DTEND:20270421T140000Z
 LOCATION:LaLiga
 DTSTART:20270421T120000Z
-SUMMARY:Real Madrid vs Elche - LaLiga
+SUMMARY:Real Madrid vs Elche (Liga)
 UID:football-real-madrid-laliga-564952@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -78,7 +78,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Deportivo Alavés\nAway: Re
 DTEND:20270523T140000Z
 LOCATION:LaLiga
 DTSTART:20270523T120000Z
-SUMMARY:Alavés vs Real Madrid - LaLiga
+SUMMARY:Alavés vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564993@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -86,7 +86,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Elche CF\nAway: Real Madrid
 DTEND:20260916T170000Z
 LOCATION:LaLiga
 DTSTART:20260916T150000Z
-SUMMARY:Elche vs Real Madrid - LaLiga
+SUMMARY:Elche vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564681@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -94,7 +94,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Rayo Vallecano de Madrid\nA
 DTEND:20270131T140000Z
 LOCATION:LaLiga
 DTSTART:20270131T120000Z
-SUMMARY:Rayo Vallecano vs Real Madrid - LaLiga
+SUMMARY:Rayo Vallecano vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564839@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -102,7 +102,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Club Atlético de Madrid\nA
 DTEND:20260920T170000Z
 LOCATION:LaLiga
 DTSTART:20260920T150000Z
-SUMMARY:Atlético Madrid vs Real Madrid - LaLiga
+SUMMARY:Atlético Madrid vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564688@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -110,7 +110,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Mála
 DTEND:20260830T170000Z
 LOCATION:LaLiga
 DTSTART:20260830T150000Z
-SUMMARY:Real Madrid vs Málaga - LaLiga
+SUMMARY:Real Madrid vs Málaga (Liga)
 UID:football-real-madrid-laliga-564656@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -118,7 +118,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: CA Osasuna\nAway: Real Madr
 DTEND:20270411T140000Z
 LOCATION:LaLiga
 DTSTART:20270411T120000Z
-SUMMARY:Osasuna vs Real Madrid - LaLiga
+SUMMARY:Osasuna vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564936@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -126,7 +126,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Athle
 DTEND:20270214T140000Z
 LOCATION:LaLiga
 DTSTART:20270214T120000Z
-SUMMARY:Real Madrid vs Athletic - LaLiga
+SUMMARY:Real Madrid vs Athletic (Liga)
 UID:football-real-madrid-laliga-564867@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -134,7 +134,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Getaf
 DTEND:20270103T140000Z
 LOCATION:LaLiga
 DTSTART:20270103T120000Z
-SUMMARY:Real Madrid vs Getafe - LaLiga
+SUMMARY:Real Madrid vs Getafe (Liga)
 UID:football-real-madrid-laliga-564798@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -142,7 +142,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Racing Club de Santand
 DTEND:20261101T180000Z
 LOCATION:LaLiga
 DTSTART:20261101T160000Z
-SUMMARY:Racing Santander vs Real Madrid - LaLiga
+SUMMARY:Racing Santander vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564734@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -150,7 +150,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Valen
 DTEND:20270228T140000Z
 LOCATION:LaLiga
 DTSTART:20270228T120000Z
-SUMMARY:Real Madrid vs Valencia - LaLiga
+SUMMARY:Real Madrid vs Valencia (Liga)
 UID:football-real-madrid-laliga-564882@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -158,7 +158,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Villa
 DTEND:20261011T170000Z
 LOCATION:LaLiga
 DTSTART:20261011T150000Z
-SUMMARY:Real Madrid vs Villarreal - LaLiga
+SUMMARY:Real Madrid vs Villarreal (Liga)
 UID:football-real-madrid-laliga-564702@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -166,7 +166,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Depor
 DTEND:20261129T180000Z
 LOCATION:LaLiga
 DTSTART:20261129T160000Z
-SUMMARY:Real Madrid vs Alavés - LaLiga
+SUMMARY:Real Madrid vs Alavés (Liga)
 UID:football-real-madrid-laliga-564762@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -174,7 +174,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Sevil
 DTEND:20261018T170000Z
 LOCATION:LaLiga
 DTSTART:20261018T150000Z
-SUMMARY:Real Madrid vs Sevilla - LaLiga
+SUMMARY:Real Madrid vs Sevilla (Liga)
 UID:football-real-madrid-laliga-564709@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -182,7 +182,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Athletic Club\nAway: Real M
 DTEND:20261206T180000Z
 LOCATION:LaLiga
 DTSTART:20261206T160000Z
-SUMMARY:Athletic vs Real Madrid - LaLiga
+SUMMARY:Athletic vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564775@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -190,7 +190,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: RCD E
 DTEND:20270314T140000Z
 LOCATION:LaLiga
 DTSTART:20270314T120000Z
-SUMMARY:Real Madrid vs Espanyol - LaLiga
+SUMMARY:Real Madrid vs Espanyol (Liga)
 UID:football-real-madrid-laliga-564907@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -198,7 +198,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Real 
 DTEND:20270516T140000Z
 LOCATION:LaLiga
 DTSTART:20270516T120000Z
-SUMMARY:Real Madrid vs Racing Santander - LaLiga
+SUMMARY:Real Madrid vs Racing Santander (Liga)
 UID:football-real-madrid-laliga-564986@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -206,7 +206,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: RC De
 DTEND:20270530T140000Z
 LOCATION:LaLiga
 DTSTART:20270530T120000Z
-SUMMARY:Real Madrid vs Deportivo - LaLiga
+SUMMARY:Real Madrid vs Deportivo (Liga)
 UID:football-real-madrid-laliga-564999@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -214,7 +214,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Real 
 DTEND:20270124T140000Z
 LOCATION:LaLiga
 DTSTART:20270124T120000Z
-SUMMARY:Real Madrid vs Real Betis - LaLiga
+SUMMARY:Real Madrid vs Real Betis (Liga)
 UID:football-real-madrid-laliga-564828@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -222,7 +222,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Villarreal CF\nAway: Real M
 DTEND:20270307T140000Z
 LOCATION:LaLiga
 DTSTART:20270307T120000Z
-SUMMARY:Villarreal vs Real Madrid - LaLiga
+SUMMARY:Villarreal vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564894@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -230,7 +230,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Rayo 
 DTEND:20260913T170000Z
 LOCATION:LaLiga
 DTSTART:20260913T150000Z
-SUMMARY:Real Madrid vs Rayo Vallecano - LaLiga
+SUMMARY:Real Madrid vs Rayo Vallecano (Liga)
 UID:football-real-madrid-laliga-564677@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -238,7 +238,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: CA Os
 DTEND:20261213T180000Z
 LOCATION:LaLiga
 DTSTART:20261213T160000Z
-SUMMARY:Real Madrid vs Osasuna - LaLiga
+SUMMARY:Real Madrid vs Osasuna (Liga)
 UID:football-real-madrid-laliga-564780@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -246,7 +246,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: RCD Espanyol de Barcelona\n
 DTEND:20260822T213000Z
 LOCATION:LaLiga
 DTSTART:20260822T193000Z
-SUMMARY:Espanyol vs Real Madrid - LaLiga
+SUMMARY:Espanyol vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564645@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -254,7 +254,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Madrid CF\nAway: Club 
 DTEND:20270404T140000Z
 LOCATION:LaLiga
 DTSTART:20270404T120000Z
-SUMMARY:Real Madrid vs Atlético Madrid - LaLiga
+SUMMARY:Real Madrid vs Atlético Madrid (Liga)
 UID:football-real-madrid-laliga-564925@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -262,7 +262,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: FC Barcelona\nAway: Real Ma
 DTEND:20261025T180000Z
 LOCATION:LaLiga
 DTSTART:20261025T160000Z
-SUMMARY:Barcelona vs Real Madrid - LaLiga
+SUMMARY:Barcelona vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564723@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -270,7 +270,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Málaga CF\nAway: Real Madr
 DTEND:20270117T140000Z
 LOCATION:LaLiga
 DTSTART:20270117T120000Z
-SUMMARY:Málaga vs Real Madrid - LaLiga
+SUMMARY:Málaga vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564818@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -278,7 +278,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Levante UD\nAway: Real Madr
 DTEND:20270502T140000Z
 LOCATION:LaLiga
 DTSTART:20270502T120000Z
-SUMMARY:Levante vs Real Madrid - LaLiga
+SUMMARY:Levante vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564966@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -286,7 +286,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Real Betis Balompié\nAway:
 DTEND:20260906T170000Z
 LOCATION:LaLiga
 DTSTART:20260906T150000Z
-SUMMARY:Real Betis vs Real Madrid - LaLiga
+SUMMARY:Real Betis vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564667@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -294,7 +294,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: Getafe CF\nAway: Real Madri
 DTEND:20270418T140000Z
 LOCATION:LaLiga
 DTSTART:20270418T120000Z
-SUMMARY:Getafe vs Real Madrid - LaLiga
+SUMMARY:Getafe vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564947@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -302,7 +302,7 @@ DESCRIPTION:Competition: Real Madrid - LaLiga\nHome: RC Deportivo La Coruña\nAw
 DTEND:20261220T180000Z
 LOCATION:LaLiga
 DTSTART:20261220T160000Z
-SUMMARY:Deportivo vs Real Madrid - LaLiga
+SUMMARY:Deportivo vs Real Madrid (Liga)
 UID:football-real-madrid-laliga-564796@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
