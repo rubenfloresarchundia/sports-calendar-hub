@@ -10,6 +10,14 @@ SUMMARY:F1 - Azerbaiyán (Carrera)
 UID:f1-2026-15-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - Abu Dabi (Carrera)\nCircuito: Yas Marina Circuit\nCiudad: Abu Dhabi\nPaís: UAE\nRonda: 23\nFuente: Jolpica F1
+DTEND:20261206T150000Z
+LOCATION:Yas Marina Circuit
+DTSTART:20261206T130000Z
+SUMMARY:F1 - Abu Dabi (Carrera)
+UID:f1-2026-23-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Italia (Carrera)\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
 DTEND:20260906T150000Z
 LOCATION:Autodromo Nazionale di Monza
@@ -18,11 +26,11 @@ SUMMARY:F1 - Italia (Carrera)
 UID:f1-2026-13-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Qatar (Carrera)\nCircuito: Losail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 21\nFuente: Jolpica F1
-DTEND:20261129T180000Z
-LOCATION:Losail International Circuit
-DTSTART:20261129T160000Z
-SUMMARY:F1 - Qatar (Carrera)
+DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
+DTEND:20261122T060000Z
+LOCATION:Las Vegas Strip Street Circuit
+DTSTART:20261122T040000Z
+SUMMARY:F1 - Las Vegas (Carrera)
 UID:f1-2026-21-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -34,27 +42,27 @@ SUMMARY:F1 - Países Bajos (Sprint)
 UID:f1-2026-12-sprint@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Singapur (Sprint)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 16\nFuente: Jolpica F1
+DESCRIPTION:Evento: F1 - Singapur (Sprint)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 17\nFuente: Jolpica F1
 DTEND:20261010T100000Z
 LOCATION:Marina Bay Street Circuit
 DTSTART:20261010T090000Z
 SUMMARY:F1 - Singapur (Sprint)
-UID:f1-2026-16-sprint@sports-calendar-hub
+UID:f1-2026-17-sprint@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - México (Carrera)\nCircuito: Autódromo Hermanos Rodríguez\nCiudad: Mexico City\nPaís: Mexico\nRonda: 18\nFuente: Jolpica F1
-DTEND:20261101T220000Z
-LOCATION:Autódromo Hermanos Rodríguez
-DTSTART:20261101T200000Z
-SUMMARY:F1 - México (Carrera)
+DESCRIPTION:Evento: F1 - Estados Unidos (Carrera)\nCircuito: Circuit of the Americas\nCiudad: Austin\nPaís: USA\nRonda: 18\nFuente: Jolpica F1
+DTEND:20261025T220000Z
+LOCATION:Circuit of the Americas
+DTSTART:20261025T200000Z
+SUMMARY:F1 - Estados Unidos (Carrera)
 UID:f1-2026-18-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Singapur (Carrera)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 16\nFuente: Jolpica F1
-DTEND:20261011T140000Z
-LOCATION:Marina Bay Street Circuit
-DTSTART:20261011T120000Z
-SUMMARY:F1 - Singapur (Carrera)
+DESCRIPTION:Evento: F1 - Bahrain in Malaysia (Carrera)\nCircuito: Sepang International Circuit\nCiudad: Kuala Lumpur\nPaís: Malaysia\nRonda: 16\nFuente: Jolpica F1
+DTEND:20261004T090000Z
+LOCATION:Sepang International Circuit
+DTSTART:20261004T070000Z
+SUMMARY:F1 - Bahrain in Malaysia (Carrera)
 UID:f1-2026-16-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -66,11 +74,11 @@ SUMMARY:F1 - España (Carrera)
 UID:f1-2026-14-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Abu Dabi (Carrera)\nCircuito: Yas Marina Circuit\nCiudad: Abu Dhabi\nPaís: UAE\nRonda: 22\nFuente: Jolpica F1
-DTEND:20261206T150000Z
-LOCATION:Yas Marina Circuit
-DTSTART:20261206T130000Z
-SUMMARY:F1 - Abu Dabi (Carrera)
+DESCRIPTION:Evento: F1 - Qatar (Carrera)\nCircuito: Losail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 22\nFuente: Jolpica F1
+DTEND:20261129T180000Z
+LOCATION:Losail International Circuit
+DTSTART:20261129T160000Z
+SUMMARY:F1 - Qatar (Carrera)
 UID:f1-2026-22-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
@@ -82,27 +90,27 @@ SUMMARY:F1 - Países Bajos (Carrera)
 UID:f1-2026-12-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 20\nFuente: Jolpica F1
-DTEND:20261122T060000Z
-LOCATION:Las Vegas Strip Street Circuit
-DTSTART:20261122T040000Z
-SUMMARY:F1 - Las Vegas (Carrera)
-UID:f1-2026-20-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - São Paulo (Carrera)\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 19\nFuente: Jolpica F1
+DESCRIPTION:Evento: F1 - São Paulo (Carrera)\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 20\nFuente: Jolpica F1
 DTEND:20261108T190000Z
 LOCATION:Autódromo José Carlos Pace
 DTSTART:20261108T170000Z
 SUMMARY:F1 - São Paulo (Carrera)
+UID:f1-2026-20-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - México (Carrera)\nCircuito: Autódromo Hermanos Rodríguez\nCiudad: Mexico City\nPaís: Mexico\nRonda: 19\nFuente: Jolpica F1
+DTEND:20261101T220000Z
+LOCATION:Autódromo Hermanos Rodríguez
+DTSTART:20261101T200000Z
+SUMMARY:F1 - México (Carrera)
 UID:f1-2026-19-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Estados Unidos (Carrera)\nCircuito: Circuit of the Americas\nCiudad: Austin\nPaís: USA\nRonda: 17\nFuente: Jolpica F1
-DTEND:20261025T220000Z
-LOCATION:Circuit of the Americas
-DTSTART:20261025T200000Z
-SUMMARY:F1 - Estados Unidos (Carrera)
+DESCRIPTION:Evento: F1 - Singapur (Carrera)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 17\nFuente: Jolpica F1
+DTEND:20261011T140000Z
+LOCATION:Marina Bay Street Circuit
+DTSTART:20261011T120000Z
+SUMMARY:F1 - Singapur (Carrera)
 UID:f1-2026-17-race@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
