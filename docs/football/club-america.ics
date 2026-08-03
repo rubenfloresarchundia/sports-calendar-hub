@@ -42,14 +42,6 @@ SUMMARY:América vs Toluca
 UID:football-ligamx-club-america-401876913@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
-DTEND:20261108T050000Z
-LOCATION:Estadio Olímpico Universitario
-DTSTART:20261108T030000Z
-SUMMARY:Pumas vs América
-UID:football-ligamx-club-america-401876904@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Tijuana\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 7\nFuente: ESPN Liga MX
 DTEND:20260906T030000Z
 LOCATION:Estadio Banorte
@@ -90,11 +82,11 @@ SUMMARY:América vs Pachuca
 UID:football-ligamx-club-america-401876922@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Santos\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 3\nFuente: ESPN Liga MX
-DTEND:20260803T010000Z
-LOCATION:Estadio Banorte
-DTSTART:20260802T230000Z
-SUMMARY:América vs Santos
-UID:football-ligamx-club-america-401877020@sports-calendar-hub
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
+DTEND:20261108T050000Z
+LOCATION:Estadio Olímpico Universitario
+DTSTART:20261108T030000Z
+SUMMARY:Pumas vs América
+UID:football-ligamx-club-america-401876904@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
