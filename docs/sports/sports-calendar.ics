@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - Países Bajos (Sprint)\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
+DTEND:20260822T110000Z
+LOCATION:Circuit Park Zandvoort
+DTSTART:20260822T100000Z
+SUMMARY:F1 - Países Bajos (Sprint)
+UID:f1-2026-12-sprint@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Atlético de San Luis\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 4\nFuente: ESPN Liga MX
 DTEND:20260817T010000Z
 LOCATION:Estadio Banorte
