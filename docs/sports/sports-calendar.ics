@@ -17,4 +17,12 @@ DTSTART:20260816T230000Z
 SUMMARY:América vs Atlético de San Luis
 UID:football-ligamx-club-america-401877014@sports-calendar-hub
 END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - Países Bajos (Carrera)\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
+DTEND:20260823T150000Z
+LOCATION:Circuit Park Zandvoort
+DTSTART:20260823T130000Z
+SUMMARY:F1 - Países Bajos (Carrera)
+UID:f1-2026-12-race@sports-calendar-hub
+END:VEVENT
 END:VCALENDAR
