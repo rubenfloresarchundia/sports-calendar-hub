@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Puebla\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 6\nFuente: ESPN Liga MX
+DTEND:20260830T030000Z
+LOCATION:Estadio Banorte
+DTSTART:20260830T010000Z
+SUMMARY:América vs Puebla
+UID:football-ligamx-club-america-401876995@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Países Bajos (Sprint)\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
 DTEND:20260822T110000Z
 LOCATION:Circuit Park Zandvoort
