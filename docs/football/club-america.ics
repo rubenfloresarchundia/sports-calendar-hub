@@ -10,14 +10,6 @@ SUMMARY:América vs Puebla
 UID:football-ligamx-club-america-401876995@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Atlético de San Luis\nEstado: Full Time\nEstadio: Estadio Banorte\nJornada: 4\nFuente: ESPN Liga MX
-DTEND:20260817T010000Z
-LOCATION:Estadio Banorte
-DTSTART:20260816T230000Z
-SUMMARY:América vs Atlético de San Luis
-UID:football-ligamx-club-america-401877014@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Monterrey\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 11\nFuente: ESPN Liga MX
 DTEND:20261011T050000Z
 LOCATION:Estadio Banorte
