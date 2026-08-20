@@ -42,9 +42,9 @@ SUMMARY:Cowboys vs Eagles - MNF
 UID:nfl-nfl-estelares-401873009@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Kansas City Chiefs\nWeek: 1\nStatus: Scheduled\nVenue: GEHA Field at Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Kansas City Chiefs\nWeek: 1\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20260915T034500Z
-LOCATION:GEHA Field at Arrowhead Stadium
+LOCATION:Arrowhead Stadium
 DTSTART:20260915T001500Z
 SUMMARY:Broncos vs Chiefs - MNF
 UID:nfl-nfl-estelares-401872931@sports-calendar-hub
@@ -474,17 +474,17 @@ SUMMARY:Lions vs Bills - TNF
 UID:nfl-nfl-estelares-401872932@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Kansas City Chiefs\nWeek: 15\nStatus: Scheduled\nVenue: GEHA Field at Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Kansas City Chiefs\nWeek: 15\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20261222T044500Z
-LOCATION:GEHA Field at Arrowhead Stadium
+LOCATION:Arrowhead Stadium
 DTSTART:20261222T011500Z
 SUMMARY:Patriots vs Chiefs - MNF
 UID:nfl-nfl-estelares-401873139@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Kansas City Chiefs\nWeek: 2\nStatus: Scheduled\nVenue: GEHA Field at Arrowhead Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Kansas City Chiefs\nWeek: 2\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20260921T035000Z
-LOCATION:GEHA Field at Arrowhead Stadium
+LOCATION:Arrowhead Stadium
 DTSTART:20260921T002000Z
 SUMMARY:Colts vs Chiefs - SNF
 UID:nfl-nfl-estelares-401872945@sports-calendar-hub
@@ -538,9 +538,9 @@ SUMMARY:Bills vs Packers - SNF
 UID:nfl-nfl-estelares-401873122@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Houston Texans\nWeek: 11\nStatus: Scheduled\nVenue: NRG Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Houston Texans\nWeek: 11\nStatus: Scheduled\nVenue: Reliant Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261120T044500Z
-LOCATION:NRG Stadium
+LOCATION:Reliant Stadium
 DTSTART:20261120T011500Z
 SUMMARY:Colts vs Texans - TNF
 UID:nfl-nfl-estelares-401873066@sports-calendar-hub
