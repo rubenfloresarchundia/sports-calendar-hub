@@ -18,11 +18,11 @@ SUMMARY:América vs Tijuana
 UID:football-ligamx-club-america-401876986@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Países Bajos (Carrera)\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
-DTEND:20260823T150000Z
-LOCATION:Circuit Park Zandvoort
-DTSTART:20260823T130000Z
-SUMMARY:F1 - Países Bajos (Carrera)
-UID:f1-2026-12-race@sports-calendar-hub
+DESCRIPTION:Evento: F1 - Italia (Carrera)\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
+DTEND:20260906T150000Z
+LOCATION:Autodromo Nazionale di Monza
+DTSTART:20260906T130000Z
+SUMMARY:F1 - Italia (Carrera)
+UID:f1-2026-13-race@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
