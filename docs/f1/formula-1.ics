@@ -34,14 +34,6 @@ SUMMARY:F1 - Las Vegas (Carrera)
 UID:f1-2026-21-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Países Bajos (Sprint)\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
-DTEND:20260822T110000Z
-LOCATION:Circuit Park Zandvoort
-DTSTART:20260822T100000Z
-SUMMARY:F1 - Países Bajos (Sprint)
-UID:f1-2026-12-sprint@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Singapur (Sprint)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 17\nFuente: Jolpica F1
 DTEND:20261010T100000Z
 LOCATION:Marina Bay Street Circuit
@@ -80,14 +72,6 @@ LOCATION:Losail International Circuit
 DTSTART:20261129T160000Z
 SUMMARY:F1 - Qatar (Carrera)
 UID:f1-2026-22-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Países Bajos (Carrera)\nCircuito: Circuit Park Zandvoort\nCiudad: Zandvoort\nPaís: Netherlands\nRonda: 12\nFuente: Jolpica F1
-DTEND:20260823T150000Z
-LOCATION:Circuit Park Zandvoort
-DTSTART:20260823T130000Z
-SUMMARY:F1 - Países Bajos (Carrera)
-UID:f1-2026-12-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - São Paulo (Carrera)\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 20\nFuente: Jolpica F1
