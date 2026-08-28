@@ -18,6 +18,14 @@ SUMMARY:América vs Tijuana
 UID:football-ligamx-club-america-401876986@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: San Francisco 49ers at Los Angeles Rams\nWeek: 1\nStatus: Scheduled\nVenue: Melbourne Cricket Ground\nCategory: TNF\nBroadcast: Netflix\nSource: ESPN NFL scoreboard
+DTEND:20260911T040500Z
+LOCATION:Melbourne Cricket Ground
+DTSTART:20260911T003500Z
+SUMMARY:49ers vs Rams - TNF
+UID:nfl-nfl-estelares-401872657@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Italia (Carrera)\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
 DTEND:20260906T150000Z
 LOCATION:Autodromo Nazionale di Monza
