@@ -2,12 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Tijuana\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 7\nFuente: ESPN Liga MX
-DTEND:20260906T030000Z
-LOCATION:Estadio Banorte
-DTSTART:20260906T010000Z
-SUMMARY:América vs Tijuana
-UID:football-ligamx-club-america-401876986@sports-calendar-hub
+DESCRIPTION:Evento: F1 - Italia (Carrera)\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
+DTEND:20260906T150000Z
+LOCATION:Autodromo Nazionale di Monza
+DTSTART:20260906T130000Z
+SUMMARY:F1 - Italia (Carrera)
+UID:f1-2026-13-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at New York Giants\nWeek: 1\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20260914T035000Z
+LOCATION:MetLife Stadium
+DTSTART:20260914T002000Z
+SUMMARY:Cowboys vs Giants - SNF
+UID:nfl-nfl-estelares-401872930@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - España (Carrera)\nCircuito: Madring\nCiudad: Madrid\nPaís: Spain\nRonda: 14\nFuente: Jolpica F1
@@ -26,11 +34,19 @@ SUMMARY:49ers vs Rams - TNF
 UID:nfl-nfl-estelares-401872657@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Italia (Carrera)\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
-DTEND:20260906T150000Z
-LOCATION:Autodromo Nazionale di Monza
-DTSTART:20260906T130000Z
-SUMMARY:F1 - Italia (Carrera)
-UID:f1-2026-13-race@sports-calendar-hub
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Tijuana\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 7\nFuente: ESPN Liga MX
+DTEND:20260906T030000Z
+LOCATION:Estadio Banorte
+DTSTART:20260906T010000Z
+SUMMARY:América vs Tijuana
+UID:football-ligamx-club-america-401876986@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Las Vegas Raiders\nWeek: 1\nStatus: Scheduled\nVenue: Allegiant Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20260913T235500Z
+LOCATION:Allegiant Stadium
+DTSTART:20260913T202500Z
+SUMMARY:Dolphins vs Raiders
+UID:nfl-miami-dolphins-401872928@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
