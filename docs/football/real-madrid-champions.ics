@@ -1,4 +1,28 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Competition: Real Madrid - Champions League\nHome: Arsenal FC\nAway: Real Madrid CF\nStatus: TIMED\nMatchday: 6\nStage: LEAGUE_STAGE\nSource: football-data.org
+DTEND:20261209T220000Z
+LOCATION:Champions
+DTSTART:20261209T200000Z
+SUMMARY:Arsenal vs Real Madrid (Champ)
+UID:football-real-madrid-champions-575280@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competition: Real Madrid - Champions League\nHome: Real Madrid CF\nAway: LASK Linz\nStatus: TIMED\nMatchday: 7\nStage: LEAGUE_STAGE\nSource: football-data.org
+DTEND:20270119T220000Z
+LOCATION:Champions
+DTSTART:20270119T200000Z
+SUMMARY:Real Madrid vs LASK Linz (Champ)
+UID:football-real-madrid-champions-575282@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competition: Real Madrid - Champions League\nHome: FK Shakhtar Donetsk\nAway: Real Madrid CF\nStatus: TIMED\nMatchday: 8\nStage: LEAGUE_STAGE\nSource: football-data.org
+DTEND:20270127T220000Z
+LOCATION:Champions
+DTSTART:20270127T200000Z
+SUMMARY:FK Shakhtar Donetsk vs Real Madrid (Champ)
+UID:football-real-madrid-champions-575281@sports-calendar-hub
+END:VEVENT
 END:VCALENDAR
