@@ -10,6 +10,14 @@ SUMMARY:F1 - Italia (Carrera)
 UID:f1-2026-13-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Kansas City Chiefs\nWeek: 1\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20260915T034500Z
+LOCATION:Arrowhead Stadium
+DTSTART:20260915T001500Z
+SUMMARY:Broncos vs Chiefs - MNF
+UID:nfl-nfl-estelares-401872931@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at New York Giants\nWeek: 1\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20260914T035000Z
 LOCATION:MetLife Stadium
