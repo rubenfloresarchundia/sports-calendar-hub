@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Monterrey\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 11\nFuente: ESPN Liga MX
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Monterrey\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 10\nFuente: ESPN Liga MX
 DTEND:20261011T050000Z
 LOCATION:Estadio Banorte
 DTSTART:20261011T030000Z
@@ -10,7 +10,7 @@ SUMMARY:América vs Monterrey
 UID:football-ligamx-club-america-401876950@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: Atlas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Jalisco\nJornada: 13\nFuente: ESPN Liga MX
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Atlas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Jalisco\nJornada: 12\nFuente: ESPN Liga MX
 DTEND:20261022T030000Z
 LOCATION:Estadio Jalisco
 DTSTART:20261022T010000Z
@@ -26,23 +26,15 @@ SUMMARY:América vs Toluca
 UID:football-ligamx-club-america-401876913@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Tijuana\nEstado: Postponed\nEstadio: Estadio Banorte\nJornada: 7\nFuente: ESPN Liga MX
-DTEND:20260906T030000Z
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Tijuana\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 14\nFuente: ESPN Liga MX
+DTEND:20261029T050000Z
 LOCATION:Estadio Banorte
-DTSTART:20260906T010000Z
+DTSTART:20261029T030000Z
 SUMMARY:América vs Tijuana
 UID:football-ligamx-club-america-401876986@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: León\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio León\nJornada: 12\nFuente: ESPN Liga MX
-DTEND:20261018T030000Z
-LOCATION:Estadio León
-DTSTART:20261018T010000Z
-SUMMARY:León vs América
-UID:football-ligamx-club-america-401876941@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Chivas\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 9\nFuente: ESPN Liga MX
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Chivas\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 8\nFuente: ESPN Liga MX
 DTEND:20260920T050000Z
 LOCATION:Estadio Banorte
 DTSTART:20260920T030000Z
@@ -58,7 +50,7 @@ SUMMARY:Tigres vs América
 UID:football-ligamx-club-america-401877048@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Pachuca\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 14\nFuente: ESPN Liga MX
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Pachuca\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 13\nFuente: ESPN Liga MX
 DTEND:20261026T010000Z
 LOCATION:Estadio Banorte
 DTSTART:20261025T230000Z
