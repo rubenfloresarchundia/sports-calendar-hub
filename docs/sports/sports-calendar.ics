@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Italia (Carrera)\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
-DTEND:20260906T150000Z
-LOCATION:Autodromo Nazionale di Monza
-DTSTART:20260906T130000Z
-SUMMARY:F1 - Italia (Carrera)
-UID:f1-2026-13-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Detroit Lions at Buffalo Bills\nWeek: 2\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20260918T034500Z
 LOCATION:Highmark Stadium
