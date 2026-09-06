@@ -50,6 +50,14 @@ SUMMARY:49ers vs Rams - TNF
 UID:nfl-nfl-estelares-401872657@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Chivas\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 8\nFuente: ESPN Liga MX
+DTEND:20260920T050000Z
+LOCATION:Estadio Banorte
+DTSTART:20260920T030000Z
+SUMMARY:América vs Chivas
+UID:football-ligamx-club-america-401876968@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Las Vegas Raiders\nWeek: 1\nStatus: Scheduled\nVenue: Allegiant Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
 DTEND:20260913T235500Z
 LOCATION:Allegiant Stadium
