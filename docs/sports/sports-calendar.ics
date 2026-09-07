@@ -10,12 +10,28 @@ SUMMARY:Lions vs Bills - TNF
 UID:nfl-nfl-estelares-401872932@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Kansas City Chiefs\nWeek: 2\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20260921T035000Z
+LOCATION:Arrowhead Stadium
+DTSTART:20260921T002000Z
+SUMMARY:Colts vs Chiefs - SNF
+UID:nfl-nfl-estelares-401872945@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Kansas City Chiefs\nWeek: 1\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20260915T034500Z
 LOCATION:Arrowhead Stadium
 DTSTART:20260915T001500Z
 SUMMARY:Broncos vs Chiefs - MNF
 UID:nfl-nfl-estelares-401872931@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at San Francisco 49ers\nWeek: 2\nStatus: Scheduled\nVenue: Levi's Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DTEND:20260920T235500Z
+LOCATION:Levi's Stadium
+DTSTART:20260920T202500Z
+SUMMARY:Dolphins vs 49ers
+UID:nfl-miami-dolphins-401872942@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at New York Giants\nWeek: 1\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
