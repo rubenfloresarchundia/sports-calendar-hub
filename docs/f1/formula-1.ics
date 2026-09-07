@@ -18,14 +18,6 @@ SUMMARY:F1 - Abu Dabi (Carrera)
 UID:f1-2026-23-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Italia (Carrera)\nCircuito: Autodromo Nazionale di Monza\nCiudad: Monza\nPaís: Italy\nRonda: 13\nFuente: Jolpica F1
-DTEND:20260906T150000Z
-LOCATION:Autodromo Nazionale di Monza
-DTSTART:20260906T130000Z
-SUMMARY:F1 - Italia (Carrera)
-UID:f1-2026-13-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
 DTEND:20261122T060000Z
 LOCATION:Las Vegas Strip Street Circuit
