@@ -258,14 +258,6 @@ SUMMARY:Bears vs Seahawks - MNF
 UID:nfl-nfl-estelares-401873036@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: San Francisco 49ers at Los Angeles Rams\nWeek: 1\nStatus: Scheduled\nVenue: Melbourne Cricket Ground\nCategory: TNF\nBroadcast: Netflix\nSource: ESPN NFL scoreboard
-DTEND:20260911T040500Z
-LOCATION:Melbourne Cricket Ground
-DTSTART:20260911T003500Z
-SUMMARY:49ers vs Rams - TNF
-UID:nfl-nfl-estelares-401872657@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 1\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
 DTEND:20270116T083000Z
 LOCATION:TBD
