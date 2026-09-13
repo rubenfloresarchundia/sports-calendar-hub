@@ -58,14 +58,6 @@ SUMMARY:Cowboys vs Giants - SNF
 UID:nfl-nfl-estelares-401872930@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - España (Carrera)\nCircuito: Madring\nCiudad: Madrid\nPaís: Spain\nRonda: 14\nFuente: Jolpica F1
-DTEND:20260913T150000Z
-LOCATION:Madring
-DTSTART:20260913T130000Z
-SUMMARY:F1 - España (Carrera)
-UID:f1-2026-14-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Chivas\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 8\nFuente: ESPN Liga MX
 DTEND:20260920T050000Z
 LOCATION:Estadio Banorte
