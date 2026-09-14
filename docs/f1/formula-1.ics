@@ -50,14 +50,6 @@ SUMMARY:F1 - Bahrain in Malaysia (Carrera)
 UID:f1-2026-16-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - España (Carrera)\nCircuito: Madring\nCiudad: Madrid\nPaís: Spain\nRonda: 14\nFuente: Jolpica F1
-DTEND:20260913T150000Z
-LOCATION:Madring
-DTSTART:20260913T130000Z
-SUMMARY:F1 - España (Carrera)
-UID:f1-2026-14-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Qatar (Carrera)\nCircuito: Losail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 22\nFuente: Jolpica F1
 DTEND:20261129T180000Z
 LOCATION:Losail International Circuit
