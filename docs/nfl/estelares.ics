@@ -218,14 +218,6 @@ SUMMARY:49ers vs Chargers - TNF
 UID:nfl-nfl-estelares-401873124@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at New York Giants\nWeek: 1\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20260914T035000Z
-LOCATION:MetLife Stadium
-DTSTART:20260914T002000Z
-SUMMARY:Cowboys vs Giants - SNF
-UID:nfl-nfl-estelares-401872930@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Chicago Bears\nWeek: 7\nStatus: Scheduled\nVenue: Soldier Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261023T034500Z
 LOCATION:Soldier Field

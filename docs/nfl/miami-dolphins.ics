@@ -18,14 +18,6 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Buffalo Bills at Miami Dolphins\nWeek: 17\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20270103T213000Z
-LOCATION:Hard Rock Stadium
-DTSTART:20270103T180000Z
-SUMMARY:Bills vs Dolphins
-UID:nfl-miami-dolphins-401873161@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Minnesota Vikings\nWeek: 4\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
 DTEND:20261004T233500Z
 LOCATION:U.S. Bank Stadium
@@ -130,11 +122,11 @@ SUMMARY:Jets vs Dolphins
 UID:nfl-miami-dolphins-401873089@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Las Vegas Raiders\nWeek: 1\nStatus: Scheduled\nVenue: Allegiant Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
-DTEND:20260913T235500Z
-LOCATION:Allegiant Stadium
-DTSTART:20260913T202500Z
-SUMMARY:Dolphins vs Raiders
-UID:nfl-miami-dolphins-401872928@sports-calendar-hub
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Buffalo Bills at Miami Dolphins\nWeek: 17\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20270103T213000Z
+LOCATION:Hard Rock Stadium
+DTSTART:20270103T180000Z
+SUMMARY:Bills vs Dolphins
+UID:nfl-miami-dolphins-401873161@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
