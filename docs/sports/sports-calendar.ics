@@ -26,20 +26,20 @@ SUMMARY:Lions vs Bills - TNF
 UID:nfl-nfl-estelares-401872932@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Chicago Bears\nWeek: 3\nStatus: Scheduled\nVenue: Soldier Field\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20260929T034500Z
+LOCATION:Soldier Field
+DTSTART:20260929T001500Z
+SUMMARY:Eagles vs Bears - MNF
+UID:nfl-nfl-estelares-401872963@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Kansas City Chiefs\nWeek: 2\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20260921T035000Z
 LOCATION:Arrowhead Stadium
 DTSTART:20260921T002000Z
 SUMMARY:Colts vs Chiefs - SNF
 UID:nfl-nfl-estelares-401872945@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Kansas City Chiefs\nWeek: 1\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20260915T034500Z
-LOCATION:Arrowhead Stadium
-DTSTART:20260915T001500Z
-SUMMARY:Broncos vs Chiefs - MNF
-UID:nfl-nfl-estelares-401872931@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Los Angeles Rams at Denver Broncos\nWeek: 3\nStatus: Scheduled\nVenue: Empower Field at Mile High\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
@@ -59,9 +59,9 @@ UID:nfl-miami-dolphins-401872942@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Chivas\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 8\nFuente: ESPN Liga MX
-DTEND:20260920T050000Z
+DTEND:20260920T051500Z
 LOCATION:Estadio Banorte
-DTSTART:20260920T030000Z
+DTSTART:20260920T031500Z
 SUMMARY:América vs Chivas
 UID:football-ligamx-club-america-401876968@sports-calendar-hub
 END:VEVENT
