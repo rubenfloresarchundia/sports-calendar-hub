@@ -18,12 +18,12 @@ SUMMARY:F1 - Azerbaiyán (Carrera)
 UID:f1-2026-15-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Detroit Lions at Buffalo Bills\nWeek: 2\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20260918T034500Z
-LOCATION:Highmark Stadium
-DTSTART:20260918T001500Z
-SUMMARY:Lions vs Bills - TNF
-UID:nfl-nfl-estelares-401872932@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Cleveland Browns\nWeek: 4\nStatus: Scheduled\nVenue: Huntington Bank Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261002T034500Z
+LOCATION:Huntington Bank Field
+DTSTART:20261002T001500Z
+SUMMARY:Steelers vs Browns - TNF
+UID:nfl-nfl-estelares-401872964@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Chicago Bears\nWeek: 3\nStatus: Scheduled\nVenue: Soldier Field\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
