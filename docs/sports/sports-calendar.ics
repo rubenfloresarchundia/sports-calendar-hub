@@ -58,6 +58,14 @@ SUMMARY:Dolphins vs 49ers
 UID:nfl-miami-dolphins-401872942@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - Bahrain in Malaysia (Carrera)\nCircuito: Sepang International Circuit\nCiudad: Kuala Lumpur\nPaís: Malaysia\nRonda: 16\nFuente: Jolpica F1
+DTEND:20261004T090000Z
+LOCATION:Sepang International Circuit
+DTSTART:20261004T070000Z
+SUMMARY:F1 - Bahrain in Malaysia (Carrera)
+UID:f1-2026-16-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Kansas City Chiefs at Miami Dolphins\nWeek: 3\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20260927T203000Z
 LOCATION:Hard Rock Stadium
