@@ -26,14 +26,6 @@ SUMMARY:Dolphins vs Vikings
 UID:nfl-miami-dolphins-401872974@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at San Francisco 49ers\nWeek: 2\nStatus: Scheduled\nVenue: Levi's Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
-DTEND:20260920T235500Z
-LOCATION:Levi's Stadium
-DTSTART:20260920T202500Z
-SUMMARY:Dolphins vs 49ers
-UID:nfl-miami-dolphins-401872942@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261115T213000Z
 LOCATION:Lucas Oil Stadium

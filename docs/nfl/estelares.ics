@@ -450,14 +450,6 @@ SUMMARY:Patriots vs Chiefs - MNF
 UID:nfl-nfl-estelares-401873139@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Kansas City Chiefs\nWeek: 2\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20260921T035000Z
-LOCATION:Arrowhead Stadium
-DTSTART:20260921T002000Z
-SUMMARY:Colts vs Chiefs - SNF
-UID:nfl-nfl-estelares-401872945@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Houston Texans at Pittsburgh Steelers\nWeek: 13\nStatus: Scheduled\nVenue: Acrisure Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261207T045000Z
 LOCATION:Acrisure Stadium
