@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: New York Giants at Los Angeles Rams\nWeek: 2\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20260922T034500Z
-LOCATION:SoFi Stadium
-DTSTART:20260922T001500Z
-SUMMARY:Giants vs Rams - MNF
-UID:nfl-nfl-estelares-401872947@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Detroit Lions at Carolina Panthers\nWeek: 4\nStatus: Scheduled\nVenue: Bank of America Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261005T035000Z
+LOCATION:Bank of America Stadium
+DTSTART:20261005T002000Z
+SUMMARY:Lions vs Panthers - SNF
+UID:nfl-nfl-estelares-401872978@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Azerbaiyán (Carrera)\nCircuito: Baku City Circuit\nCiudad: Baku\nPaís: Azerbaijan\nRonda: 15\nFuente: Jolpica F1
@@ -24,14 +24,6 @@ LOCATION:Huntington Bank Field
 DTSTART:20261002T001500Z
 SUMMARY:Steelers vs Browns - TNF
 UID:nfl-nfl-estelares-401872964@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Detroit Lions at Carolina Panthers\nWeek: 4\nStatus: Scheduled\nVenue: Bank of America Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261005T035000Z
-LOCATION:Bank of America Stadium
-DTSTART:20261005T002000Z
-SUMMARY:Lions vs Panthers - SNF
-UID:nfl-nfl-estelares-401872978@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Chicago Bears\nWeek: 3\nStatus: Scheduled\nVenue: Soldier Field\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
@@ -56,6 +48,14 @@ LOCATION:Empower Field at Mile High
 DTSTART:20260928T002000Z
 SUMMARY:Rams vs Broncos - SNF
 UID:nfl-nfl-estelares-401872962@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Atlanta Falcons at New Orleans Saints\nWeek: 4\nStatus: Scheduled\nVenue: Caesars Superdome\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261006T034500Z
+LOCATION:Caesars Superdome
+DTSTART:20261006T001500Z
+SUMMARY:Falcons vs Saints - MNF
+UID:nfl-nfl-estelares-401872979@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Bahrain in Malaysia (Carrera)\nCircuito: Sepang International Circuit\nCiudad: Kuala Lumpur\nPaís: Malaysia\nRonda: 16\nFuente: Jolpica F1
