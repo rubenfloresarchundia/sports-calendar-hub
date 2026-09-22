@@ -122,14 +122,6 @@ SUMMARY:Falcons vs Saints - MNF
 UID:nfl-nfl-estelares-401872979@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: New York Giants at Los Angeles Rams\nWeek: 2\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20260922T034500Z
-LOCATION:SoFi Stadium
-DTSTART:20260922T001500Z
-SUMMARY:Giants vs Rams - MNF
-UID:nfl-nfl-estelares-401872947@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Dallas Cowboys\nWeek: 12\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF / Thanksgiving\nBroadcast: FOX\nSource: ESPN NFL scoreboard
 DTEND:20261127T010000Z
 LOCATION:AT&T Stadium
