@@ -50,12 +50,12 @@ SUMMARY:Rams vs Broncos - SNF
 UID:nfl-nfl-estelares-401872962@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Atlanta Falcons at New Orleans Saints\nWeek: 4\nStatus: Scheduled\nVenue: Caesars Superdome\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261006T034500Z
-LOCATION:Caesars Superdome
-DTSTART:20261006T001500Z
-SUMMARY:Falcons vs Saints - MNF
-UID:nfl-nfl-estelares-401872979@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Dallas Cowboys\nWeek: 5\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261009T034500Z
+LOCATION:AT&T Stadium
+DTSTART:20261009T001500Z
+SUMMARY:Buccaneers vs Cowboys - TNF
+UID:nfl-nfl-estelares-401872980@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Bahrain in Malaysia (Carrera)\nCircuito: Sepang International Circuit\nCiudad: Kuala Lumpur\nPaís: Malaysia\nRonda: 16\nFuente: Jolpica F1
@@ -74,11 +74,11 @@ SUMMARY:Chiefs vs Dolphins
 UID:nfl-miami-dolphins-401872952@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Atlanta Falcons at Green Bay Packers\nWeek: 3\nStatus: Scheduled\nVenue: Lambeau Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20260925T034500Z
-LOCATION:Lambeau Field
-DTSTART:20260925T001500Z
-SUMMARY:Falcons vs Packers - TNF
-UID:nfl-nfl-estelares-401872948@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Atlanta Falcons at New Orleans Saints\nWeek: 4\nStatus: Scheduled\nVenue: Caesars Superdome\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261006T034500Z
+LOCATION:Caesars Superdome
+DTSTART:20261006T001500Z
+SUMMARY:Falcons vs Saints - MNF
+UID:nfl-nfl-estelares-401872979@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
