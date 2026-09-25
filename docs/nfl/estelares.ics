@@ -498,14 +498,6 @@ SUMMARY:Colts vs Texans - TNF
 UID:nfl-nfl-estelares-401873066@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Atlanta Falcons at Green Bay Packers\nWeek: 3\nStatus: Scheduled\nVenue: Lambeau Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20260925T034500Z
-LOCATION:Lambeau Field
-DTSTART:20260925T001500Z
-SUMMARY:Falcons vs Packers - TNF
-UID:nfl-nfl-estelares-401872948@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261126T213000Z
 LOCATION:Ford Field
