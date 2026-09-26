@@ -10,14 +10,6 @@ SUMMARY:Lions vs Panthers - SNF
 UID:nfl-nfl-estelares-401872978@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Azerbaiyán (Carrera)\nCircuito: Baku City Circuit\nCiudad: Baku\nPaís: Azerbaijan\nRonda: 15\nFuente: Jolpica F1
-DTEND:20260926T130000Z
-LOCATION:Baku City Circuit
-DTSTART:20260926T110000Z
-SUMMARY:F1 - Azerbaiyán (Carrera)
-UID:f1-2026-15-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Cleveland Browns\nWeek: 4\nStatus: Scheduled\nVenue: Huntington Bank Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261002T034500Z
 LOCATION:Huntington Bank Field
@@ -48,6 +40,14 @@ LOCATION:Empower Field at Mile High
 DTSTART:20260928T002000Z
 SUMMARY:Rams vs Broncos - SNF
 UID:nfl-nfl-estelares-401872962@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - Singapur (Sprint)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 17\nFuente: Jolpica F1
+DTEND:20261010T100000Z
+LOCATION:Marina Bay Street Circuit
+DTSTART:20261010T090000Z
+SUMMARY:F1 - Singapur (Sprint)
+UID:f1-2026-17-sprint@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Dallas Cowboys\nWeek: 5\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
