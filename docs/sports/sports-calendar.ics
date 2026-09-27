@@ -18,6 +18,14 @@ SUMMARY:Steelers vs Browns - TNF
 UID:nfl-nfl-estelares-401872964@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Monterrey\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 10\nFuente: ESPN Liga MX
+DTEND:20261011T050000Z
+LOCATION:Estadio Banorte
+DTSTART:20261011T030000Z
+SUMMARY:América vs Monterrey
+UID:football-ligamx-club-america-401876950@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Chicago Bears\nWeek: 3\nStatus: Scheduled\nVenue: Soldier Field\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20260929T034500Z
 LOCATION:Soldier Field
