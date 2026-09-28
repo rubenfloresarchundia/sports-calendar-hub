@@ -170,14 +170,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872915@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Los Angeles Rams at Denver Broncos\nWeek: 3\nStatus: Scheduled\nVenue: Empower Field at Mile High\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20260928T035000Z
-LOCATION:Empower Field at Mile High
-DTSTART:20260928T002000Z
-SUMMARY:Rams vs Broncos - SNF
-UID:nfl-nfl-estelares-401872962@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at San Francisco 49ers\nWeek: 6\nStatus: Scheduled\nVenue: Levi's Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20261020T034500Z
 LOCATION:Levi's Stadium

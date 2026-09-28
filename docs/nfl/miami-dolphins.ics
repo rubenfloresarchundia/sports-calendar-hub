@@ -74,14 +74,6 @@ SUMMARY:Chargers vs Dolphins
 UID:nfl-miami-dolphins-401873150@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Kansas City Chiefs at Miami Dolphins\nWeek: 3\nStatus: In Progress\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20260927T203000Z
-LOCATION:Hard Rock Stadium
-DTSTART:20260927T170000Z
-SUMMARY:Chiefs vs Dolphins
-UID:nfl-miami-dolphins-401872952@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New England Patriots\nWeek: 18\nStatus: Scheduled\nVenue: Gillette Stadium\nSource: ESPN NFL scoreboard
 DTEND:20270110T083000Z
 LOCATION:Gillette Stadium
