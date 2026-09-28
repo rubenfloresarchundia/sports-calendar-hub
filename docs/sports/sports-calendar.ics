@@ -42,12 +42,12 @@ SUMMARY:Dolphins vs Vikings
 UID:nfl-miami-dolphins-401872974@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Los Angeles Rams at Denver Broncos\nWeek: 3\nStatus: Scheduled\nVenue: Empower Field at Mile High\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20260928T035000Z
-LOCATION:Empower Field at Mile High
-DTSTART:20260928T002000Z
-SUMMARY:Rams vs Broncos - SNF
-UID:nfl-nfl-estelares-401872962@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Dallas Cowboys\nWeek: 5\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261009T034500Z
+LOCATION:AT&T Stadium
+DTSTART:20261009T001500Z
+SUMMARY:Buccaneers vs Cowboys - TNF
+UID:nfl-nfl-estelares-401872980@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Singapur (Sprint)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 17\nFuente: Jolpica F1
@@ -58,12 +58,12 @@ SUMMARY:F1 - Singapur (Sprint)
 UID:f1-2026-17-sprint@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Dallas Cowboys\nWeek: 5\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261009T034500Z
-LOCATION:AT&T Stadium
-DTSTART:20261009T001500Z
-SUMMARY:Buccaneers vs Cowboys - TNF
-UID:nfl-nfl-estelares-401872980@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Baltimore Ravens at Atlanta Falcons\nWeek: 5\nStatus: Scheduled\nVenue: Mercedes-Benz Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261012T035000Z
+LOCATION:Mercedes-Benz Stadium
+DTSTART:20261012T002000Z
+SUMMARY:Ravens vs Falcons - SNF
+UID:nfl-nfl-estelares-401872993@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Atlanta Falcons at New Orleans Saints\nWeek: 4\nStatus: Scheduled\nVenue: Caesars Superdome\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
