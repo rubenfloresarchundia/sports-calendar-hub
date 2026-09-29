@@ -26,12 +26,12 @@ SUMMARY:América vs Monterrey
 UID:football-ligamx-club-america-401876950@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Chicago Bears\nWeek: 3\nStatus: Scheduled\nVenue: Soldier Field\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20260929T034500Z
-LOCATION:Soldier Field
-DTSTART:20260929T001500Z
-SUMMARY:Eagles vs Bears - MNF
-UID:nfl-nfl-estelares-401872963@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Los Angeles Rams\nWeek: 5\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261013T034500Z
+LOCATION:SoFi Stadium
+DTSTART:20261013T001500Z
+SUMMARY:Bills vs Rams - MNF
+UID:nfl-nfl-estelares-401872994@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Minnesota Vikings\nWeek: 4\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
