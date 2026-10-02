@@ -410,14 +410,6 @@ SUMMARY:Buccaneers vs Bears - SNF
 UID:nfl-nfl-estelares-401873050@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Cleveland Browns\nWeek: 4\nStatus: Scheduled\nVenue: Huntington Bank Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261002T034500Z
-LOCATION:Huntington Bank Field
-DTSTART:20261002T001500Z
-SUMMARY:Steelers vs Browns - TNF
-UID:nfl-nfl-estelares-401872964@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Kansas City Chiefs\nWeek: 15\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20261222T044500Z
 LOCATION:Arrowhead Stadium
