@@ -10,12 +10,12 @@ SUMMARY:Lions vs Panthers - SNF
 UID:nfl-nfl-estelares-401872978@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Cleveland Browns\nWeek: 4\nStatus: Scheduled\nVenue: Huntington Bank Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261002T034500Z
-LOCATION:Huntington Bank Field
-DTSTART:20261002T001500Z
-SUMMARY:Steelers vs Browns - TNF
-UID:nfl-nfl-estelares-401872964@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Seattle Seahawks at Denver Broncos\nWeek: 6\nStatus: Scheduled\nVenue: Empower Field at Mile High\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261016T034500Z
+LOCATION:Empower Field at Mile High
+DTSTART:20261016T001500Z
+SUMMARY:Seahawks vs Broncos - TNF
+UID:nfl-nfl-estelares-401872995@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Monterrey\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 10\nFuente: ESPN Liga MX
