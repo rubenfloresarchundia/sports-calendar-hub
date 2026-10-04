@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Denis Shapovalov\nTournament: Japan Open Tennis Championships - Tokyo\nRound: 1/4\nCountry: Japan\nSource: Tennis API
-DTEND:20261004T060000Z
+DTEND:20261004T060500Z
 LOCATION:Japan Open Tennis Championships - Tokyo
-DTSTART:20261004T040000Z
+DTSTART:20261004T040500Z
 SUMMARY:Alcaraz vs Shapovalov - Japan Open Tennis Championships - Tokyo
-UID:tennis-atp-68074-1225@sports-calendar-hub
+UID:tennis-atp-68074-1226@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
