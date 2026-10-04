@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Player: Novak Djokovic\nOpponent: Alexander Zverev\nTournament: China Open - Beijing\nRound: 1/4\nCountry: China\nSource: Tennis API
-DTEND:20261004T130000Z
+DTEND:20261004T130800Z
 LOCATION:China Open - Beijing
-DTSTART:20261004T110000Z
+DTSTART:20261004T110800Z
 SUMMARY:Djokovic vs Zverev - China Open - Beijing
-UID:tennis-atp-5992-1268@sports-calendar-hub
+UID:tennis-atp-5992-1267@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
