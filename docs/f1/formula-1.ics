@@ -34,14 +34,6 @@ SUMMARY:F1 - Estados Unidos (Carrera)
 UID:f1-2026-18-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Bahrain in Malaysia (Carrera)\nCircuito: Sepang International Circuit\nCiudad: Kuala Lumpur\nPaís: Malaysia\nRonda: 16\nFuente: Jolpica F1
-DTEND:20261004T090000Z
-LOCATION:Sepang International Circuit
-DTSTART:20261004T070000Z
-SUMMARY:F1 - Bahrain in Malaysia (Carrera)
-UID:f1-2026-16-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Qatar (Carrera)\nCircuito: Lusail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 22\nFuente: Jolpica F1
 DTEND:20261129T180000Z
 LOCATION:Lusail International Circuit
