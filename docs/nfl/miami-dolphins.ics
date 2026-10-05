@@ -18,14 +18,6 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Minnesota Vikings\nWeek: 4\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
-DTEND:20261004T233500Z
-LOCATION:U.S. Bank Stadium
-DTSTART:20261004T200500Z
-SUMMARY:Dolphins vs Vikings
-UID:nfl-miami-dolphins-401872974@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261115T213000Z
 LOCATION:Lucas Oil Stadium

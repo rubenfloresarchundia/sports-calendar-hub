@@ -274,14 +274,6 @@ SUMMARY:Vikings vs 49ers - SNF
 UID:nfl-nfl-estelares-401873077@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Detroit Lions at Carolina Panthers\nWeek: 4\nStatus: Scheduled\nVenue: Bank of America Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261005T035000Z
-LOCATION:Bank of America Stadium
-DTSTART:20261005T002000Z
-SUMMARY:Lions vs Panthers - SNF
-UID:nfl-nfl-estelares-401872978@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 3\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
 DTEND:20270131T083000Z
 LOCATION:TBD
