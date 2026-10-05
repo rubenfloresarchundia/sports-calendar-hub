@@ -1,12 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Player: Novak Djokovic\nOpponent: Daniil Medvedev\nTournament: China Open - Beijing\nRound: 1/2\nCountry: China\nSource: Tennis API
-DTEND:20261005T130000Z
-LOCATION:China Open - Beijing
-DTSTART:20261005T110000Z
-SUMMARY:Djokovic vs Medvedev - China Open - Beijing
-UID:tennis-atp-5992-1256@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR
