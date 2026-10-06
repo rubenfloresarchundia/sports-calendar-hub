@@ -1,12 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Player: Novak Djokovic\nOpponent: Alex De Minaur\nTournament: China Open - Beijing\nRound: Final\nCountry: China\nSource: Tennis API
-DTEND:20261006T130500Z
-LOCATION:China Open - Beijing
-DTSTART:20261006T110500Z
-SUMMARY:Djokovic vs Minaur - China Open - Beijing
-UID:tennis-atp-5992-1258@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR
