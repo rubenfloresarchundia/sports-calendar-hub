@@ -1,12 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Jiri Lehecka\nTournament: Japan Open Tennis Championships - Tokyo\nRound: Final\nCountry: Japan\nSource: Tennis API
-DTEND:20261006T110000Z
-LOCATION:Japan Open Tennis Championships - Tokyo
-DTSTART:20261006T090000Z
-SUMMARY:Alcaraz vs Lehecka - Japan Open Tennis Championships - Tokyo
-UID:tennis-atp-68074-1225@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR
