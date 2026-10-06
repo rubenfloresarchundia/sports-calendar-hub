@@ -66,14 +66,6 @@ SUMMARY:Cowboys vs Packers - SNF
 UID:nfl-nfl-estelares-401873007@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Player: Novak Djokovic\nOpponent: Alex De Minaur\nTournament: China Open - Beijing\nRound: Final\nCountry: China\nSource: Tennis API
-DTEND:20261006T130000Z
-LOCATION:China Open - Beijing
-DTSTART:20261006T110000Z
-SUMMARY:Djokovic vs Minaur - China Open - Beijing
-UID:tennis-atp-5992-1258@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261011T203000Z
 LOCATION:Hard Rock Stadium
@@ -88,13 +80,5 @@ LOCATION:Marina Bay Street Circuit
 DTSTART:20261011T120000Z
 SUMMARY:F1 - Singapur (Carrera)
 UID:f1-2026-17-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Jiri Lehecka\nTournament: Japan Open Tennis Championships - Tokyo\nRound: Final\nCountry: Japan\nSource: Tennis API
-DTEND:20261006T110000Z
-LOCATION:Japan Open Tennis Championships - Tokyo
-DTSTART:20261006T090000Z
-SUMMARY:Alcaraz vs Lehecka - Japan Open Tennis Championships - Tokyo
-UID:tennis-atp-68074-1225@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
