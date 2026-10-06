@@ -10,7 +10,7 @@ SUMMARY:Bears vs Dolphins
 UID:nfl-miami-dolphins-401873111@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Detroit Lions at Miami Dolphins\nWeek: 9\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Detroit Lions at Miami Dolphins\nWeek: 9\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261108T213000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261108T180000Z
@@ -26,7 +26,7 @@ SUMMARY:Dolphins vs Colts
 UID:nfl-miami-dolphins-401873059@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261122T213000Z
 LOCATION:Highmark Stadium
 DTSTART:20261122T180000Z
@@ -34,7 +34,7 @@ SUMMARY:Dolphins vs Bills
 UID:nfl-miami-dolphins-401873070@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Denver Broncos\nWeek: 13\nStatus: Scheduled\nVenue: Empower Field at Mile High\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Denver Broncos\nWeek: 13\nStatus: Scheduled\nVenue: Empower Field at Mile High\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261207T003500Z
 LOCATION:Empower Field at Mile High
 DTSTART:20261206T210500Z
@@ -50,7 +50,7 @@ SUMMARY:Patriots vs Dolphins
 UID:nfl-miami-dolphins-401873034@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Green Bay Packers\nWeek: 15\nStatus: Scheduled\nVenue: Lambeau Field\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Green Bay Packers\nWeek: 15\nStatus: Scheduled\nVenue: Lambeau Field\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261220T213000Z
 LOCATION:Lambeau Field
 DTSTART:20261220T180000Z
@@ -58,7 +58,7 @@ SUMMARY:Dolphins vs Packers
 UID:nfl-miami-dolphins-401873133@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Los Angeles Chargers at Miami Dolphins\nWeek: 16\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Los Angeles Chargers at Miami Dolphins\nWeek: 16\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261227T213000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261227T180000Z
@@ -82,7 +82,7 @@ SUMMARY:Dolphins vs Jets
 UID:nfl-miami-dolphins-401873015@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: FOX\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261011T203000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261011T170000Z
