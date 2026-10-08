@@ -18,6 +18,14 @@ SUMMARY:América vs Monterrey
 UID:football-ligamx-club-america-401876950@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Atlas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Jalisco\nJornada: 12\nFuente: ESPN Liga MX
+DTEND:20261022T030000Z
+LOCATION:Estadio Jalisco
+DTSTART:20261022T010000Z
+SUMMARY:Atlas vs América
+UID:football-ligamx-club-america-401876932@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Los Angeles Rams\nWeek: 5\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20261013T034500Z
 LOCATION:SoFi Stadium
