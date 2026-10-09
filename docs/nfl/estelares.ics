@@ -26,7 +26,7 @@ SUMMARY:Seahawks vs Broncos - TNF
 UID:nfl-nfl-estelares-401872995@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Philadelphia Eagles\nWeek: 7\nStatus: Scheduled\nVenue: Lincoln Financial Field\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Philadelphia Eagles\nWeek: 7\nStatus: Scheduled\nVenue: Lincoln Financial Field\nCategory: MNF\nBroadcast: ESPN\, ABC\, Disney+\nSource: ESPN NFL scoreboard
 DTEND:20261027T034500Z
 LOCATION:Lincoln Financial Field
 DTSTART:20261027T001500Z
@@ -282,12 +282,12 @@ SUMMARY:Cowboys vs Seahawks - MNF
 UID:nfl-nfl-estelares-401873108@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Dallas Cowboys\nWeek: 5\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261009T034500Z
-LOCATION:AT&T Stadium
-DTSTART:20261009T001500Z
-SUMMARY:Buccaneers vs Cowboys - TNF
-UID:nfl-nfl-estelares-401872980@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 1\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
+DTEND:20270117T083000Z
+LOCATION:TBD
+DTSTART:20270117T050000Z
+SUMMARY:NFL Estelares - TBD
+UID:nfl-nfl-estelares-401872914@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Baltimore Ravens at Atlanta Falcons\nWeek: 5\nStatus: Scheduled\nVenue: Mercedes-Benz Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
@@ -304,14 +304,6 @@ LOCATION:Empower Field at Mile High
 DTSTART:20261225T213000Z
 SUMMARY:Bills vs Broncos - Christmas
 UID:nfl-nfl-estelares-401873142@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 1\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
-DTEND:20270117T083000Z
-LOCATION:TBD
-DTSTART:20270117T050000Z
-SUMMARY:NFL Estelares - TBD
-UID:nfl-nfl-estelares-401872914@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: New York Giants at Detroit Lions\nWeek: 16\nStatus: Scheduled\nVenue: Ford Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
@@ -434,7 +426,7 @@ SUMMARY:Jaguars vs Cowboys - SNF
 UID:nfl-nfl-estelares-401873154@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 4\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: Playoffs / Super Bowl\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 4\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: Playoffs / Super Bowl\nBroadcast: ESPN\, ABC\, Disney+\nSource: ESPN NFL scoreboard
 DTEND:20270215T030000Z
 LOCATION:SoFi Stadium
 DTSTART:20270214T233000Z
