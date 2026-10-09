@@ -34,14 +34,6 @@ SUMMARY:Bills vs Rams - MNF
 UID:nfl-nfl-estelares-401872994@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Dallas Cowboys\nWeek: 5\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261009T034500Z
-LOCATION:AT&T Stadium
-DTSTART:20261009T001500Z
-SUMMARY:Buccaneers vs Cowboys - TNF
-UID:nfl-nfl-estelares-401872980@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Baltimore Ravens at Atlanta Falcons\nWeek: 5\nStatus: Scheduled\nVenue: Mercedes-Benz Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261012T035000Z
 LOCATION:Mercedes-Benz Stadium
@@ -72,6 +64,14 @@ LOCATION:Lambeau Field
 DTSTART:20261019T002000Z
 SUMMARY:Cowboys vs Packers - SNF
 UID:nfl-nfl-estelares-401873007@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Chicago Bears\nWeek: 7\nStatus: Scheduled\nVenue: Soldier Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261023T034500Z
+LOCATION:Soldier Field
+DTSTART:20261023T001500Z
+SUMMARY:Patriots vs Bears - TNF
+UID:nfl-nfl-estelares-401873010@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
