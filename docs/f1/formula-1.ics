@@ -18,14 +18,6 @@ SUMMARY:F1 - Las Vegas (Carrera)
 UID:f1-2026-21-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Singapur (Sprint)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 17\nFuente: Jolpica F1
-DTEND:20261010T100000Z
-LOCATION:Marina Bay Street Circuit
-DTSTART:20261010T090000Z
-SUMMARY:F1 - Singapur (Sprint)
-UID:f1-2026-17-sprint@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Estados Unidos (Carrera)\nCircuito: Circuit of the Americas\nCiudad: Austin\nPaís: USA\nRonda: 18\nFuente: Jolpica F1
 DTEND:20261025T220000Z
 LOCATION:Circuit of the Americas
@@ -56,13 +48,5 @@ LOCATION:Autódromo Hermanos Rodríguez
 DTSTART:20261101T200000Z
 SUMMARY:F1 - México (Carrera)
 UID:f1-2026-19-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Singapur (Carrera)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 17\nFuente: Jolpica F1
-DTEND:20261011T140000Z
-LOCATION:Marina Bay Street Circuit
-DTSTART:20261011T120000Z
-SUMMARY:F1 - Singapur (Carrera)
-UID:f1-2026-17-race@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
