@@ -82,7 +82,7 @@ SUMMARY:Dolphins vs Jets
 UID:nfl-miami-dolphins-401873015@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: In Progress\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261011T203000Z
 LOCATION:Hard Rock Stadium
 DTSTART:20261011T170000Z
