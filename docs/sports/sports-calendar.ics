@@ -58,19 +58,11 @@ SUMMARY:Patriots vs Bears - TNF
 UID:nfl-nfl-estelares-401873010@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
-DTEND:20261011T203000Z
-LOCATION:Hard Rock Stadium
-DTSTART:20261011T170000Z
-SUMMARY:Bengals vs Dolphins
-UID:nfl-miami-dolphins-401872982@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Singapur (Carrera)\nCircuito: Marina Bay Street Circuit\nCiudad: Marina Bay\nPaís: Singapore\nRonda: 17\nFuente: Jolpica F1
-DTEND:20261011T140000Z
-LOCATION:Marina Bay Street Circuit
-DTSTART:20261011T120000Z
-SUMMARY:F1 - Singapur (Carrera)
-UID:f1-2026-17-race@sports-calendar-hub
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New York Jets\nWeek: 7\nStatus: Scheduled\nVenue: MetLife Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261025T203000Z
+LOCATION:MetLife Stadium
+DTSTART:20261025T170000Z
+SUMMARY:Dolphins vs Jets
+UID:nfl-miami-dolphins-401873015@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
