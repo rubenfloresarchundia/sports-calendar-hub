@@ -290,14 +290,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872914@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Baltimore Ravens at Atlanta Falcons\nWeek: 5\nStatus: Scheduled\nVenue: Mercedes-Benz Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261012T035000Z
-LOCATION:Mercedes-Benz Stadium
-DTSTART:20261012T002000Z
-SUMMARY:Ravens vs Falcons - SNF
-UID:nfl-nfl-estelares-401872993@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Denver Broncos\nWeek: 16\nStatus: Scheduled\nVenue: Empower Field at Mile High\nCategory: Christmas\nBroadcast: Netflix\nSource: ESPN NFL scoreboard
 DTEND:20261226T010000Z
 LOCATION:Empower Field at Mile High

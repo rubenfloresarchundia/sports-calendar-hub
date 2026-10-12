@@ -18,14 +18,6 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20261115T213000Z
-LOCATION:Lucas Oil Stadium
-DTSTART:20261115T180000Z
-SUMMARY:Dolphins vs Colts
-UID:nfl-miami-dolphins-401873059@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261122T213000Z
 LOCATION:Highmark Stadium
@@ -82,12 +74,12 @@ SUMMARY:Dolphins vs Jets
 UID:nfl-miami-dolphins-401873015@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Cincinnati Bengals at Miami Dolphins\nWeek: 5\nStatus: In Progress\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
-DTEND:20261011T203000Z
-LOCATION:Hard Rock Stadium
-DTSTART:20261011T170000Z
-SUMMARY:Bengals vs Dolphins
-UID:nfl-miami-dolphins-401872982@sports-calendar-hub
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261115T213000Z
+LOCATION:Lucas Oil Stadium
+DTSTART:20261115T180000Z
+SUMMARY:Dolphins vs Colts
+UID:nfl-miami-dolphins-401873059@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: New York Jets at Miami Dolphins\nWeek: 12\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
