@@ -26,20 +26,20 @@ SUMMARY:Bills vs Rams - MNF
 UID:nfl-nfl-estelares-401872994@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Baltimore Ravens at Atlanta Falcons\nWeek: 5\nStatus: Scheduled\nVenue: Mercedes-Benz Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261012T035000Z
-LOCATION:Mercedes-Benz Stadium
-DTSTART:20261012T002000Z
-SUMMARY:Ravens vs Falcons - SNF
-UID:nfl-nfl-estelares-401872993@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at San Francisco 49ers\nWeek: 6\nStatus: Scheduled\nVenue: Levi's Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20261020T034500Z
 LOCATION:Levi's Stadium
 DTSTART:20261020T001500Z
 SUMMARY:Commanders vs 49ers - MNF
 UID:nfl-nfl-estelares-401873008@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - Estados Unidos (Carrera)\nCircuito: Circuit of the Americas\nCiudad: Austin\nPaís: USA\nRonda: 18\nFuente: Jolpica F1
+DTEND:20261025T220000Z
+LOCATION:Circuit of the Americas
+DTSTART:20261025T200000Z
+SUMMARY:F1 - Estados Unidos (Carrera)
+UID:f1-2026-18-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Green Bay Packers\nWeek: 6\nStatus: Scheduled\nVenue: Lambeau Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
@@ -58,11 +58,27 @@ SUMMARY:Patriots vs Bears - TNF
 UID:nfl-nfl-estelares-401873010@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Seattle Seahawks\nWeek: 7\nStatus: Scheduled\nVenue: Lumen Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261026T035000Z
+LOCATION:Lumen Field
+DTSTART:20261026T002000Z
+SUMMARY:Chiefs vs Seahawks - SNF
+UID:nfl-nfl-estelares-401873022@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New York Jets\nWeek: 7\nStatus: Scheduled\nVenue: MetLife Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261025T203000Z
 LOCATION:MetLife Stadium
 DTSTART:20261025T170000Z
 SUMMARY:Dolphins vs Jets
 UID:nfl-miami-dolphins-401873015@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Pachuca\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 13\nFuente: ESPN Liga MX
+DTEND:20261026T010000Z
+LOCATION:Estadio Banorte
+DTSTART:20261025T230000Z
+SUMMARY:América vs Pachuca
+UID:football-ligamx-club-america-401876922@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
