@@ -130,12 +130,12 @@ SUMMARY:Vikings vs Patriots - TNF
 UID:nfl-nfl-estelares-401873109@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Los Angeles Rams\nWeek: 5\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20261013T034500Z
-LOCATION:SoFi Stadium
-DTSTART:20261013T001500Z
-SUMMARY:Bills vs Rams - MNF
-UID:nfl-nfl-estelares-401872994@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 1\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
+DTEND:20270118T083000Z
+LOCATION:TBD
+DTSTART:20270118T050000Z
+SUMMARY:NFL Estelares - TBD
+UID:nfl-nfl-estelares-401872915@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Los Angeles Rams at Seattle Seahawks\nWeek: 16\nStatus: Scheduled\nVenue: Lumen Field\nCategory: Christmas\nBroadcast: Fox\nSource: ESPN NFL scoreboard
@@ -144,14 +144,6 @@ LOCATION:Lumen Field
 DTSTART:20261226T011500Z
 SUMMARY:Rams vs Seahawks - Christmas
 UID:nfl-nfl-estelares-401873143@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 1\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
-DTEND:20270118T083000Z
-LOCATION:TBD
-DTSTART:20270118T050000Z
-SUMMARY:NFL Estelares - TBD
-UID:nfl-nfl-estelares-401872915@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at San Francisco 49ers\nWeek: 6\nStatus: Scheduled\nVenue: Levi's Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
