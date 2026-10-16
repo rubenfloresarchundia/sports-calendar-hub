@@ -18,14 +18,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872916@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Seattle Seahawks at Denver Broncos\nWeek: 6\nStatus: Scheduled\nVenue: Empower Field at Mile High\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261016T034500Z
-LOCATION:Empower Field at Mile High
-DTSTART:20261016T001500Z
-SUMMARY:Seahawks vs Broncos - TNF
-UID:nfl-nfl-estelares-401872995@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Philadelphia Eagles\nWeek: 7\nStatus: Scheduled\nVenue: Lincoln Financial Field\nCategory: MNF\nBroadcast: ESPN\, ABC\, Disney+\nSource: ESPN NFL scoreboard
 DTEND:20261027T034500Z
 LOCATION:Lincoln Financial Field
