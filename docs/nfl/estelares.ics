@@ -290,14 +290,6 @@ SUMMARY:Giants vs Lions - MNF
 UID:nfl-nfl-estelares-401873155@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Green Bay Packers\nWeek: 6\nStatus: Scheduled\nVenue: Lambeau Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261019T035000Z
-LOCATION:Lambeau Field
-DTSTART:20261019T002000Z
-SUMMARY:Cowboys vs Packers - SNF
-UID:nfl-nfl-estelares-401873007@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Jacksonville Jaguars\nWeek: 14\nStatus: Scheduled\nVenue: EverBank Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
 DTEND:20261215T044500Z
 LOCATION:EverBank Stadium
