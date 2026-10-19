@@ -42,14 +42,6 @@ SUMMARY:F1 - Estados Unidos (Carrera)
 UID:f1-2026-18-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Green Bay Packers\nWeek: 6\nStatus: Scheduled\nVenue: Lambeau Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261019T035000Z
-LOCATION:Lambeau Field
-DTSTART:20261019T002000Z
-SUMMARY:Cowboys vs Packers - SNF
-UID:nfl-nfl-estelares-401873007@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Chicago Bears\nWeek: 7\nStatus: Scheduled\nVenue: Soldier Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261023T034500Z
 LOCATION:Soldier Field
@@ -74,12 +66,28 @@ SUMMARY:América vs Tijuana
 UID:football-ligamx-club-america-401876986@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: New England Patriots at Miami Dolphins\nWeek: 8\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261102T005500Z
+LOCATION:Hard Rock Stadium
+DTSTART:20261101T212500Z
+SUMMARY:Patriots vs Dolphins
+UID:nfl-miami-dolphins-401873034@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Seattle Seahawks\nWeek: 7\nStatus: Scheduled\nVenue: Lumen Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261026T035000Z
 LOCATION:Lumen Field
 DTSTART:20261026T002000Z
 SUMMARY:Chiefs vs Seahawks - SNF
 UID:nfl-nfl-estelares-401873022@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Washington Commanders\nWeek: 8\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261102T045000Z
+LOCATION:Northwest Stadium
+DTSTART:20261102T012000Z
+SUMMARY:Eagles vs Commanders - SNF
+UID:nfl-nfl-estelares-401873035@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New York Jets\nWeek: 7\nStatus: Scheduled\nVenue: MetLife Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
@@ -96,5 +104,13 @@ LOCATION:Estadio Banorte
 DTSTART:20261025T230000Z
 SUMMARY:América vs Pachuca
 UID:football-ligamx-club-america-401876922@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - México (Carrera)\nCircuito: Autódromo Hermanos Rodríguez\nCiudad: Mexico City\nPaís: Mexico\nRonda: 19\nFuente: Jolpica F1
+DTEND:20261101T220000Z
+LOCATION:Autódromo Hermanos Rodríguez
+DTSTART:20261101T200000Z
+SUMMARY:F1 - México (Carrera)
+UID:f1-2026-19-race@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
