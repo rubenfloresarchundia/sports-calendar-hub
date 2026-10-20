@@ -18,14 +18,6 @@ SUMMARY:Cowboys vs Eagles - MNF
 UID:nfl-nfl-estelares-401873009@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at San Francisco 49ers\nWeek: 6\nStatus: Scheduled\nVenue: Levi's Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20261020T034500Z
-LOCATION:Levi's Stadium
-DTSTART:20261020T001500Z
-SUMMARY:Commanders vs 49ers - MNF
-UID:nfl-nfl-estelares-401873008@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Toluca\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 15\nFuente: ESPN Liga MX
 DTEND:20261101T050000Z
 LOCATION:Estadio Banorte
@@ -58,12 +50,12 @@ SUMMARY:Panthers vs Packers - TNF
 UID:nfl-nfl-estelares-401873023@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Tijuana\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 14\nFuente: ESPN Liga MX
-DTEND:20261029T050000Z
-LOCATION:Estadio Banorte
-DTSTART:20261029T030000Z
-SUMMARY:América vs Tijuana
-UID:football-ligamx-club-america-401876986@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261103T044500Z
+LOCATION:Lumen Field
+DTSTART:20261103T011500Z
+SUMMARY:Bears vs Seahawks - MNF
+UID:nfl-nfl-estelares-401873036@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: New England Patriots at Miami Dolphins\nWeek: 8\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
@@ -80,6 +72,14 @@ LOCATION:Lumen Field
 DTSTART:20261026T002000Z
 SUMMARY:Chiefs vs Seahawks - SNF
 UID:nfl-nfl-estelares-401873022@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Tijuana\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 14\nFuente: ESPN Liga MX
+DTEND:20261029T050000Z
+LOCATION:Estadio Banorte
+DTSTART:20261029T030000Z
+SUMMARY:América vs Tijuana
+UID:football-ligamx-club-america-401876986@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Washington Commanders\nWeek: 8\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
