@@ -138,14 +138,6 @@ SUMMARY:Rams vs Seahawks - Christmas
 UID:nfl-nfl-estelares-401873143@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at San Francisco 49ers\nWeek: 6\nStatus: Scheduled\nVenue: Levi's Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20261020T034500Z
-LOCATION:Levi's Stadium
-DTSTART:20261020T001500Z
-SUMMARY:Commanders vs 49ers - MNF
-UID:nfl-nfl-estelares-401873008@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Baltimore Ravens at Cincinnati Bengals\nWeek: 17\nStatus: Scheduled\nVenue: Paycor Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20270101T044500Z
 LOCATION:Paycor Stadium
