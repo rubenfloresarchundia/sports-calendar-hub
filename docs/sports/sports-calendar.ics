@@ -26,12 +26,12 @@ SUMMARY:F1 - Estados Unidos (Carrera)
 UID:f1-2026-18-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Chicago Bears\nWeek: 7\nStatus: Scheduled\nVenue: Soldier Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261023T034500Z
-LOCATION:Soldier Field
-DTSTART:20261023T001500Z
-SUMMARY:Patriots vs Bears - TNF
-UID:nfl-nfl-estelares-401873010@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Jacksonville Jaguars at Baltimore Ravens\nWeek: 9\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261106T044500Z
+LOCATION:M&T Bank Stadium
+DTSTART:20261106T011500Z
+SUMMARY:Jaguars vs Ravens - TNF
+UID:nfl-nfl-estelares-401873037@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Carolina Panthers at Green Bay Packers\nWeek: 8\nStatus: Scheduled\nVenue: Lambeau Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
