@@ -26,6 +26,14 @@ SUMMARY:F1 - Estados Unidos (Carrera)
 UID:f1-2026-18-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
+DTEND:20261108T050000Z
+LOCATION:Estadio Olímpico Universitario
+DTSTART:20261108T030000Z
+SUMMARY:Pumas vs América
+UID:football-ligamx-club-america-401876904@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Jacksonville Jaguars at Baltimore Ravens\nWeek: 9\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261106T044500Z
 LOCATION:M&T Bank Stadium
