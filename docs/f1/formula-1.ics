@@ -18,14 +18,6 @@ SUMMARY:F1 - Las Vegas (Carrera)
 UID:f1-2026-21-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Estados Unidos (Carrera)\nCircuito: Circuit of the Americas\nCiudad: Austin\nPaís: USA\nRonda: 18\nFuente: Jolpica F1
-DTEND:20261025T220000Z
-LOCATION:Circuit of the Americas
-DTSTART:20261025T200000Z
-SUMMARY:F1 - Estados Unidos (Carrera)
-UID:f1-2026-18-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Qatar (Carrera)\nCircuito: Lusail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 22\nFuente: Jolpica F1
 DTEND:20261129T180000Z
 LOCATION:Lusail International Circuit
