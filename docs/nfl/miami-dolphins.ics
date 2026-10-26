@@ -66,14 +66,6 @@ SUMMARY:Dolphins vs Patriots
 UID:nfl-miami-dolphins-401873180@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at New York Jets\nWeek: 7\nStatus: Scheduled\nVenue: MetLife Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20261025T203000Z
-LOCATION:MetLife Stadium
-DTSTART:20261025T170000Z
-SUMMARY:Dolphins vs Jets
-UID:nfl-miami-dolphins-401873015@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261115T213000Z
 LOCATION:Lucas Oil Stadium

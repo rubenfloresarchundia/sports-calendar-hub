@@ -290,14 +290,6 @@ SUMMARY:Eagles vs 49ers - SNF
 UID:nfl-nfl-estelares-401873170@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Seattle Seahawks\nWeek: 7\nStatus: Scheduled\nVenue: Lumen Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261026T035000Z
-LOCATION:Lumen Field
-DTSTART:20261026T002000Z
-SUMMARY:Chiefs vs Seahawks - SNF
-UID:nfl-nfl-estelares-401873022@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 1\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
 DTEND:20270116T083000Z
 LOCATION:TBD
