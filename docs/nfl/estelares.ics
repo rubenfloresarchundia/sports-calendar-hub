@@ -18,14 +18,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872916@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Philadelphia Eagles\nWeek: 7\nStatus: Scheduled\nVenue: Lincoln Financial Field\nCategory: MNF\nBroadcast: ESPN\, ABC\, Disney+\nSource: ESPN NFL scoreboard
-DTEND:20261027T034500Z
-LOCATION:Lincoln Financial Field
-DTSTART:20261027T001500Z
-SUMMARY:Cowboys vs Eagles - MNF
-UID:nfl-nfl-estelares-401873009@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Detroit Lions at Minnesota Vikings\nWeek: 15\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261221T045000Z
 LOCATION:U.S. Bank Stadium
