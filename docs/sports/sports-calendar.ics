@@ -10,14 +10,6 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Philadelphia Eagles\nWeek: 7\nStatus: Scheduled\nVenue: Lincoln Financial Field\nCategory: MNF\nBroadcast: ESPN\, ABC\, Disney+\nSource: ESPN NFL scoreboard
-DTEND:20261027T034500Z
-LOCATION:Lincoln Financial Field
-DTSTART:20261027T001500Z
-SUMMARY:Cowboys vs Eagles - MNF
-UID:nfl-nfl-estelares-401873009@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Toluca\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 15\nFuente: ESPN Liga MX
 DTEND:20261101T050000Z
 LOCATION:Estadio Banorte
@@ -96,6 +88,14 @@ LOCATION:Autódromo Hermanos Rodríguez
 DTSTART:20261101T200000Z
 SUMMARY:F1 - México (Carrera)
 UID:f1-2026-19-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Minnesota Vikings\nWeek: 9\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261110T044500Z
+LOCATION:U.S. Bank Stadium
+DTSTART:20261110T011500Z
+SUMMARY:Bills vs Vikings - MNF
+UID:nfl-nfl-estelares-401873051@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Chicago Bears\nWeek: 9\nStatus: Scheduled\nVenue: Soldier Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
