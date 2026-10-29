@@ -58,14 +58,6 @@ SUMMARY:Patriots vs Dolphins
 UID:nfl-miami-dolphins-401873034@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Tijuana\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 14\nFuente: ESPN Liga MX
-DTEND:20261029T050000Z
-LOCATION:Estadio Banorte
-DTSTART:20261029T030000Z
-SUMMARY:América vs Tijuana
-UID:football-ligamx-club-america-401876986@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Washington Commanders\nWeek: 8\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261102T045000Z
 LOCATION:Northwest Stadium
