@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Tommy Paul\nTournament: Erste Bank Open - Vienna\nRound: 1/4\nCountry: Austria\nSource: Tennis API
+DTEND:20261030T160000Z
+LOCATION:Erste Bank Open - Vienna
+DTSTART:20261030T140000Z
+SUMMARY:Alcaraz vs Paul - Erste Bank Open - Vienna
+UID:tennis-atp-68074-1044522@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Detroit Lions at Miami Dolphins\nWeek: 9\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261108T213000Z
 LOCATION:Hard Rock Stadium
@@ -34,14 +42,6 @@ SUMMARY:Jaguars vs Ravens - TNF
 UID:nfl-nfl-estelares-401873037@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Carolina Panthers at Green Bay Packers\nWeek: 8\nStatus: Scheduled\nVenue: Lambeau Field\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261030T034500Z
-LOCATION:Lambeau Field
-DTSTART:20261030T001500Z
-SUMMARY:Panthers vs Packers - TNF
-UID:nfl-nfl-estelares-401873023@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
 DTEND:20261103T044500Z
 LOCATION:Lumen Field
@@ -64,6 +64,14 @@ LOCATION:Northwest Stadium
 DTSTART:20261102T012000Z
 SUMMARY:Eagles vs Commanders - SNF
 UID:nfl-nfl-estelares-401873035@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at New York Giants\nWeek: 10\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261113T044500Z
+LOCATION:MetLife Stadium
+DTSTART:20261113T011500Z
+SUMMARY:Commanders vs Giants - TNF
+UID:nfl-nfl-estelares-401873052@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - São Paulo (Carrera)\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 20\nFuente: Jolpica F1
