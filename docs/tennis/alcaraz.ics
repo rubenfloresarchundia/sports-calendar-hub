@@ -1,12 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Daniil Medvedev\nTournament: Erste Bank Open - Vienna\nRound: 1/2\nCountry: Austria\nSource: Tennis API
-DTEND:20261031T160000Z
-LOCATION:Erste Bank Open - Vienna
-DTSTART:20261031T140000Z
-SUMMARY:Alcaraz vs Medvedev - Erste Bank Open - Vienna
-UID:tennis-atp-68074-1114929@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR
