@@ -26,12 +26,12 @@ SUMMARY:Jaguars vs Ravens - TNF
 UID:nfl-nfl-estelares-401873037@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Alex De Minaur\nTournament: Erste Bank Open - Vienna\nRound: Final\nCountry: Austria\nSource: Tennis API
-DTEND:20261101T150000Z
-LOCATION:Erste Bank Open - Vienna
-DTSTART:20261101T130000Z
-SUMMARY:Alcaraz vs Minaur - Erste Bank Open - Vienna
-UID:tennis-atp-68074-1196064@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261103T044500Z
+LOCATION:Lumen Field
+DTSTART:20261103T011500Z
+SUMMARY:Bears vs Seahawks - MNF
+UID:nfl-nfl-estelares-401873036@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: New England Patriots at Miami Dolphins\nWeek: 8\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
@@ -40,14 +40,6 @@ LOCATION:Hard Rock Stadium
 DTSTART:20261101T212500Z
 SUMMARY:Patriots vs Dolphins
 UID:nfl-miami-dolphins-401873034@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261103T044500Z
-LOCATION:Lumen Field
-DTSTART:20261103T011500Z
-SUMMARY:Bears vs Seahawks - MNF
-UID:nfl-nfl-estelares-401873036@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Washington Commanders\nWeek: 8\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
@@ -72,6 +64,14 @@ LOCATION:Autódromo José Carlos Pace
 DTSTART:20261108T170000Z
 SUMMARY:F1 - São Paulo (Carrera)
 UID:f1-2026-20-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261115T213000Z
+LOCATION:Lucas Oil Stadium
+DTSTART:20261115T180000Z
+SUMMARY:Dolphins vs Colts
+UID:nfl-miami-dolphins-401873059@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - México (Carrera)\nCircuito: Autódromo Hermanos Rodríguez\nCiudad: Mexico City\nPaís: Mexico\nRonda: 19\nFuente: Jolpica F1
