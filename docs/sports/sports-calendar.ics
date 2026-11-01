@@ -10,14 +10,6 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: América\nVisitante: Toluca\nEstado: Scheduled\nEstadio: Estadio Banorte\nJornada: 15\nFuente: ESPN Liga MX
-DTEND:20261101T050000Z
-LOCATION:Estadio Banorte
-DTSTART:20261101T030000Z
-SUMMARY:América vs Toluca
-UID:football-ligamx-club-america-401876913@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
 DTEND:20261108T050000Z
 LOCATION:Estadio Olímpico Universitario
@@ -34,12 +26,12 @@ SUMMARY:Jaguars vs Ravens - TNF
 UID:nfl-nfl-estelares-401873037@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261103T044500Z
-LOCATION:Lumen Field
-DTSTART:20261103T011500Z
-SUMMARY:Bears vs Seahawks - MNF
-UID:nfl-nfl-estelares-401873036@sports-calendar-hub
+DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Alex De Minaur\nTournament: Erste Bank Open - Vienna\nRound: Final\nCountry: Austria\nSource: Tennis API
+DTEND:20261101T150000Z
+LOCATION:Erste Bank Open - Vienna
+DTSTART:20261101T130000Z
+SUMMARY:Alcaraz vs Minaur - Erste Bank Open - Vienna
+UID:tennis-atp-68074-1196064@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: New England Patriots at Miami Dolphins\nWeek: 8\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
@@ -48,6 +40,14 @@ LOCATION:Hard Rock Stadium
 DTSTART:20261101T212500Z
 SUMMARY:Patriots vs Dolphins
 UID:nfl-miami-dolphins-401873034@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261103T044500Z
+LOCATION:Lumen Field
+DTSTART:20261103T011500Z
+SUMMARY:Bears vs Seahawks - MNF
+UID:nfl-nfl-estelares-401873036@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Washington Commanders\nWeek: 8\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
