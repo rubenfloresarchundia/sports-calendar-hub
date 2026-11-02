@@ -10,14 +10,6 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
-DTEND:20261108T050000Z
-LOCATION:Estadio Olímpico Universitario
-DTSTART:20261108T030000Z
-SUMMARY:Pumas vs América
-UID:football-ligamx-club-america-401876904@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Jacksonville Jaguars at Baltimore Ravens\nWeek: 9\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261106T044500Z
 LOCATION:M&T Bank Stadium
@@ -32,22 +24,6 @@ LOCATION:Lumen Field
 DTSTART:20261103T011500Z
 SUMMARY:Bears vs Seahawks - MNF
 UID:nfl-nfl-estelares-401873036@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: New England Patriots at Miami Dolphins\nWeek: 8\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20261102T005500Z
-LOCATION:Hard Rock Stadium
-DTSTART:20261101T212500Z
-SUMMARY:Patriots vs Dolphins
-UID:nfl-miami-dolphins-401873034@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Washington Commanders\nWeek: 8\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261102T045000Z
-LOCATION:Northwest Stadium
-DTSTART:20261102T012000Z
-SUMMARY:Eagles vs Commanders - SNF
-UID:nfl-nfl-estelares-401873035@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at New York Giants\nWeek: 10\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
@@ -74,12 +50,12 @@ SUMMARY:Dolphins vs Colts
 UID:nfl-miami-dolphins-401873059@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - México (Carrera)\nCircuito: Autódromo Hermanos Rodríguez\nCiudad: Mexico City\nPaís: Mexico\nRonda: 19\nFuente: Jolpica F1
-DTEND:20261101T220000Z
-LOCATION:Autódromo Hermanos Rodríguez
-DTSTART:20261101T200000Z
-SUMMARY:F1 - México (Carrera)
-UID:f1-2026-19-race@sports-calendar-hub
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
+DTEND:20261108T050000Z
+LOCATION:Estadio Olímpico Universitario
+DTSTART:20261108T030000Z
+SUMMARY:Pumas vs América
+UID:football-ligamx-club-america-401876904@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Minnesota Vikings\nWeek: 9\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
@@ -88,6 +64,14 @@ LOCATION:U.S. Bank Stadium
 DTSTART:20261110T011500Z
 SUMMARY:Bills vs Vikings - MNF
 UID:nfl-nfl-estelares-401873051@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Cincinnati Bengals\nWeek: 10\nStatus: Scheduled\nVenue: Paycor Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261116T045000Z
+LOCATION:Paycor Stadium
+DTSTART:20261116T012000Z
+SUMMARY:Steelers vs Bengals - SNF
+UID:nfl-nfl-estelares-401873064@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Chicago Bears\nWeek: 9\nStatus: Scheduled\nVenue: Soldier Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
