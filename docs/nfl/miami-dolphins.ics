@@ -34,14 +34,6 @@ SUMMARY:Dolphins vs Broncos
 UID:nfl-miami-dolphins-401873103@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: New England Patriots at Miami Dolphins\nWeek: 8\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20261102T005500Z
-LOCATION:Hard Rock Stadium
-DTSTART:20261101T212500Z
-SUMMARY:Patriots vs Dolphins
-UID:nfl-miami-dolphins-401873034@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Green Bay Packers\nWeek: 15\nStatus: Scheduled\nVenue: Lambeau Field\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261220T213000Z
 LOCATION:Lambeau Field

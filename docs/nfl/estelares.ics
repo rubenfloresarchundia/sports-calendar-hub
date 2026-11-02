@@ -282,14 +282,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872910@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Washington Commanders\nWeek: 8\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261102T045000Z
-LOCATION:Northwest Stadium
-DTSTART:20261102T012000Z
-SUMMARY:Eagles vs Commanders - SNF
-UID:nfl-nfl-estelares-401873035@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF / Thanksgiving\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261127T045000Z
 LOCATION:Highmark Stadium
