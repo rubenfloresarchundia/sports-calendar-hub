@@ -2,20 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Evento: F1 - São Paulo (Carrera)\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 20\nFuente: Jolpica F1
+DTEND:20261108T190000Z
+LOCATION:Autódromo José Carlos Pace
+DTSTART:20261108T170000Z
+SUMMARY:F1 - São Paulo (Carrera)
+UID:f1-2026-20-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Abu Dabi (Carrera)\nCircuito: Yas Marina Circuit\nCiudad: Abu Dhabi\nPaís: UAE\nRonda: 23\nFuente: Jolpica F1
 DTEND:20261206T150000Z
 LOCATION:Yas Marina Circuit
 DTSTART:20261206T130000Z
 SUMMARY:F1 - Abu Dabi (Carrera)
 UID:f1-2026-23-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
-DTEND:20261122T060000Z
-LOCATION:Las Vegas Strip Street Circuit
-DTSTART:20261122T040000Z
-SUMMARY:F1 - Las Vegas (Carrera)
-UID:f1-2026-21-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Qatar (Carrera)\nCircuito: Lusail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 22\nFuente: Jolpica F1
@@ -26,19 +26,11 @@ SUMMARY:F1 - Qatar (Carrera)
 UID:f1-2026-22-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - São Paulo (Carrera)\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 20\nFuente: Jolpica F1
-DTEND:20261108T190000Z
-LOCATION:Autódromo José Carlos Pace
-DTSTART:20261108T170000Z
-SUMMARY:F1 - São Paulo (Carrera)
-UID:f1-2026-20-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - México (Carrera)\nCircuito: Autódromo Hermanos Rodríguez\nCiudad: Mexico City\nPaís: Mexico\nRonda: 19\nFuente: Jolpica F1
-DTEND:20261101T220000Z
-LOCATION:Autódromo Hermanos Rodríguez
-DTSTART:20261101T200000Z
-SUMMARY:F1 - México (Carrera)
-UID:f1-2026-19-race@sports-calendar-hub
+DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
+DTEND:20261122T060000Z
+LOCATION:Las Vegas Strip Street Circuit
+DTSTART:20261122T040000Z
+SUMMARY:F1 - Las Vegas (Carrera)
+UID:f1-2026-21-race@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
