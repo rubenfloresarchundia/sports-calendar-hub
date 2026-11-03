@@ -162,14 +162,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872911@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261103T044500Z
-LOCATION:Lumen Field
-DTSTART:20261103T011500Z
-SUMMARY:Bears vs Seahawks - MNF
-UID:nfl-nfl-estelares-401873036@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Pittsburgh Steelers\nWeek: 12\nStatus: Scheduled\nVenue: Acrisure Stadium\nCategory: Black Friday\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261127T233000Z
 LOCATION:Acrisure Stadium
