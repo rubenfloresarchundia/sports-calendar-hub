@@ -10,20 +10,20 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
+DTEND:20261108T050000Z
+LOCATION:Estadio Olímpico Universitario
+DTSTART:20261108T030000Z
+SUMMARY:Pumas vs América
+UID:football-ligamx-club-america-401876904@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Jacksonville Jaguars at Baltimore Ravens\nWeek: 9\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261106T044500Z
 LOCATION:M&T Bank Stadium
 DTSTART:20261106T011500Z
 SUMMARY:Jaguars vs Ravens - TNF
 UID:nfl-nfl-estelares-401873037@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Seattle Seahawks\nWeek: 8\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261103T044500Z
-LOCATION:Lumen Field
-DTSTART:20261103T011500Z
-SUMMARY:Bears vs Seahawks - MNF
-UID:nfl-nfl-estelares-401873036@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at New York Giants\nWeek: 10\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
@@ -50,12 +50,12 @@ SUMMARY:Dolphins vs Colts
 UID:nfl-miami-dolphins-401873059@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
-DTEND:20261108T050000Z
-LOCATION:Estadio Olímpico Universitario
-DTSTART:20261108T030000Z
-SUMMARY:Pumas vs América
-UID:football-ligamx-club-america-401876904@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Los Angeles Chargers at Baltimore Ravens\nWeek: 10\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261117T044500Z
+LOCATION:M&T Bank Stadium
+DTSTART:20261117T011500Z
+SUMMARY:Chargers vs Ravens - MNF
+UID:nfl-nfl-estelares-401873065@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Minnesota Vikings\nWeek: 9\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
