@@ -1,4 +1,12 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Taylor Fritz\nTournament: Paris Masters\nRound: 1/4\nCountry: France\nSource: Tennis API
+DTEND:20261106T200000Z
+LOCATION:Paris Masters
+DTSTART:20261106T180000Z
+SUMMARY:Alcaraz vs Fritz - Paris Masters
+UID:tennis-atp-68074-1531229@sports-calendar-hub
+END:VEVENT
 END:VCALENDAR
