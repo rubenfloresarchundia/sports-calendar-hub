@@ -10,6 +10,14 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Taylor Fritz\nTournament: Paris Masters\nRound: 1/4\nCountry: France\nSource: Tennis API
+DTEND:20261106T200000Z
+LOCATION:Paris Masters
+DTSTART:20261106T180000Z
+SUMMARY:Alcaraz vs Fritz - Paris Masters
+UID:tennis-atp-68074-1531229@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
 DTEND:20261108T050000Z
 LOCATION:Estadio Olímpico Universitario
@@ -18,12 +26,12 @@ SUMMARY:Pumas vs América
 UID:football-ligamx-club-america-401876904@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Jacksonville Jaguars at Baltimore Ravens\nWeek: 9\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261106T044500Z
-LOCATION:M&T Bank Stadium
-DTSTART:20261106T011500Z
-SUMMARY:Jaguars vs Ravens - TNF
-UID:nfl-nfl-estelares-401873037@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Houston Texans\nWeek: 11\nStatus: Scheduled\nVenue: Reliant Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261120T044500Z
+LOCATION:Reliant Stadium
+DTSTART:20261120T011500Z
+SUMMARY:Colts vs Texans - TNF
+UID:nfl-nfl-estelares-401873066@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at New York Giants\nWeek: 10\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
