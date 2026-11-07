@@ -18,6 +18,14 @@ SUMMARY:Pumas vs América
 UID:football-ligamx-club-america-401876904@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Casper Ruud\nTournament: Paris Masters\nRound: 1/2\nCountry: France\nSource: Tennis API
+DTEND:20261107T180000Z
+LOCATION:Paris Masters
+DTSTART:20261107T160000Z
+SUMMARY:Alcaraz vs Ruud - Paris Masters
+UID:tennis-atp-68074-1614879@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Houston Texans\nWeek: 11\nStatus: Scheduled\nVenue: Reliant Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261120T044500Z
 LOCATION:Reliant Stadium
