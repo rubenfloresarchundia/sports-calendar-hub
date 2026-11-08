@@ -1,12 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Ben Shelton\nTournament: Paris Masters\nRound: Final\nCountry: France\nSource: Tennis API
-DTEND:20261108T160000Z
-LOCATION:Paris Masters
-DTSTART:20261108T140000Z
-SUMMARY:Alcaraz vs Shelton - Paris Masters
-UID:tennis-atp-68074-1668319@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR
