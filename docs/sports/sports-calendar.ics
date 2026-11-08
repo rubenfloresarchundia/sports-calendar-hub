@@ -10,14 +10,6 @@ SUMMARY:Tigres vs América
 UID:football-ligamx-club-america-401877048@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Detroit Lions at Miami Dolphins\nWeek: 9\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
-DTEND:20261108T213000Z
-LOCATION:Hard Rock Stadium
-DTSTART:20261108T180000Z
-SUMMARY:Lions vs Dolphins
-UID:nfl-miami-dolphins-401873042@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
 DTEND:20261122T060000Z
 LOCATION:Las Vegas Strip Street Circuit
@@ -26,12 +18,12 @@ SUMMARY:F1 - Las Vegas (Carrera)
 UID:f1-2026-21-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Ben Shelton\nTournament: Paris Masters\nRound: Final\nCountry: France\nSource: Tennis API
-DTEND:20261108T160000Z
-LOCATION:Paris Masters
-DTSTART:20261108T140000Z
-SUMMARY:Alcaraz vs Shelton - Paris Masters
-UID:tennis-atp-68074-1668319@sports-calendar-hub
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
+DTEND:20261122T213000Z
+LOCATION:Highmark Stadium
+DTSTART:20261122T180000Z
+SUMMARY:Dolphins vs Bills
+UID:nfl-miami-dolphins-401873070@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Houston Texans\nWeek: 11\nStatus: Scheduled\nVenue: Reliant Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
@@ -48,14 +40,6 @@ LOCATION:MetLife Stadium
 DTSTART:20261113T011500Z
 SUMMARY:Commanders vs Giants - TNF
 UID:nfl-nfl-estelares-401873052@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - São Paulo (Carrera)\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 20\nFuente: Jolpica F1
-DTEND:20261108T190000Z
-LOCATION:Autódromo José Carlos Pace
-DTSTART:20261108T170000Z
-SUMMARY:F1 - São Paulo (Carrera)
-UID:f1-2026-20-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
