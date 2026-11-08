@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Competición: Liga MX Apertura\nLocal: Tigres\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Universitario\nJornada: 17\nFuente: ESPN Liga MX
+DTEND:20261122T050000Z
+LOCATION:Estadio Universitario
+DTSTART:20261122T030000Z
+SUMMARY:Tigres vs América
+UID:football-ligamx-club-america-401877048@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Detroit Lions at Miami Dolphins\nWeek: 9\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261108T213000Z
 LOCATION:Hard Rock Stadium
@@ -10,12 +18,20 @@ SUMMARY:Lions vs Dolphins
 UID:nfl-miami-dolphins-401873042@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: Pumas\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Olímpico Universitario\nJornada: 16\nFuente: ESPN Liga MX
-DTEND:20261108T050000Z
-LOCATION:Estadio Olímpico Universitario
-DTSTART:20261108T030000Z
-SUMMARY:Pumas vs América
-UID:football-ligamx-club-america-401876904@sports-calendar-hub
+DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
+DTEND:20261122T060000Z
+LOCATION:Las Vegas Strip Street Circuit
+DTSTART:20261122T040000Z
+SUMMARY:F1 - Las Vegas (Carrera)
+UID:f1-2026-21-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Ben Shelton\nTournament: Paris Masters\nRound: Final\nCountry: France\nSource: Tennis API
+DTEND:20261108T160000Z
+LOCATION:Paris Masters
+DTSTART:20261108T140000Z
+SUMMARY:Alcaraz vs Shelton - Paris Masters
+UID:tennis-atp-68074-1668319@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Houston Texans\nWeek: 11\nStatus: Scheduled\nVenue: Reliant Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
