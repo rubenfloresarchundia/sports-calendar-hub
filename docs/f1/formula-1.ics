@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - São Paulo (Carrera)\nCircuito: Autódromo José Carlos Pace\nCiudad: São Paulo\nPaís: Brazil\nRonda: 20\nFuente: Jolpica F1
-DTEND:20261108T190000Z
-LOCATION:Autódromo José Carlos Pace
-DTSTART:20261108T170000Z
-SUMMARY:F1 - São Paulo (Carrera)
-UID:f1-2026-20-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Abu Dabi (Carrera)\nCircuito: Yas Marina Circuit\nCiudad: Abu Dhabi\nPaís: UAE\nRonda: 23\nFuente: Jolpica F1
 DTEND:20261206T150000Z
 LOCATION:Yas Marina Circuit
