@@ -282,14 +282,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872917@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Tampa Bay Buccaneers at Chicago Bears\nWeek: 9\nStatus: Scheduled\nVenue: Soldier Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261109T045000Z
-LOCATION:Soldier Field
-DTSTART:20261109T012000Z
-SUMMARY:Buccaneers vs Bears - SNF
-UID:nfl-nfl-estelares-401873050@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Kansas City Chiefs\nWeek: 15\nStatus: Scheduled\nVenue: Arrowhead Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20261222T044500Z
 LOCATION:Arrowhead Stadium

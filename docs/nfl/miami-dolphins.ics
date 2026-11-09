@@ -10,15 +10,7 @@ SUMMARY:Bears vs Dolphins
 UID:nfl-miami-dolphins-401873111@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Detroit Lions at Miami Dolphins\nWeek: 9\nStatus: In Progress\nVenue: Hard Rock Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
-DTEND:20261108T213000Z
-LOCATION:Hard Rock Stadium
-DTSTART:20261108T180000Z
-SUMMARY:Lions vs Dolphins
-UID:nfl-miami-dolphins-401873042@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: Fox\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261122T213000Z
 LOCATION:Highmark Stadium
 DTSTART:20261122T180000Z
