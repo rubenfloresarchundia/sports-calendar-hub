@@ -178,14 +178,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872918@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Minnesota Vikings\nWeek: 9\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20261110T044500Z
-LOCATION:U.S. Bank Stadium
-DTSTART:20261110T011500Z
-SUMMARY:Bills vs Vikings - MNF
-UID:nfl-nfl-estelares-401873051@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Cincinnati Bengals\nWeek: 10\nStatus: Scheduled\nVenue: Paycor Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261116T045000Z
 LOCATION:Paycor Stadium
