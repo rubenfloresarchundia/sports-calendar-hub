@@ -58,12 +58,12 @@ SUMMARY:Chargers vs Ravens - MNF
 UID:nfl-nfl-estelares-401873065@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Buffalo Bills at Minnesota Vikings\nWeek: 9\nStatus: Scheduled\nVenue: U.S. Bank Stadium\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
-DTEND:20261110T044500Z
-LOCATION:U.S. Bank Stadium
-DTSTART:20261110T011500Z
-SUMMARY:Bills vs Vikings - MNF
-UID:nfl-nfl-estelares-401873051@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Cincinnati Bengals at Washington Commanders\nWeek: 11\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261124T044500Z
+LOCATION:Northwest Stadium
+DTSTART:20261124T011500Z
+SUMMARY:Bengals vs Commanders - MNF
+UID:nfl-nfl-estelares-401873078@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Cincinnati Bengals\nWeek: 10\nStatus: Scheduled\nVenue: Paycor Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
