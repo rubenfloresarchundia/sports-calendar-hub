@@ -42,6 +42,14 @@ SUMMARY:Commanders vs Giants - TNF
 UID:nfl-nfl-estelares-401873052@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261126T213000Z
+LOCATION:Ford Field
+DTSTART:20261126T180000Z
+SUMMARY:Bears vs Lions - TNF / Thanksgiving
+UID:nfl-nfl-estelares-401873081@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261115T213000Z
 LOCATION:Lucas Oil Stadium
