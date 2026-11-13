@@ -10,12 +10,28 @@ SUMMARY:Tigres vs América
 UID:football-ligamx-club-america-401877048@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Dallas Cowboys\nWeek: 12\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF / Thanksgiving\nBroadcast: Fox\nSource: ESPN NFL scoreboard
+DTEND:20261127T010000Z
+LOCATION:AT&T Stadium
+DTSTART:20261126T213000Z
+SUMMARY:Eagles vs Cowboys - TNF / Thanksgiving
+UID:nfl-nfl-estelares-401873080@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
 DTEND:20261122T060000Z
 LOCATION:Las Vegas Strip Street Circuit
 DTSTART:20261122T040000Z
 SUMMARY:F1 - Las Vegas (Carrera)
 UID:f1-2026-21-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261115T213000Z
+LOCATION:Lucas Oil Stadium
+DTSTART:20261115T180000Z
+SUMMARY:Dolphins vs Colts
+UID:nfl-miami-dolphins-401873059@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
@@ -34,14 +50,6 @@ SUMMARY:Colts vs Texans - TNF
 UID:nfl-nfl-estelares-401873066@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Washington Commanders at New York Giants\nWeek: 10\nStatus: Scheduled\nVenue: MetLife Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261113T044500Z
-LOCATION:MetLife Stadium
-DTSTART:20261113T011500Z
-SUMMARY:Commanders vs Giants - TNF
-UID:nfl-nfl-estelares-401873052@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261126T213000Z
 LOCATION:Ford Field
@@ -50,12 +58,12 @@ SUMMARY:Bears vs Lions - TNF / Thanksgiving
 UID:nfl-nfl-estelares-401873081@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Indianapolis Colts\nWeek: 10\nStatus: Scheduled\nVenue: Lucas Oil Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20261115T213000Z
-LOCATION:Lucas Oil Stadium
-DTSTART:20261115T180000Z
-SUMMARY:Dolphins vs Colts
-UID:nfl-miami-dolphins-401873059@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF / Thanksgiving\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261127T045000Z
+LOCATION:Highmark Stadium
+DTSTART:20261127T012000Z
+SUMMARY:Chiefs vs Bills - TNF / Thanksgiving
+UID:nfl-nfl-estelares-401873082@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Los Angeles Chargers at Baltimore Ravens\nWeek: 10\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
