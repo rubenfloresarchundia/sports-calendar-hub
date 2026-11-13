@@ -74,6 +74,14 @@ SUMMARY:Chargers vs Ravens - MNF
 UID:nfl-nfl-estelares-401873065@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Pittsburgh Steelers\nWeek: 12\nStatus: Scheduled\nVenue: Acrisure Stadium\nCategory: Black Friday\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261127T233000Z
+LOCATION:Acrisure Stadium
+DTSTART:20261127T200000Z
+SUMMARY:Broncos vs Steelers - Black Friday
+UID:nfl-nfl-estelares-401873083@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Cincinnati Bengals at Washington Commanders\nWeek: 11\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
 DTEND:20261124T044500Z
 LOCATION:Northwest Stadium
