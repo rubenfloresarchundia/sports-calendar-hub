@@ -170,14 +170,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872918@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Cincinnati Bengals\nWeek: 10\nStatus: Scheduled\nVenue: Paycor Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261116T045000Z
-LOCATION:Paycor Stadium
-DTSTART:20261116T012000Z
-SUMMARY:Steelers vs Bengals - SNF
-UID:nfl-nfl-estelares-401873064@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Minnesota Vikings at San Francisco 49ers\nWeek: 11\nStatus: Scheduled\nVenue: Estadio Banorte\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261123T045000Z
 LOCATION:Estadio Banorte
