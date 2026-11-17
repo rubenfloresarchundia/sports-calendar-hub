@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Carolina Panthers at Tampa Bay Buccaneers\nWeek: 12\nStatus: Scheduled\nVenue: Raymond James Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
+DTEND:20261201T044500Z
+LOCATION:Raymond James Stadium
+DTSTART:20261201T011500Z
+SUMMARY:Panthers vs Buccaneers - MNF
+UID:nfl-nfl-estelares-401873094@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Competición: Liga MX Apertura\nLocal: Tigres\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Universitario\nJornada: 17\nFuente: ESPN Liga MX
 DTEND:20261122T050000Z
 LOCATION:Estadio Universitario
@@ -72,14 +80,6 @@ LOCATION:Highmark Stadium
 DTSTART:20261127T012000Z
 SUMMARY:Chiefs vs Bills - TNF / Thanksgiving
 UID:nfl-nfl-estelares-401873082@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Los Angeles Chargers at Baltimore Ravens\nWeek: 10\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261117T044500Z
-LOCATION:M&T Bank Stadium
-DTSTART:20261117T011500Z
-SUMMARY:Chargers vs Ravens - MNF
-UID:nfl-nfl-estelares-401873065@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Pittsburgh Steelers\nWeek: 12\nStatus: Scheduled\nVenue: Acrisure Stadium\nCategory: Black Friday\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
