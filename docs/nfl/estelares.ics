@@ -50,14 +50,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872919@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Los Angeles Chargers at Baltimore Ravens\nWeek: 10\nStatus: Scheduled\nVenue: M&T Bank Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261117T044500Z
-LOCATION:M&T Bank Stadium
-DTSTART:20261117T011500Z
-SUMMARY:Chargers vs Ravens - MNF
-UID:nfl-nfl-estelares-401873065@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Cincinnati Bengals at Washington Commanders\nWeek: 11\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
 DTEND:20261124T044500Z
 LOCATION:Northwest Stadium
