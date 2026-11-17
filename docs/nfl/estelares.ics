@@ -74,14 +74,6 @@ SUMMARY:Eagles vs Cowboys - TNF / Thanksgiving
 UID:nfl-nfl-estelares-401873080@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Los Angeles Chargers\nWeek: 12\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261130T045000Z
-LOCATION:SoFi Stadium
-DTSTART:20261130T012000Z
-SUMMARY:Patriots vs Chargers - SNF
-UID:nfl-nfl-estelares-401873093@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Minnesota Vikings at New England Patriots\nWeek: 14\nStatus: Scheduled\nVenue: Gillette Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261211T044500Z
 LOCATION:Gillette Stadium
@@ -208,6 +200,14 @@ LOCATION:Ford Field
 DTSTART:20261229T011500Z
 SUMMARY:Giants vs Lions - MNF
 UID:nfl-nfl-estelares-401873155@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Las Vegas Raiders at Cleveland Browns\nWeek: 12\nStatus: Scheduled\nVenue: Huntington Bank Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261130T045000Z
+LOCATION:Huntington Bank Field
+DTSTART:20261130T012000Z
+SUMMARY:Raiders vs Browns - SNF
+UID:nfl-nfl-estelares-401873086@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Pittsburgh Steelers at Jacksonville Jaguars\nWeek: 14\nStatus: Scheduled\nVenue: EverBank Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
