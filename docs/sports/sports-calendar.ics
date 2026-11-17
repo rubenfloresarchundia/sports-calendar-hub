@@ -26,20 +26,20 @@ SUMMARY:Eagles vs Cowboys - TNF / Thanksgiving
 UID:nfl-nfl-estelares-401873080@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: New England Patriots at Los Angeles Chargers\nWeek: 12\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261130T045000Z
-LOCATION:SoFi Stadium
-DTSTART:20261130T012000Z
-SUMMARY:Patriots vs Chargers - SNF
-UID:nfl-nfl-estelares-401873093@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
 DTEND:20261122T060000Z
 LOCATION:Las Vegas Strip Street Circuit
 DTSTART:20261122T040000Z
 SUMMARY:F1 - Las Vegas (Carrera)
 UID:f1-2026-21-race@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Las Vegas Raiders at Cleveland Browns\nWeek: 12\nStatus: Scheduled\nVenue: Huntington Bank Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261130T045000Z
+LOCATION:Huntington Bank Field
+DTSTART:20261130T012000Z
+SUMMARY:Raiders vs Browns - SNF
+UID:nfl-nfl-estelares-401873086@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Buffalo Bills\nWeek: 11\nStatus: Scheduled\nVenue: Highmark Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
