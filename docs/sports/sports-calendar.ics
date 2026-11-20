@@ -58,14 +58,6 @@ SUMMARY:F1 - Qatar (Carrera)
 UID:f1-2026-22-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Houston Texans\nWeek: 11\nStatus: Scheduled\nVenue: Reliant Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261120T044500Z
-LOCATION:Reliant Stadium
-DTSTART:20261120T011500Z
-SUMMARY:Colts vs Texans - TNF
-UID:nfl-nfl-estelares-401873066@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261126T213000Z
 LOCATION:Ford Field
@@ -88,6 +80,14 @@ LOCATION:Acrisure Stadium
 DTSTART:20261127T200000Z
 SUMMARY:Broncos vs Steelers - Black Friday
 UID:nfl-nfl-estelares-401873083@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Los Angeles Rams\nWeek: 13\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261204T044500Z
+LOCATION:SoFi Stadium
+DTSTART:20261204T011500Z
+SUMMARY:Chiefs vs Rams - TNF
+UID:nfl-nfl-estelares-401873096@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Cincinnati Bengals at Washington Commanders\nWeek: 11\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
