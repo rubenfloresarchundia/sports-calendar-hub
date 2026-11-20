@@ -306,14 +306,6 @@ SUMMARY:Bills vs Packers - SNF
 UID:nfl-nfl-estelares-401873122@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Indianapolis Colts at Houston Texans\nWeek: 11\nStatus: Scheduled\nVenue: Reliant Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261120T044500Z
-LOCATION:Reliant Stadium
-DTSTART:20261120T011500Z
-SUMMARY:Colts vs Texans - TNF
-UID:nfl-nfl-estelares-401873066@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
 DTEND:20261126T213000Z
 LOCATION:Ford Field
