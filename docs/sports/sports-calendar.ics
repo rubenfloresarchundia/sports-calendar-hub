@@ -10,14 +10,6 @@ SUMMARY:Panthers vs Buccaneers - MNF
 UID:nfl-nfl-estelares-401873094@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Competición: Liga MX Apertura\nLocal: Tigres\nVisitante: América\nEstado: Scheduled\nEstadio: Estadio Universitario\nJornada: 17\nFuente: ESPN Liga MX
-DTEND:20261122T050000Z
-LOCATION:Estadio Universitario
-DTSTART:20261122T030000Z
-SUMMARY:Tigres vs América
-UID:football-ligamx-club-america-401877048@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Dallas Cowboys\nWeek: 12\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF / Thanksgiving\nBroadcast: Fox\nSource: ESPN NFL scoreboard
 DTEND:20261127T010000Z
 LOCATION:AT&T Stadium
@@ -26,12 +18,12 @@ SUMMARY:Eagles vs Cowboys - TNF / Thanksgiving
 UID:nfl-nfl-estelares-401873080@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Evento: F1 - Las Vegas (Carrera)\nCircuito: Las Vegas Strip Street Circuit\nCiudad: Las Vegas\nPaís: USA\nRonda: 21\nFuente: Jolpica F1
-DTEND:20261122T060000Z
-LOCATION:Las Vegas Strip Street Circuit
-DTSTART:20261122T040000Z
-SUMMARY:F1 - Las Vegas (Carrera)
-UID:f1-2026-21-race@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Los Angeles Rams\nWeek: 13\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261204T044500Z
+LOCATION:SoFi Stadium
+DTSTART:20261204T011500Z
+SUMMARY:Chiefs vs Rams - TNF
+UID:nfl-nfl-estelares-401873096@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Las Vegas Raiders at Cleveland Browns\nWeek: 12\nStatus: Scheduled\nVenue: Huntington Bank Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
@@ -66,6 +58,14 @@ SUMMARY:Bears vs Lions - TNF / Thanksgiving
 UID:nfl-nfl-estelares-401873081@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Alexander Zverev\nTournament: Nitto ATP Finals - Turin\nRound: Final\nCountry: Italy\nSource: Tennis API
+DTEND:20261122T190000Z
+LOCATION:Nitto ATP Finals - Turin
+DTSTART:20261122T170000Z
+SUMMARY:Alcaraz vs Zverev - Nitto ATP Finals - Turin
+UID:tennis-atp-68074-2687811@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF / Thanksgiving\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261127T045000Z
 LOCATION:Highmark Stadium
@@ -80,14 +80,6 @@ LOCATION:Acrisure Stadium
 DTSTART:20261127T200000Z
 SUMMARY:Broncos vs Steelers - Black Friday
 UID:nfl-nfl-estelares-401873083@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Los Angeles Rams\nWeek: 13\nStatus: Scheduled\nVenue: SoFi Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
-DTEND:20261204T044500Z
-LOCATION:SoFi Stadium
-DTSTART:20261204T011500Z
-SUMMARY:Chiefs vs Rams - TNF
-UID:nfl-nfl-estelares-401873096@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Cincinnati Bengals at Washington Commanders\nWeek: 11\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
