@@ -1,12 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Player: Carlos Alcaraz\nOpponent: Alexander Zverev\nTournament: Nitto ATP Finals - Turin\nRound: Final\nCountry: Italy\nSource: Tennis API
-DTEND:20261122T191000Z
-LOCATION:Nitto ATP Finals - Turin
-DTSTART:20261122T171000Z
-SUMMARY:Alcaraz vs Zverev - Nitto ATP Finals - Turin
-UID:tennis-atp-68074-2687811@sports-calendar-hub
-END:VEVENT
 END:VCALENDAR
