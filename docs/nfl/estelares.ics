@@ -154,14 +154,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872918@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Minnesota Vikings at San Francisco 49ers\nWeek: 11\nStatus: Scheduled\nVenue: Estadio Banorte\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261123T045000Z
-LOCATION:Estadio Banorte
-DTSTART:20261123T012000Z
-SUMMARY:Vikings vs 49ers - SNF
-UID:nfl-nfl-estelares-401873077@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 3\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
 DTEND:20270131T083000Z
 LOCATION:TBD
