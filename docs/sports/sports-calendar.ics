@@ -26,6 +26,14 @@ SUMMARY:F1 - Abu Dabi (Carrera)
 UID:f1-2026-23-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Houston Texans at Pittsburgh Steelers\nWeek: 13\nStatus: Scheduled\nVenue: Acrisure Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261207T045000Z
+LOCATION:Acrisure Stadium
+DTSTART:20261207T012000Z
+SUMMARY:Texans vs Steelers - SNF
+UID:nfl-nfl-estelares-401873107@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Las Vegas Raiders at Cleveland Browns\nWeek: 12\nStatus: Scheduled\nVenue: Huntington Bank Field\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261130T045000Z
 LOCATION:Huntington Bank Field
@@ -34,20 +42,20 @@ SUMMARY:Raiders vs Browns - SNF
 UID:nfl-nfl-estelares-401873086@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: Miami Dolphins\nGame: Miami Dolphins at Denver Broncos\nWeek: 13\nStatus: Scheduled\nVenue: Empower Field at Mile High\nBroadcast: Fox\nSource: ESPN NFL scoreboard
+DTEND:20261207T003500Z
+LOCATION:Empower Field at Mile High
+DTSTART:20261206T210500Z
+SUMMARY:Dolphins vs Broncos
+UID:nfl-miami-dolphins-401873103@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Qatar (Carrera)\nCircuito: Lusail International Circuit\nCiudad: Lusail\nPaís: Qatar\nRonda: 22\nFuente: Jolpica F1
 DTEND:20261129T180000Z
 LOCATION:Lusail International Circuit
 DTSTART:20261129T160000Z
 SUMMARY:F1 - Qatar (Carrera)
 UID:f1-2026-22-race@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20261126T213000Z
-LOCATION:Ford Field
-DTSTART:20261126T180000Z
-SUMMARY:Bears vs Lions - TNF / Thanksgiving
-UID:nfl-nfl-estelares-401873081@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF / Thanksgiving\nBroadcast: NBC\nSource: ESPN NFL scoreboard
@@ -90,11 +98,11 @@ SUMMARY:Jets vs Dolphins
 UID:nfl-miami-dolphins-401873089@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Minnesota Vikings at San Francisco 49ers\nWeek: 11\nStatus: Scheduled\nVenue: Estadio Banorte\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261123T045000Z
-LOCATION:Estadio Banorte
-DTSTART:20261123T012000Z
-SUMMARY:Vikings vs 49ers - SNF
-UID:nfl-nfl-estelares-401873077@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
+DTEND:20261126T213000Z
+LOCATION:Ford Field
+DTSTART:20261126T180000Z
+SUMMARY:Bears vs Lions - TNF / Thanksgiving
+UID:nfl-nfl-estelares-401873081@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
