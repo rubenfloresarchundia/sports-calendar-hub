@@ -50,14 +50,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872919@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Cincinnati Bengals at Washington Commanders\nWeek: 11\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261124T044500Z
-LOCATION:Northwest Stadium
-DTSTART:20261124T011500Z
-SUMMARY:Bengals vs Commanders - MNF
-UID:nfl-nfl-estelares-401873078@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 3\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
 DTEND:20270131T083000Z
 LOCATION:TBD
