@@ -26,6 +26,14 @@ SUMMARY:F1 - Abu Dabi (Carrera)
 UID:f1-2026-23-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Seattle Seahawks\nWeek: 13\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
+DTEND:20261208T044500Z
+LOCATION:Lumen Field
+DTSTART:20261208T011500Z
+SUMMARY:Cowboys vs Seahawks - MNF
+UID:nfl-nfl-estelares-401873108@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Houston Texans at Pittsburgh Steelers\nWeek: 13\nStatus: Scheduled\nVenue: Acrisure Stadium\nCategory: SNF\nBroadcast: NBC\nSource: ESPN NFL scoreboard
 DTEND:20261207T045000Z
 LOCATION:Acrisure Stadium
@@ -58,14 +66,6 @@ SUMMARY:F1 - Qatar (Carrera)
 UID:f1-2026-22-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF / Thanksgiving\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261127T045000Z
-LOCATION:Highmark Stadium
-DTSTART:20261127T012000Z
-SUMMARY:Chiefs vs Bills - TNF / Thanksgiving
-UID:nfl-nfl-estelares-401873082@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Pittsburgh Steelers\nWeek: 12\nStatus: Scheduled\nVenue: Acrisure Stadium\nCategory: Black Friday\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261127T233000Z
 LOCATION:Acrisure Stadium
@@ -82,12 +82,12 @@ SUMMARY:Chiefs vs Rams - TNF
 UID:nfl-nfl-estelares-401873096@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Cincinnati Bengals at Washington Commanders\nWeek: 11\nStatus: Scheduled\nVenue: Northwest Stadium\nCategory: MNF\nBroadcast: ESPN\nSource: ESPN NFL scoreboard
-DTEND:20261124T044500Z
-LOCATION:Northwest Stadium
-DTSTART:20261124T011500Z
-SUMMARY:Bengals vs Commanders - MNF
-UID:nfl-nfl-estelares-401873078@sports-calendar-hub
+DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF / Thanksgiving\nBroadcast: NBC\nSource: ESPN NFL scoreboard
+DTEND:20261127T045000Z
+LOCATION:Highmark Stadium
+DTSTART:20261127T012000Z
+SUMMARY:Chiefs vs Bills - TNF / Thanksgiving
+UID:nfl-nfl-estelares-401873082@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: New York Jets at Miami Dolphins\nWeek: 12\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
