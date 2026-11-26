@@ -10,14 +10,6 @@ SUMMARY:Panthers vs Buccaneers - MNF
 UID:nfl-nfl-estelares-401873094@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Dallas Cowboys\nWeek: 12\nStatus: Scheduled\nVenue: AT&T Stadium\nCategory: TNF / Thanksgiving\nBroadcast: Fox\nSource: ESPN NFL scoreboard
-DTEND:20261127T010000Z
-LOCATION:AT&T Stadium
-DTSTART:20261126T213000Z
-SUMMARY:Eagles vs Cowboys - TNF / Thanksgiving
-UID:nfl-nfl-estelares-401873080@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Evento: F1 - Abu Dabi (Carrera)\nCircuito: Yas Marina Circuit\nCiudad: Abu Dhabi\nPaís: UAE\nRonda: 23\nFuente: Jolpica F1
 DTEND:20261206T150000Z
 LOCATION:Yas Marina Circuit
@@ -104,13 +96,5 @@ LOCATION:Hard Rock Stadium
 DTSTART:20261129T180000Z
 SUMMARY:Jets vs Dolphins
 UID:nfl-miami-dolphins-401873089@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Scheduled\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20261126T213000Z
-LOCATION:Ford Field
-DTSTART:20261126T180000Z
-SUMMARY:Bears vs Lions - TNF / Thanksgiving
-UID:nfl-nfl-estelares-401873081@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
