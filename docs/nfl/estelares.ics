@@ -58,14 +58,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872921@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Philadelphia Eagles at Dallas Cowboys\nWeek: 12\nStatus: In Progress\nVenue: AT&T Stadium\nCategory: TNF / Thanksgiving\nBroadcast: Fox\nSource: ESPN NFL scoreboard
-DTEND:20261127T010000Z
-LOCATION:AT&T Stadium
-DTSTART:20261126T213000Z
-SUMMARY:Eagles vs Cowboys - TNF / Thanksgiving
-UID:nfl-nfl-estelares-401873080@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Minnesota Vikings at New England Patriots\nWeek: 14\nStatus: Scheduled\nVenue: Gillette Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261211T044500Z
 LOCATION:Gillette Stadium
@@ -218,14 +210,6 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872910@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF / Thanksgiving\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261127T045000Z
-LOCATION:Highmark Stadium
-DTSTART:20261127T012000Z
-SUMMARY:Chiefs vs Bills - TNF / Thanksgiving
-UID:nfl-nfl-estelares-401873082@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: TBD at TBD\nWeek: 2\nStatus: Scheduled\nVenue: TBD\nCategory: Playoffs\nSource: ESPN NFL scoreboard
 DTEND:20270123T083000Z
 LOCATION:TBD
@@ -288,13 +272,5 @@ LOCATION:Lambeau Field
 DTSTART:20261214T012000Z
 SUMMARY:Bills vs Packers - SNF
 UID:nfl-nfl-estelares-401873122@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Chicago Bears at Detroit Lions\nWeek: 12\nStatus: Final\nVenue: Ford Field\nCategory: TNF / Thanksgiving\nBroadcast: CBS\nSource: ESPN NFL scoreboard
-DTEND:20261126T213000Z
-LOCATION:Ford Field
-DTSTART:20261126T180000Z
-SUMMARY:Bears vs Lions - TNF / Thanksgiving
-UID:nfl-nfl-estelares-401873081@sports-calendar-hub
 END:VEVENT
 END:VCALENDAR
