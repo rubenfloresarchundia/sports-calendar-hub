@@ -114,7 +114,7 @@ SUMMARY:NFL Estelares - TBD
 UID:nfl-nfl-estelares-401872911@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Pittsburgh Steelers\nWeek: 12\nStatus: Scheduled\nVenue: Acrisure Stadium\nCategory: Black Friday\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DESCRIPTION:Calendar: NFL Estelares\nGame: Denver Broncos at Pittsburgh Steelers\nWeek: 12\nStatus: In Progress\nVenue: Acrisure Stadium\nCategory: Black Friday\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
 DTEND:20261127T233000Z
 LOCATION:Acrisure Stadium
 DTSTART:20261127T200000Z
