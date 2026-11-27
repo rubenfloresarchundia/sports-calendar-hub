@@ -18,6 +18,14 @@ SUMMARY:F1 - Abu Dabi (Carrera)
 UID:f1-2026-23-race@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Calendar: NFL Estelares\nGame: Minnesota Vikings at New England Patriots\nWeek: 14\nStatus: Scheduled\nVenue: Gillette Stadium\nCategory: TNF\nBroadcast: Prime Video\nSource: ESPN NFL scoreboard
+DTEND:20261211T044500Z
+LOCATION:Gillette Stadium
+DTSTART:20261211T011500Z
+SUMMARY:Vikings vs Patriots - TNF
+UID:nfl-nfl-estelares-401873109@sports-calendar-hub
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Calendar: NFL Estelares\nGame: Dallas Cowboys at Seattle Seahawks\nWeek: 13\nStatus: Scheduled\nVenue: Lumen Field\nCategory: MNF\nBroadcast: ESPN\, ABC\nSource: ESPN NFL scoreboard
 DTEND:20261208T044500Z
 LOCATION:Lumen Field
@@ -80,14 +88,6 @@ LOCATION:SoFi Stadium
 DTSTART:20261204T011500Z
 SUMMARY:Chiefs vs Rams - TNF
 UID:nfl-nfl-estelares-401873096@sports-calendar-hub
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Calendar: NFL Estelares\nGame: Kansas City Chiefs at Buffalo Bills\nWeek: 12\nStatus: Scheduled\nVenue: Highmark Stadium\nCategory: TNF / Thanksgiving\nBroadcast: NBC\nSource: ESPN NFL scoreboard
-DTEND:20261127T045000Z
-LOCATION:Highmark Stadium
-DTSTART:20261127T012000Z
-SUMMARY:Chiefs vs Bills - TNF / Thanksgiving
-UID:nfl-nfl-estelares-401873082@sports-calendar-hub
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Calendar: Miami Dolphins\nGame: New York Jets at Miami Dolphins\nWeek: 12\nStatus: Scheduled\nVenue: Hard Rock Stadium\nBroadcast: CBS\nSource: ESPN NFL scoreboard
